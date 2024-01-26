@@ -1,13 +1,14 @@
 import time
 import time as tm
 from bybit_1 import *
+timm = tm.time()
 from visual_backtest import *
 
 print(time.time())
-m2 = export_from_file("data_bnbusdt_6000.csv")
+m2 = export_from_file("data_ltcusdt_6000.csv")[400000:]
 # m2 = export(1,"BNBUSDT", 800)
 print(m2[-1], m2[0])
-m = [i[0] for i in m2[:]]
+m = [i[0] for i in m2]
 from work_with_futures_position_with_specially_time import *
 
 #
@@ -68,6 +69,7 @@ print(orders.order)
 print(orders.summ)
 print(mi)
 print(ma)
+print(tm.time() - timm)
 from matplotlib import pyplot as plt
 
 plt.plot([ds[i] for i in range(len(ds)) if i % 10 == 0])

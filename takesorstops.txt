@@ -1,0 +1,1770 @@
+start  0
+GOOD take long 1200
+start  1200
+GOOD take long 1740
+start  1740
+GOOD take long 3300
+start  3300
+GOOD take long 32400
+start  32400
+GOOD take long 59160
+start  59160
+GOOD take long 75900
+start  75900
+GOOD take long 93840
+start  93840
+GOOD take long 98820
+start  98820
+GOOD take long 159540
+start  159540
+GOOD take long 169560
+start  169560
+GOOD take long 169980
+start  169980
+GOOD take long 170820
+start  170820
+GOOD take long 196620
+start  196620
+GOOD take long 210420
+start  210420
+GOOD take long 260100
+start  260100
+GOOD take long 275820
+start  275820
+GOOD take long 279300
+start  279300
+GOOD take long 288660
+start  288660
+GOOD take long 291000
+start  291000
+GOOD take long 303480
+start  303480
+GOOD take long 308160
+start  308160
+GOOD take long 341700
+start  341700
+GOOD take long 341820
+start  341820
+GOOD take long 366600
+start  366600
+GOOD take long 367860
+start  367860
+GOOD take long 370620
+start  370620
+GOOD take long 371520
+start  371520
+GOOD take long 429840
+start  429840
+GOOD take long 467100
+start  467100
+GOOD take long 480420
+start  480420
+GOOD take long 494760
+start  494760
+GOOD take long 506100
+start  506100
+GOOD take long 508920
+start  508920
+GOOD take long 509220
+start  509220
+GOOD take long 510360
+start  510360
+GOOD take long 608880
+start  608880
+GOOD take long 662700
+start  662700
+GOOD take long 733800
+start  733800
+GOOD take long 802980
+start  802980
+GOOD take long 821640
+start  821640
+GOOD take long 824520
+start  824520
+GOOD take long 863520
+start  863520
+GOOD take long 873000
+start  873000
+GOOD take long 1126860
+start  1126860
+GOOD take long 1126980
+start  1126980
+GOOD take long 1128960
+start  1128960
+GOOD take long 1129380
+start  1129380
+GOOD take long 1131420
+start  1131420
+GOOD take long 1147500
+start  1147500
+GOOD take long 1158240
+start  1158240
+GOOD take long 1158420
+start  1158420
+GOOD take long 1203120
+start  1203120
+GOOD take long 1203840
+start  1203840
+GOOD take long 1204440
+start  1204440
+GOOD take long 1205580
+start  1205580
+GOOD take long 1206540
+start  1206540
+GOOD take long 1237080
+start  1237080
+GOOD take long 1255020
+start  1255020
+GOOD take long 1286880
+start  1286880
+GOOD take long 1354740
+start  1354740
+GOOD take long 1371720
+start  1371720
+GOOD take long 1372500
+start  1372500
+GOOD take long 1472580
+start  1472580
+GOOD take long 1639440
+start  1639440
+GOOD take long 1699860
+start  1699860
+GOOD take long 1711080
+start  1711080
+GOOD take long 1802220
+start  1802220
+GOOD take long 1802640
+start  1802640
+GOOD take long 1838640
+start  1838640
+GOOD take long 1846380
+start  1846380
+GOOD take long 1846980
+start  1846980
+GOOD take long 1854660
+start  1854660
+GOOD take long 1890540
+start  1890540
+GOOD take long 1921140
+start  1921140
+GOOD take long 2085900
+start  2085900
+GOOD take long 2129460
+start  2129460
+GOOD take long 2130480
+start  2130480
+GOOD take long 2132940
+start  2132940
+GOOD take long 2316660
+start  2316660
+GOOD take long 2317560
+start  2317560
+GOOD take long 2318400
+start  2318400
+GOOD take long 2363220
+start  2363220
+GOOD take long 2403060
+start  2403060
+GOOD take long 2528520
+start  2528520
+GOOD take long 2544120
+start  2544120
+GOOD take long 2553420
+start  2553420
+GOOD take long 2587740
+start  2587740
+GOOD take long 2627460
+start  2627460
+GOOD take long 2645040
+start  2645040
+GOOD take long 2669040
+start  2669040
+GOOD take long 2715240
+start  2715240
+GOOD take long 2876940
+start  2876940
+GOOD take long 2881680
+start  2881680
+GOOD take long 2887380
+start  2887380
+GOOD take long 2888280
+start  2888280
+GOOD take long 2898000
+start  2898000
+GOOD take long 3363240
+start  3363240
+GOOD take long 3365520
+start  3365520
+GOOD take long 3388680
+start  3388680
+GOOD take long 3396180
+start  3396180
+GOOD take long 3424080
+start  3424080
+GOOD take long 3429960
+start  3429960
+GOOD take long 3445560
+start  3445560
+GOOD take long 3462120
+start  3462120
+GOOD take long 3539340
+start  3539340
+GOOD take long 3590460
+start  3590460
+GOOD take long 3631560
+start  3631560
+GOOD take long 3699480
+start  3699480
+GOOD take long 3700980
+start  3700980
+GOOD take long 3879060
+start  3879060
+GOOD take long 3880860
+start  3880860
+GOOD take long 3920940
+start  3920940
+GOOD take long 3957960
+start  3957960
+GOOD take long 3958260
+start  3958260
+GOOD take long 3964500
+start  3964500
+GOOD take long 3998700
+start  3998700
+GOOD take long 4015140
+start  4015140
+GOOD take long 4069440
+start  4069440
+GOOD take long 4090020
+start  4090020
+GOOD take long 4095060
+start  4095060
+GOOD take long 4155240
+start  4155240
+GOOD take long 4155660
+start  4155660
+GOOD take long 4180500
+start  4180500
+GOOD take long 4180920
+start  4180920
+GOOD take long 4204560
+start  4204560
+GOOD take long 4213020
+start  4213020
+GOOD take long 4234440
+start  4234440
+GOOD take long 4235400
+start  4235400
+GOOD take long 4239180
+start  4239180
+GOOD take long 4272060
+start  4272060
+GOOD take long 4303860
+start  4303860
+GOOD take long 4304220
+start  4304220
+GOOD take long 4311300
+start  4311300
+GOOD take long 4315620
+start  4315620
+GOOD take long 4316700
+start  4316700
+GOOD take long 4327620
+start  4327620
+GOOD take long 4336620
+start  4336620
+GOOD take long 4363620
+start  4363620
+GOOD take long 4514820
+start  4514820
+GOOD take long 4516920
+start  4516920
+GOOD take long 4522680
+start  4522680
+GOOD take long 4605900
+start  4605900
+GOOD take long 4608180
+start  4608180
+GOOD take long 4763880
+start  4763880
+GOOD take long 4769640
+start  4769640
+GOOD take long 4771440
+start  4771440
+GOOD take long 4826640
+start  4826640
+GOOD take long 4840560
+start  4840560
+GOOD take long 4848900
+start  4848900
+GOOD take long 4875900
+start  4875900
+GOOD take long 4876440
+start  4876440
+GOOD take long 4880880
+start  4880880
+GOOD take long 4895760
+start  4895760
+GOOD take long 4957920
+start  4957920
+GOOD take long 4993860
+start  4993860
+GOOD take long 4996440
+start  4996440
+GOOD take long 5004840
+start  5004840
+GOOD take long 5028540
+start  5028540
+GOOD take long 5154180
+start  5154180
+GOOD take long 5236440
+start  5236440
+GOOD take long 5247120
+start  5247120
+GOOD take long 5249040
+start  5249040
+GOOD take long 5249160
+start  5249160
+GOOD take long 5252160
+start  5252160
+GOOD take long 5613120
+start  5613120
+GOOD take long 5622000
+start  5622000
+GOOD take long 5872140
+start  5872140
+GOOD take long 5943540
+start  5943540
+GOOD take long 5946900
+start  5946900
+GOOD take long 5966760
+start  5966760
+GOOD take long 5967720
+start  5967720
+GOOD take long 5967960
+start  5967960
+GOOD take long 6017340
+start  6017340
+GOOD take long 6057720
+start  6057720
+GOOD take long 6085740
+start  6085740
+GOOD take long 6135060
+start  6135060
+GOOD take long 6135540
+start  6135540
+GOOD take long 6136680
+start  6136680
+GOOD take long 6154080
+start  6154080
+GOOD take long 6157560
+start  6157560
+GOOD take long 6419700
+start  6419700
+GOOD take long 6424140
+start  6424140
+GOOD take long 6424800
+start  6424800
+GOOD take long 6558300
+start  6558300
+GOOD take long 6646020
+start  6646020
+GOOD take long 6676920
+start  6676920
+GOOD take long 6731280
+start  6731280
+GOOD take long 6984420
+start  6984420
+GOOD take long 6991800
+start  6991800
+GOOD take long 7024500
+start  7024500
+GOOD take long 7072560
+start  7072560
+GOOD take long 7098420
+start  7098420
+GOOD take long 7545000
+start  7545000
+GOOD take long 7738500
+start  7738500
+GOOD take long 7869300
+start  7869300
+GOOD take long 7893120
+start  7893120
+GOOD take long 7894140
+start  7894140
+GOOD take long 8542680
+start  8542680
+GOOD take long 8550180
+start  8550180
+GOOD take long 8626140
+start  8626140
+GOOD take long 8728680
+start  8728680
+GOOD take long 8730540
+start  8730540
+GOOD take long 8746380
+start  8746380
+GOOD take long 8894640
+start  8894640
+GOOD take long 8899200
+start  8899200
+GOOD take long 8901840
+start  8901840
+GOOD take long 8904480
+start  8904480
+GOOD take long 8906160
+start  8906160
+GOOD take long 8909460
+start  8909460
+GOOD take long 8957160
+start  8957160
+GOOD take long 9213780
+start  9213780
+GOOD take long 9220920
+start  9220920
+GOOD take long 9239040
+start  9239040
+GOOD take long 9242040
+start  9242040
+GOOD take long 9242400
+start  9242400
+GOOD take long 9277080
+start  9277080
+GOOD take long 9296700
+start  9296700
+GOOD take long 9391560
+start  9391560
+GOOD take long 9396180
+start  9396180
+GOOD take long 9560340
+start  9560340
+GOOD take long 9560520
+start  9560520
+GOOD take long 9560700
+start  9560700
+GOOD take long 9560820
+start  9560820
+GOOD take long 9561060
+start  9561060
+GOOD take long 9561360
+start  9561360
+GOOD take long 9561720
+start  9561720
+GOOD take long 9575880
+start  9575880
+GOOD take long 9576360
+start  9576360
+GOOD take long 9578160
+start  9578160
+GOOD take long 9582360
+start  9582360
+GOOD take long 9615420
+start  9615420
+GOOD take long 9617700
+start  9617700
+GOOD take long 9618300
+start  9618300
+GOOD take long 9618840
+start  9618840
+GOOD take long 9619440
+start  9619440
+GOOD take long 9684780
+start  9684780
+GOOD take long 9686460
+start  9686460
+GOOD take long 9719280
+start  9719280
+GOOD take long 9721020
+start  9721020
+GOOD take long 9726060
+start  9726060
+GOOD take long 9731640
+start  9731640
+GOOD take long 9731760
+start  9731760
+GOOD take long 9748800
+start  9748800
+GOOD take long 9753720
+start  9753720
+GOOD take long 9755040
+start  9755040
+GOOD take long 9770160
+start  9770160
+GOOD take long 9803340
+start  9803340
+GOOD take long 9825000
+start  9825000
+GOOD take long 9830220
+start  9830220
+GOOD take long 9844620
+start  9844620
+GOOD take long 9846420
+start  9846420
+GOOD take long 9961980
+start  9961980
+GOOD take long 9962280
+start  9962280
+GOOD take long 9966360
+start  9966360
+GOOD take long 10104960
+start  10104960
+GOOD take long 10105500
+start  10105500
+GOOD take long 10105740
+start  10105740
+GOOD take long 10107180
+start  10107180
+unnormal_move 0 True 10117680
+GOOD take long 10236240
+start  10236240
+GOOD take long 10238520
+start  10238520
+GOOD take long 10244280
+start  10244280
+GOOD take long 10252320
+start  10252320
+GOOD take long 10263780
+start  10263780
+GOOD take long 10266900
+start  10266900
+GOOD take long 10267440
+start  10267440
+GOOD take long 10269000
+start  10269000
+GOOD take long 10269180
+start  10269180
+GOOD take long 10270380
+start  10270380
+GOOD take long 10272600
+start  10272600
+GOOD take long 10278960
+start  10278960
+GOOD take long 10297320
+start  10297320
+GOOD take long 10301040
+start  10301040
+GOOD take long 10303560
+start  10303560
+GOOD take long 10308780
+start  10308780
+GOOD take long 10310220
+start  10310220
+GOOD take long 10310640
+start  10310640
+GOOD take long 10323420
+start  10323420
+GOOD take long 10325400
+start  10325400
+GOOD take long 10332960
+start  10332960
+GOOD take long 10337400
+start  10337400
+GOOD take long 10353900
+start  10353900
+GOOD take long 10367820
+start  10367820
+GOOD take long 10371720
+start  10371720
+GOOD take long 10389720
+start  10389720
+GOOD take long 10419540
+start  10419540
+GOOD take long 10437180
+start  10437180
+GOOD take long 10592880
+start  10592880
+GOOD take long 10599180
+start  10599180
+GOOD take long 10601580
+start  10601580
+GOOD take long 10613160
+start  10613160
+GOOD take long 10614180
+start  10614180
+GOOD take long 10653960
+start  10653960
+GOOD take long 10658880
+start  10658880
+GOOD take long 10663260
+start  10663260
+GOOD take long 10692180
+start  10692180
+GOOD take long 10715520
+start  10715520
+GOOD take long 10747980
+start  10747980
+GOOD take long 10759380
+start  10759380
+GOOD take long 10851960
+start  10851960
+GOOD take long 10852080
+start  10852080
+GOOD take long 10854300
+start  10854300
+GOOD take long 10880520
+start  10880520
+GOOD take long 10884360
+start  10884360
+GOOD take long 10900380
+start  10900380
+GOOD take long 10901760
+start  10901760
+GOOD take long 10914120
+start  10914120
+GOOD take long 10952220
+start  10952220
+GOOD take long 10988640
+start  10988640
+GOOD take long 11023740
+start  11023740
+GOOD take long 11025540
+start  11025540
+GOOD take long 11026920
+start  11026920
+GOOD take long 11078580
+start  11078580
+GOOD take long 11173680
+start  11173680
+GOOD take long 11173920
+start  11173920
+GOOD take long 11180100
+start  11180100
+GOOD take long 11222580
+start  11222580
+GOOD take long 11252640
+start  11252640
+GOOD take long 11268360
+start  11268360
+GOOD take long 11269800
+start  11269800
+GOOD take long 11301360
+start  11301360
+GOOD take long 11304000
+start  11304000
+GOOD take long 11304180
+start  11304180
+GOOD take long 11304480
+start  11304480
+GOOD take long 11304600
+start  11304600
+GOOD take long 11304720
+start  11304720
+GOOD take long 11307900
+start  11307900
+GOOD take long 11312220
+start  11312220
+GOOD take long 11339640
+start  11339640
+GOOD take long 11344380
+start  11344380
+GOOD take long 11352120
+start  11352120
+GOOD take long 11352240
+start  11352240
+GOOD take long 11353320
+start  11353320
+GOOD take long 11357100
+start  11357100
+GOOD take long 11357280
+start  11357280
+GOOD take long 11394120
+start  11394120
+GOOD take long 11409840
+start  11409840
+GOOD take long 11412180
+start  11412180
+GOOD take long 11461440
+start  11461440
+GOOD take long 11485860
+start  11485860
+GOOD take long 11516700
+start  11516700
+GOOD take long 11620140
+start  11620140
+GOOD take long 11620260
+start  11620260
+GOOD take long 11630880
+start  11630880
+GOOD take long 11654820
+start  11654820
+GOOD take long 11705100
+start  11705100
+GOOD take long 11723760
+start  11723760
+GOOD take long 11727180
+start  11727180
+GOOD take long 11836560
+start  11836560
+GOOD take long 11861460
+start  11861460
+GOOD take long 11863200
+start  11863200
+GOOD take long 11870220
+start  11870220
+GOOD take long 11878380
+start  11878380
+GOOD take long 11910060
+start  11910060
+GOOD take long 11930220
+start  11930220
+GOOD take long 11950740
+start  11950740
+GOOD take long 11950920
+start  11950920
+GOOD take long 11951640
+start  11951640
+GOOD take long 11952060
+start  11952060
+GOOD take long 12035760
+start  12035760
+GOOD take long 12396900
+start  12396900
+GOOD take long 12397260
+start  12397260
+GOOD take long 12397440
+start  12397440
+GOOD take long 12398220
+start  12398220
+GOOD take long 13082040
+start  13082040
+GOOD take long 13108020
+start  13108020
+GOOD take long 13120200
+start  13120200
+GOOD take long 13123200
+start  13123200
+GOOD take long 14187180
+start  14187180
+GOOD take long 14190120
+start  14190120
+GOOD take long 14232660
+start  14232660
+GOOD take long 14675040
+start  14675040
+GOOD take long 14675580
+start  14675580
+GOOD take long 14676480
+start  14676480
+GOOD take long 14749020
+start  14749020
+GOOD take long 14776620
+start  14776620
+GOOD take long 14825700
+start  14825700
+GOOD take long 14977140
+start  14977140
+GOOD take long 14983560
+start  14983560
+GOOD take long 15194460
+start  15194460
+GOOD take long 15204180
+start  15204180
+GOOD take long 15229620
+start  15229620
+GOOD take long 15403260
+start  15403260
+GOOD take long 15404220
+start  15404220
+GOOD take long 15405360
+start  15405360
+GOOD take long 15406320
+start  15406320
+GOOD take long 15407820
+start  15407820
+GOOD take long 15410340
+start  15410340
+GOOD take long 15442500
+start  15442500
+GOOD take long 15460980
+start  15460980
+GOOD take long 15494280
+start  15494280
+GOOD take long 15562140
+start  15562140
+GOOD take long 15599160
+start  15599160
+GOOD take long 15601740
+start  15601740
+GOOD take long 15647460
+start  15647460
+GOOD take long 15660540
+start  15660540
+GOOD take long 15662040
+start  15662040
+GOOD take long 15667140
+start  15667140
+GOOD take long 15727020
+start  15727020
+GOOD take long 15734280
+start  15734280
+GOOD take long 15827700
+start  15827700
+GOOD take long 15827880
+start  15827880
+GOOD take long 15830580
+start  15830580
+GOOD take long 15837120
+start  15837120
+GOOD take long 15838620
+start  15838620
+GOOD take long 15838740
+start  15838740
+GOOD take long 15860760
+start  15860760
+GOOD take long 15867840
+start  15867840
+GOOD take long 15893520
+start  15893520
+GOOD take long 16017780
+start  16017780
+GOOD take long 16045920
+start  16045920
+GOOD take long 16065660
+start  16065660
+GOOD take long 16077360
+start  16077360
+GOOD take long 16136160
+start  16136160
+GOOD take long 16136760
+start  16136760
+GOOD take long 16154580
+start  16154580
+GOOD take long 16154880
+start  16154880
+GOOD take long 16416000
+start  16416000
+GOOD take long 16419420
+start  16419420
+GOOD take long 16427100
+start  16427100
+GOOD take long 16429140
+start  16429140
+GOOD take long 16438980
+start  16438980
+GOOD take long 16478040
+start  16478040
+GOOD take long 16501200
+start  16501200
+GOOD take long 16654020
+start  16654020
+GOOD take long 16655640
+start  16655640
+GOOD take long 16657200
+start  16657200
+GOOD take long 16864500
+start  16864500
+GOOD take long 16866000
+start  16866000
+GOOD take long 17132820
+start  17132820
+GOOD take long 17133660
+start  17133660
+GOOD take long 17134200
+start  17134200
+GOOD take long 17134560
+start  17134560
+GOOD take long 17135400
+start  17135400
+GOOD take long 17138100
+start  17138100
+GOOD take long 17200440
+start  17200440
+GOOD take long 17306220
+start  17306220
+GOOD take long 17308200
+start  17308200
+GOOD take long 17312520
+start  17312520
+GOOD take long 17316600
+start  17316600
+GOOD take long 17361240
+start  17361240
+GOOD take long 17390160
+start  17390160
+GOOD take long 17393940
+start  17393940
+GOOD take long 17396340
+start  17396340
+GOOD take long 17409660
+start  17409660
+GOOD take long 17462520
+start  17462520
+GOOD take long 17462820
+start  17462820
+GOOD take long 17471520
+start  17471520
+GOOD take long 17471940
+start  17471940
+GOOD take long 17542920
+start  17542920
+GOOD take long 17628060
+start  17628060
+GOOD take long 17920560
+start  17920560
+GOOD take long 17921160
+start  17921160
+GOOD take long 17943060
+start  17943060
+GOOD take long 17973960
+start  17973960
+GOOD take long 17991720
+start  17991720
+GOOD take long 18568080
+start  18568080
+GOOD take long 18568440
+start  18568440
+GOOD take long 18569400
+start  18569400
+GOOD take long 18621360
+start  18621360
+GOOD take long 18643140
+start  18643140
+GOOD take long 18646560
+start  18646560
+GOOD take long 18673860
+start  18673860
+GOOD take long 18675240
+start  18675240
+GOOD take long 18676320
+start  18676320
+GOOD take long 18683700
+start  18683700
+GOOD take long 18744300
+start  18744300
+GOOD take long 18745200
+start  18745200
+GOOD take long 18748980
+start  18748980
+GOOD take long 18871260
+start  18871260
+GOOD take long 19561740
+start  19561740
+GOOD take long 19618980
+start  19618980
+GOOD take long 19645200
+start  19645200
+GOOD take long 19767960
+start  19767960
+GOOD take long 19823940
+start  19823940
+GOOD take long 19828500
+start  19828500
+set stop = 61.727000000000004 side: 0 last_price:72.62 first_price97.4 take:77.23975 20619840
+GOOD take long 20850000
+start  20850000
+GOOD take long 20850120
+start  20850120
+GOOD take long 20850420
+start  20850420
+GOOD take long 20898480
+start  20898480
+GOOD take long 20899080
+start  20899080
+GOOD take long 20899680
+start  20899680
+GOOD take long 20901720
+start  20901720
+GOOD take long 20902080
+start  20902080
+GOOD take long 20903460
+start  20903460
+GOOD take long 20929380
+start  20929380
+GOOD take long 20979000
+start  20979000
+GOOD take long 20979120
+start  20979120
+GOOD take long 20979720
+start  20979720
+GOOD take long 20979840
+start  20979840
+GOOD take long 20980800
+start  20980800
+GOOD take long 20988900
+start  20988900
+GOOD take long 21016620
+start  21016620
+GOOD take long 21019200
+start  21019200
+GOOD take long 21038880
+start  21038880
+GOOD take long 21126660
+start  21126660
+GOOD take long 21156960
+start  21156960
+GOOD take long 21176640
+start  21176640
+GOOD take long 21198600
+start  21198600
+GOOD take long 21200220
+start  21200220
+GOOD take long 21201000
+start  21201000
+GOOD take long 21217860
+start  21217860
+GOOD take long 21230580
+start  21230580
+GOOD take long 21231840
+start  21231840
+GOOD take long 21271440
+start  21271440
+GOOD take long 21274980
+start  21274980
+GOOD take long 21279060
+start  21279060
+GOOD take long 21282900
+start  21282900
+GOOD take long 21283680
+start  21283680
+GOOD take long 21322440
+start  21322440
+GOOD take long 21339840
+start  21339840
+GOOD take long 21368460
+start  21368460
+GOOD take long 21409740
+start  21409740
+GOOD take long 21420240
+start  21420240
+GOOD take long 21426480
+start  21426480
+GOOD take long 21585120
+start  21585120
+GOOD take long 21586260
+start  21586260
+GOOD take long 21589260
+start  21589260
+GOOD take long 21621840
+start  21621840
+GOOD take long 21692700
+start  21692700
+GOOD take long 21697080
+start  21697080
+GOOD take long 21697680
+start  21697680
+GOOD take long 21700260
+start  21700260
+GOOD take long 21700920
+start  21700920
+GOOD take long 21701520
+start  21701520
+GOOD take long 21712860
+start  21712860
+GOOD take long 21724440
+start  21724440
+GOOD take long 21745200
+start  21745200
+GOOD take long 21746940
+start  21746940
+GOOD take long 21747120
+start  21747120
+GOOD take long 21765600
+start  21765600
+GOOD take long 21766560
+start  21766560
+GOOD take long 21796080
+start  21796080
+GOOD take long 21816960
+start  21816960
+GOOD take long 21843420
+start  21843420
+GOOD take long 21868620
+start  21868620
+GOOD take long 21876960
+start  21876960
+GOOD take long 21878220
+start  21878220
+GOOD take long 21879240
+start  21879240
+GOOD take long 21922620
+start  21922620
+GOOD take long 21976740
+start  21976740
+GOOD take long 21991020
+start  21991020
+GOOD take long 22052400
+start  22052400
+GOOD take long 22106700
+start  22106700
+GOOD take long 22215000
+start  22215000
+GOOD take long 22234620
+start  22234620
+GOOD take long 22246560
+start  22246560
+GOOD take long 22253280
+start  22253280
+GOOD take long 22259640
+start  22259640
+GOOD take long 22297680
+start  22297680
+GOOD take long 22325580
+start  22325580
+GOOD take long 22325880
+start  22325880
+GOOD take long 22391940
+start  22391940
+GOOD take long 22447800
+start  22447800
+GOOD take long 22451640
+start  22451640
+GOOD take long 22495800
+start  22495800
+GOOD take long 22496220
+start  22496220
+GOOD take long 22499580
+start  22499580
+GOOD take long 22581000
+start  22581000
+GOOD take long 22660260
+start  22660260
+GOOD take long 22691820
+start  22691820
+GOOD take long 22729860
+start  22729860
+GOOD take long 22730460
+start  22730460
+GOOD take long 22862160
+start  22862160
+GOOD take long 23319960
+start  23319960
+GOOD take long 23320080
+start  23320080
+GOOD take long 23349960
+start  23349960
+GOOD take long 23362140
+start  23362140
+GOOD take long 23368860
+start  23368860
+GOOD take long 23368980
+start  23368980
+GOOD take long 23590860
+start  23590860
+GOOD take long 23614560
+start  23614560
+GOOD take long 23614860
+start  23614860
+GOOD take long 23615640
+start  23615640
+GOOD take long 23818980
+start  23818980
+GOOD take long 23832300
+start  23832300
+GOOD take long 23832660
+start  23832660
+GOOD take long 23841300
+start  23841300
+GOOD take long 23842200
+start  23842200
+GOOD take long 23965920
+start  23965920
+GOOD take long 23968680
+start  23968680
+GOOD take long 24000000
+start  24000000
+GOOD take long 24630000
+start  24630000
+GOOD take long 24635160
+start  24635160
+GOOD take long 24687780
+start  24687780
+GOOD take long 24694260
+start  24694260
+GOOD take long 24696000
+start  24696000
+GOOD take long 24736680
+start  24736680
+GOOD take long 24737160
+start  24737160
+GOOD take long 24802800
+start  24802800
+GOOD take long 24880200
+start  24880200
+GOOD take long 24956160
+start  24956160
+GOOD take long 25219440
+start  25219440
+GOOD take long 25331100
+start  25331100
+GOOD take long 25332840
+start  25332840
+GOOD take long 25485000
+start  25485000
+GOOD take long 25688460
+start  25688460
+GOOD take long 25793040
+start  25793040
+GOOD take long 25811400
+start  25811400
+GOOD take long 25859520
+start  25859520
+GOOD take long 25903920
+start  25903920
+GOOD take long 25927380
+start  25927380
+GOOD take long 25931880
+start  25931880
+GOOD take long 25989600
+start  25989600
+GOOD take long 26030820
+start  26030820
+GOOD take long 26121660
+start  26121660
+GOOD take long 26251020
+start  26251020
+GOOD take long 26259300
+start  26259300
+GOOD take long 26261220
+start  26261220
+GOOD take long 26296620
+start  26296620
+GOOD take long 26303400
+start  26303400
+GOOD take long 26307060
+start  26307060
+GOOD take long 26312340
+start  26312340
+GOOD take long 26345040
+start  26345040
+GOOD take long 26384280
+start  26384280
+GOOD take long 26395560
+start  26395560
+GOOD take long 26404980
+start  26404980
+GOOD take long 26433480
+start  26433480
+GOOD take long 26466540
+start  26466540
+GOOD take long 26467020
+start  26467020
+GOOD take long 26471460
+start  26471460
+GOOD take long 26499480
+start  26499480
+GOOD take long 26523840
+start  26523840
+GOOD take long 26524440
+start  26524440
+GOOD take long 26529720
+start  26529720
+GOOD take long 26648280
+start  26648280
+GOOD take long 26700000
+start  26700000
+GOOD take long 26787600
+start  26787600
+GOOD take long 26994000
+start  26994000
+GOOD take long 27245160
+start  27245160
+GOOD take long 27346260
+start  27346260
+GOOD take long 27417420
+start  27417420
+GOOD take long 27428700
+start  27428700
+GOOD take long 27493200
+start  27493200
+GOOD take long 27493860
+start  27493860
+GOOD take long 27620400
+start  27620400
+GOOD take long 27624720
+start  27624720
+GOOD take long 27783900
+start  27783900
+GOOD take long 27810360
+start  27810360
+GOOD take long 27814800
+start  27814800
+GOOD take long 27818700
+start  27818700
+GOOD take long 27862620
+start  27862620
+GOOD take long 27916440
+start  27916440
+GOOD take long 27970200
+start  27970200
+GOOD take long 27970680
+start  27970680
+GOOD take long 28254540
+start  28254540
+GOOD take long 28263120
+start  28263120
+unnormal_move 0 True 28553040
+GOOD take long 29162460
+start  29162460
+GOOD take long 29288580
+start  29288580
+GOOD take long 29404560
+start  29404560
+GOOD take long 29465100
+start  29465100
+GOOD take long 29466240
+start  29466240
+GOOD take long 29467200
+start  29467200
+GOOD take long 29469600
+start  29469600
+GOOD take long 29490840
+start  29490840
+GOOD take long 29491380
+start  29491380
+GOOD take long 29509020
+start  29509020
+GOOD take long 29509620
+start  29509620
+GOOD take long 29545440
+start  29545440
+GOOD take long 29546160
+start  29546160
+GOOD take long 29576340
+start  29576340
+GOOD take long 29578380
+start  29578380
+GOOD take long 29582700
+start  29582700
+GOOD take long 29716800
+start  29716800
+GOOD take long 29718240
+start  29718240
+GOOD take long 29720520
+start  29720520
+GOOD take long 29725260
+start  29725260
+GOOD take long 29725680
+start  29725680
+GOOD take long 29758980
+start  29758980
+GOOD take long 29849460
+start  29849460
+GOOD take long 29969940
+start  29969940
+GOOD take long 30216840
+start  30216840
+GOOD take long 30273120
+start  30273120
+GOOD take long 30274320
+start  30274320
+GOOD take long 30274560
+start  30274560
+GOOD take long 30276060
+start  30276060
+GOOD take long 30276360
+start  30276360
+GOOD take long 30276480
+start  30276480
+GOOD take long 30277680
+start  30277680
+GOOD take long 30278100
+start  30278100
+GOOD take long 30279540
+start  30279540
+GOOD take long 30282060
+start  30282060
+GOOD take long 30295140
+start  30295140
+GOOD take long 30296400
+start  30296400
+GOOD take long 30299160
+start  30299160
+GOOD take long 30300720
+start  30300720
+GOOD take long 30301380
+start  30301380
+GOOD take long 30301860
+start  30301860
+GOOD take long 30310260
+start  30310260
+GOOD take long 30324240
+start  30324240
+GOOD take long 30324480
+start  30324480
+GOOD take long 30324720
+start  30324720
+GOOD take long 30324840
+start  30324840
+GOOD take long 30325020
+start  30325020
+GOOD take long 30325140
+start  30325140
+GOOD take long 30325680
+start  30325680
+GOOD take long 30326580
+start  30326580
+GOOD take long 30340560
+start  30340560
+GOOD take long 30349740
+start  30349740
+GOOD take long 30355260
+start  30355260
+GOOD take long 30376200
+start  30376200
+GOOD take long 30376320
+start  30376320
+GOOD take long 30382500
+start  30382500
+GOOD take long 30382680
+start  30382680
+GOOD take long 30382860
+start  30382860
+GOOD take long 30455280
+start  30455280
+GOOD take long 30455760
+start  30455760
+GOOD take long 30456000
+start  30456000
+GOOD take long 30467460
+start  30467460
+GOOD take long 30483060
+start  30483060
+GOOD take long 30517620
+start  30517620
+GOOD take long 30529620
+start  30529620
+GOOD take long 30804360
+start  30804360
+GOOD take long 31196640
+start  31196640
+GOOD take long 31201260
+start  31201260
+GOOD take long 31242240
+start  31242240
+GOOD take long 31330320
+start  31330320
+GOOD take long 31408800
+start  31408800
+GOOD take long 31410420
+start  31410420
+GOOD take long 31411440
+start  31411440
+GOOD take long 31420440
+start  31420440
+GOOD take long 31444320
+start  31444320
+GOOD take long 31445100
+start  31445100
+GOOD take long 31452480
+start  31452480
+GOOD take long 31476780
+start  31476780
+GOOD take long 31918080
+start  31918080
+GOOD take long 32022780
+start  32022780
+GOOD take long 32025420
+start  32025420
+GOOD take long 32145000
+start  32145000
+GOOD take long 32169120
+start  32169120
+GOOD take long 32170320
+start  32170320
+GOOD take long 32603700
+start  32603700
+GOOD take long 32845020
+start  32845020
+GOOD take long 32851860
+start  32851860
+GOOD take long 32855460
+start  32855460
+GOOD take long 32860680
+start  32860680
+GOOD take long 32946240
+start  32946240
+GOOD take long 33080580
+start  33080580
+GOOD take long 33081600
+start  33081600
+GOOD take long 33081960
+start  33081960
+unnormal_move 0 True 34490460
+set stop = 54.7655 side: 0 last_price:64.43 first_price93.92 take:70.66364 34490460
+GOOD take long 40296360
+start  40296360
+GOOD take long 40297140
+start  40297140
+GOOD take long 40297680
+start  40297680
+GOOD take long 40332360
+start  40332360
+GOOD take long 40333800
+start  40333800
+GOOD take long 40376820
+start  40376820
+GOOD take long 40378320
+start  40378320
+GOOD take long 40427280
+start  40427280
+GOOD take long 40472880
+start  40472880
+GOOD take long 40489320
+start  40489320
+GOOD take long 40646580
+start  40646580
+GOOD take long 40782960
+start  40782960
+GOOD take long 40838880
+start  40838880
+GOOD take long 40864320
+start  40864320
+GOOD take long 40894440
+start  40894440
+GOOD take long 40925460
+start  40925460
+GOOD take long 41045760
+start  41045760
+GOOD take long 41052660
+start  41052660
+GOOD take long 41054520
+start  41054520
+GOOD take long 41077080
+start  41077080
+GOOD take long 41087940
+start  41087940
+GOOD take long 41322600
+start  41322600
+GOOD take long 41337060
+start  41337060
+GOOD take long 41365440
+start  41365440
+GOOD take long 41388000
+start  41388000
+GOOD take long 41414640
+start  41414640
+GOOD take long 41443860
+start  41443860
+GOOD take long 41448780
+start  41448780
+GOOD take long 41465160
+start  41465160
+GOOD take long 41485020
+start  41485020
+GOOD take long 41528940
+start  41528940
+GOOD take long 41569260
+start  41569260
+GOOD take long 41679180
+start  41679180
+GOOD take long 41721660
+start  41721660
+GOOD take long 41723520
+start  41723520
+GOOD take long 41755440
+start  41755440
+GOOD take long 41756820
+start  41756820
+GOOD take long 41758020
+start  41758020
+GOOD take long 41833080
+start  41833080
+GOOD take long 41874360
+start  41874360
+GOOD take long 41876580
+start  41876580
+GOOD take long 41887320
+start  41887320
+GOOD take long 41891640
+start  41891640
+GOOD take long 41944200
+start  41944200
+GOOD take long 41956680
+start  41956680
+GOOD take long 41967300
+start  41967300
+GOOD take long 42133920
+start  42133920
+GOOD take long 42151200
+start  42151200
+GOOD take long 42181860
+start  42181860
+GOOD take long 42192720
+start  42192720
+GOOD take long 42218160
+start  42218160
+GOOD take long 42253860
+start  42253860
+GOOD take long 42256560
+start  42256560
+GOOD take long 42272880
+start  42272880
+GOOD take long 42316680
+start  42316680
+GOOD take long 42601080
+start  42601080
+GOOD take long 42656160
+start  42656160
+GOOD take long 42752520
+start  42752520
+GOOD take long 42753720
+start  42753720
+GOOD take long 42884880
+start  42884880
+GOOD take long 42904200
+start  42904200
+GOOD take long 42970440
+start  42970440
+GOOD take long 43020540
+start  43020540
+GOOD take long 43028760
+start  43028760
+GOOD take long 43058880
+start  43058880
+GOOD take long 43430040
+start  43430040
+GOOD take long 43605960
+start  43605960
+GOOD take long 43622760
+start  43622760
+GOOD take long 43729440
+start  43729440
+GOOD take long 43835460
+start  43835460
+GOOD take long 43836180
+start  43836180
+GOOD take long 43863720
+start  43863720
+GOOD take long 44035440
+start  44035440
+GOOD take long 44110020
+start  44110020
+GOOD take long 44148420
+start  44148420
+GOOD take long 44188860
+start  44188860
+GOOD take long 44209800
+start  44209800
+GOOD take long 44230140
+start  44230140
+GOOD take long 44233920
+start  44233920
+GOOD take long 44234280
+start  44234280
+GOOD take long 44279580
+start  44279580
+GOOD take long 44372580
+start  44372580
+GOOD take long 44397360
+start  44397360
+GOOD take long 45445200
+start  45445200
+GOOD take long 45451440
+start  45451440
+GOOD take long 45469560
+start  45469560
+GOOD take long 45771720
+start  45771720
+GOOD take long 45778920
+start  45778920
+GOOD take long 45819660
+start  45819660
+GOOD take long 45837960
+start  45837960
+GOOD take long 45847680
+start  45847680
+GOOD take long 45848220
+start  45848220
+GOOD take long 45862800
+start  45862800
+GOOD take long 45863640
+start  45863640
+GOOD take long 45927900
+start  45927900
+GOOD take long 45973620
+start  45973620
+GOOD take long 45991620
+start  45991620
+GOOD take long 45999660
+start  45999660
+GOOD take long 46000440
+start  46000440
+GOOD take long 46337520
+start  46337520
+unnormal_move 0 True 46465260
+unnormal_move 0 True 46465800
+GOOD take long 46466100
+start  46466100
+GOOD take long 46466220
+start  46466220
+GOOD take long 46466520
+start  46466520
+GOOD take long 46468440
+start  46468440
+GOOD take long 46476660
+start  46476660
+GOOD take long 46479720
+start  46479720
+GOOD take long 46558440
+start  46558440
+GOOD take long 46562400
+start  46562400
+GOOD take long 46601340
+start  46601340
+GOOD take long 46619520
+start  46619520
+GOOD take long 46654740
+start  46654740
+GOOD take long 46670040
+start  46670040
+GOOD take long 46789440
+start  46789440
+GOOD take long 46877340
+start  46877340
+GOOD take long 46898040
+start  46898040
+GOOD take long 46918860
+start  46918860
+GOOD take long 46921080
+start  46921080
+GOOD take long 46932060
+start  46932060
+GOOD take long 46936500
+start  46936500
+GOOD take long 47006700
+start  47006700
+GOOD take long 47016840
+start  47016840
+GOOD take long 47041860
+start  47041860
+GOOD take long 47085060
+start  47085060
+GOOD take long 47098320
+start  47098320
+GOOD take long 47103060
+start  47103060
+GOOD take long 47106000
+start  47106000
+GOOD take long 47107020
+start  47107020
+GOOD take long 47124120
+start  47124120
+GOOD take long 47154420
+start  47154420
+GOOD take long 47155680
+start  47155680
+GOOD take long 47159580
+start  47159580
+GOOD take long 47167320
+start  47167320
+GOOD take long 47222880
+start  47222880
+GOOD take long 47234820
+start  47234820
+GOOD take long 47236140
+start  47236140
+GOOD take long 47249820
+start  47249820
+GOOD take long 47273100
+start  47273100
+GOOD take long 47854800
+start  47854800
+GOOD take long 47870760
+start  47870760
+GOOD take long 47886480
+start  47886480
+GOOD take long 47898060
+start  47898060
+GOOD take long 47917080
+start  47917080

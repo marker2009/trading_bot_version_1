@@ -2,6 +2,7 @@ from futures_positions_without_bybit import *
 # from strategy_with_specially_time import *
 from strategy_spot import *
 
+
 class work_1:
     def __init__(self, system_apis, system_secret_apis):
         self.system_apis = system_apis
@@ -29,6 +30,7 @@ class work_1:
         self.orders = []
         self.pers_data = []
         self.need_adds = []
+        self.category = []
         self.need_to_delete = []
 
     def add_user(self, api, api_secret, coin, leverage, layers_long, layers_short, multiplicity, deposit, delta_time,
@@ -55,10 +57,11 @@ class work_1:
         buf[0][2] = buf[0][2] / coins[coin]
         buf[0][2] = calc_sum(buf[0][2], coin)
         self.long.append(self.users[-1].open_long_order(buf[0][2], coins[coin]))
-        if no_short == False:
-            self.short.append(self.users[-1].open_short_order(buf[0][2], coins[coin]))
-        else:
-            self.short.append(self.users[-1].open_short_order(0.01, coins[coin]))
+        self.short.append(-1)
+        # if no_short == False:
+        #     self.short.append(self.users[-1].open_short_order(buf[0][2], coins[coin]))
+        # else:
+        #     self.short.append(self.users[-1].open_short_order(0.01, coins[coin]))
         self.layers.append(coins[coin])
         self.sides.append(-1)
         self.takes.append(take)
@@ -66,6 +69,7 @@ class work_1:
         self.leverage.append(leverage)
         self.take_price.append(None)
         self.stop_price.append(None)
+        self.category.append(2)
 
         return len(self.users) - 1
 
@@ -102,6 +106,7 @@ class work_1:
                 continue
             orders_info = [{'spec_pnl': 0}, {'spec_pnl': 0}]
             order_info = self.users[i].get_open_orders(coins[self.coins[i]])
+            # print(order_info)
             for j in order_info:
                 if j['side'] == -1:
                     orders_info[1]['spec_pnl'] = j['spec_pnl']
@@ -115,6 +120,7 @@ class work_1:
             # print(buf, "un")
             if buf != [[0]]:
                 flag = True
+                print(buf)
                 self.orders.append(buf + [0])
                 for j in buf:
                     if j[0] == -1:
@@ -158,6 +164,7 @@ class work_1:
             # print(buf)
             if buf != [[0]]:
                 flag = True
+                print(buf)
                 orders.oun += 1
                 self.orders.append(buf + [-1])
                 for j in buf:
@@ -192,23 +199,26 @@ class work_1:
                                 self.users[i].buy_more(self.long[i], coins[self.coins[i]], j[2])
 
             self.sides[i] = self.strateges[i].side_glav
-            if self.sides[i] != -1 and flag:
-                buf = self.take_price[i]
-                if self.sides[i] == 0:
-                    res = get_res(self.users[i].get_open_orders()[self.long[i]]['last_price'],
-                                  self.users[i].get_open_orders()[self.long[i]]['average_price'],
-                                  self.users[i].get_open_orders()[self.long[i]]['volume'],
-                                  self.users[i].get_open_orders()[self.short[i]]['volume'], 0)
-                    self.take_price[i] = res * ((100 + self.takes[i] / self.leverage[i]) / 100)
-                    # self.stop_price[i] = self.layers[i] * (100 - self.stops[i] / self.leverage) / 100
-                else:
-                    res = get_res(self.users[i].get_open_orders()[self.short[i]]['last_price'],
-                                  self.users[i].get_open_orders()[self.short[i]]['average_price'],
-                                  self.users[i].get_open_orders()[self.short[i]]['volume'],
-                                  self.users[i].get_open_orders()[self.long[i]]['volume'], 1)
-                    self.take_price[i] = res * ((100 - self.takes[i] / self.leverage[i]) / 100)
-                    # self.stop_price[i] = self.layers[i] * (100 + self.stops[i] / self.leverage) / 100
-                orders.add_take_or_stop("set_take=" + str(self.take_price[i]) + str(self.sides[i]))
+            if self.category[i] == 1:
+                if self.sides[i] != -1 and flag:
+                    buf = self.take_price[i]
+                    if self.sides[i] == 0:
+                        res = get_res(self.users[i].get_open_orders()[self.long[i]]['last_price'],
+                                      self.users[i].get_open_orders()[self.long[i]]['average_price'],
+                                      self.users[i].get_open_orders()[self.long[i]]['volume'],
+                                      self.users[i].get_open_orders()[self.short[i]]['volume'], 0)
+                        self.take_price[i] = res * ((100 + self.takes[i] / self.leverage[i]) / 100)
+                        # self.stop_price[i] = self.layers[i] * (100 - self.stops[i] / self.leverage) / 100
+                    else:
+                        res = get_res(self.users[i].get_open_orders()[self.short[i]]['last_price'],
+                                      self.users[i].get_open_orders()[self.short[i]]['average_price'],
+                                      self.users[i].get_open_orders()[self.short[i]]['volume'],
+                                      self.users[i].get_open_orders()[self.long[i]]['volume'], 1)
+                        self.take_price[i] = res * ((100 - self.takes[i] / self.leverage[i]) / 100)
+                        # self.stop_price[i] = self.layers[i] * (100 + self.stops[i] / self.leverage) / 100
+                    orders.add_take_or_stop("set_take=" + str(self.take_price[i]) + str(self.sides[i]))
+            else:
+                self.take_price[i] = self.users[i].get_open_orders()[self.long[i]]['average_price'] * ((100 + self.takes[i] / self.leverage[i]) / 100)
             if self.strateges[i].col_orders > 6 and self.stop_price[i] == None:
                 print("stop", self.deposits)
                 if self.sides[i] == 0:
@@ -235,6 +245,8 @@ class work_1:
         if self.sides[i] == -1:
             return False
         if self.sides[i] == 0:
+            if self.take_price[i] == None:
+                return False
             if price >= self.take_price[i]:
                 orders.add_take_or_stop("GOOD take long")
                 print(self.users[i].get_open_orders(price))
