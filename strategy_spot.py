@@ -43,6 +43,7 @@ class strategy:
         self.side_glav = 0
         self.coin = coin
         self.order_now = self.calculate_sum_of_first_order()
+        print("first_order:", self.order_now, self.deposit)
         self.sum_order_now = self.order_now
 
     def open_first_orders(self):
@@ -51,10 +52,10 @@ class strategy:
     def calculate_sum_of_first_order(self):
         summ = 0
         first = 1
-        for i in range(8):
+        for i in range(len(self.step_sell) + 1):
             summ += first
             first *= self.multiplicity
-        return calc_sum((0.44 / (summ * 1.5) * self.deposit) / 2, self.coin) * 2
+        return calc_sum((1 / (summ) * self.deposit), self.coin)
 
     def calc_next_order(self, order_sum):
         self.sum_order_now += calc_sum((self.order_now * self.multiplicity) / 2, self.coin) * 2
@@ -62,12 +63,12 @@ class strategy:
 
     def what_to_do_normal(self, order_info):
         # print(time.time()- self.time)
-        if self.col_orders >= 7:
+        if self.col_orders >= len(self.step_sell):
             return [[0]]
         delta_time = time.time() - self.time
         if delta_time > self.need_delta_time:
             # print(order_info[0], self.step_sell, self.step_buy)
-            if order_info[0]['spec_pnl'] *-1> self.step_sell[self.col_orders]:
+            if order_info[0]['spec_pnl'] * -1 > self.step_sell[self.col_orders]:
                 self.order_now = self.calc_next_order(self.order_now)
                 self.col_orders += 1
                 self.time = time.time()
@@ -82,13 +83,14 @@ class strategy:
             return 1
 
     def what_to_do_unnormal(self, order_info):
-        if self.col_orders >= 7:
+        if self.col_orders >= len(self.step_sell):
             return [[0]]
         if order_info[self.side_glav]['spec_pnl'] * -1 > self.unnormal_price_move:
-                self.order_now = self.calc_next_order(self.order_now)
-                self.time = time.time()
-                self.col_orders += 1
-                orders.add_take_or_stop("unnormal_move " + str(self.side_glav) + " " + str(self.is_first_order))
-                return [[1, 0, self.order_now]]
+            self.order_now = self.calc_next_order(self.order_now)
+            self.time = time.time()
+            self.col_orders += 1
+            orders.add_take_or_stop("unnormal_move " + str(self.side_glav) + " " + str(self.is_first_order))
+            return [[1, 0, self.order_now]]
 
         return [[0]]
+ 

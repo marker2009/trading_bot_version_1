@@ -1,6 +1,6 @@
 from futures_positions_without_bybit import *
 # from strategy_with_specially_time import *
-from strategy_spot import *
+from strategy_with_specially_time import *
 
 class work_1:
     def __init__(self, system_apis, system_secret_apis):
@@ -33,7 +33,7 @@ class work_1:
 
     def add_user(self, api, api_secret, coin, leverage, layers_long, layers_short, multiplicity, deposit, delta_time,
                  unnormal_move, token, take, stop, no_short, coins):
-        print("start_now", token)
+        print("start_now", token,coins[coin])
         orders.add_take_or_stop("start ")
         deposit = orders.summ * leverage
         self.pers_data.append(
@@ -207,6 +207,8 @@ class work_1:
                                   self.users[i].get_open_orders()[self.short[i]]['volume'],
                                   self.users[i].get_open_orders()[self.long[i]]['volume'], 1)
                     self.take_price[i] = res * ((100 - self.takes[i] / self.leverage[i]) / 100)
+                if buf != self.take_price[i]:
+                    print(self.take_price[i])
                     # self.stop_price[i] = self.layers[i] * (100 + self.stops[i] / self.leverage) / 100
                 orders.add_take_or_stop("set_take=" + str(self.take_price[i]) + str(self.sides[i]))
             if self.strateges[i].col_orders > 6 and self.stop_price[i] == None:

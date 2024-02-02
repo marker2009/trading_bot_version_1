@@ -32,16 +32,17 @@ class work_1:
         self.need_adds = []
         self.category = []
         self.need_to_delete = []
+        self.tks = []
 
     def add_user(self, api, api_secret, coin, leverage, layers_long, layers_short, multiplicity, deposit, delta_time,
-                 unnormal_move, token, take, stop, no_short, coins):
+                 unnormal_move, token, take, stop, no_short,tks,  coins):
         print("start_now", token)
         orders.add_take_or_stop("start ")
         deposit = orders.summ * leverage
         self.pers_data.append(
             [api, api_secret, coin, leverage, layers_long, layers_short, multiplicity, deposit, delta_time,
-             unnormal_move, token, take, stop, no_short])
-
+             unnormal_move, token, take, stop, no_short,  tks])
+        self.tks.append(tks)
         self.tokens.append(token)
         self.users.append(futures_positions(api, api_secret, leverage, coin))
         self.layers_short.append(layers_short)
@@ -218,8 +219,8 @@ class work_1:
                         # self.stop_price[i] = self.layers[i] * (100 + self.stops[i] / self.leverage) / 100
                     orders.add_take_or_stop("set_take=" + str(self.take_price[i]) + str(self.sides[i]))
             else:
-                self.take_price[i] = self.users[i].get_open_orders()[self.long[i]]['average_price'] * ((100 + self.takes[i] / self.leverage[i]) / 100)
-            if self.strateges[i].col_orders > 6 and self.stop_price[i] == None:
+                self.take_price[i] = self.users[i].get_open_orders()[self.long[i]]['average_price'] * ((100 + self.tks[i][self.strateges[i].col_orders] / self.leverage[i]) / 100)
+            if self.strateges[i].col_orders >= len(self.layers_long[i]) and self.stop_price[i] == None:
                 print("stop", self.deposits)
                 if self.sides[i] == 0:
                     # self.take_price[i] = self.layers[i] * (100 + self.takes[i] / self.leverage) / 100

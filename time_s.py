@@ -15,7 +15,7 @@ class orde:
         self.file = open("output.txt", "w")
         self.files = open("takesorstops.txt", "w")
         self.order =[]
-        self.summ = 1000
+        self.summ = 10000
         self.oun = 0
         self.volume = 0
     def add_volume(self, x):
@@ -23,6 +23,7 @@ class orde:
     def add_take_or_stop(self, st):
         self.files.write(st + " " + str(time.time()) +"\n")
     def append(self, data):
+        print(data)
         self.order.append(data + [time.time()])
     def update_summ(self, data):
         self.file.write("order_plus" + " " + str(data) + " " + str(time.time()) + "\n")

@@ -1,1770 +1,3479 @@
 start  0
-GOOD take long 1200
-start  1200
-GOOD take long 1740
-start  1740
-GOOD take long 3300
-start  3300
-GOOD take long 32400
-start  32400
-GOOD take long 59160
-start  59160
-GOOD take long 75900
-start  75900
-GOOD take long 93840
-start  93840
-GOOD take long 98820
-start  98820
-GOOD take long 159540
-start  159540
-GOOD take long 169560
-start  169560
-GOOD take long 169980
-start  169980
-GOOD take long 170820
-start  170820
-GOOD take long 196620
-start  196620
-GOOD take long 210420
-start  210420
-GOOD take long 260100
-start  260100
-GOOD take long 275820
-start  275820
-GOOD take long 279300
-start  279300
-GOOD take long 288660
-start  288660
-GOOD take long 291000
-start  291000
-GOOD take long 303480
-start  303480
-GOOD take long 308160
-start  308160
-GOOD take long 341700
-start  341700
-GOOD take long 341820
-start  341820
-GOOD take long 366600
-start  366600
-GOOD take long 367860
-start  367860
-GOOD take long 370620
-start  370620
-GOOD take long 371520
-start  371520
-GOOD take long 429840
-start  429840
-GOOD take long 467100
-start  467100
-GOOD take long 480420
-start  480420
-GOOD take long 494760
-start  494760
-GOOD take long 506100
-start  506100
-GOOD take long 508920
-start  508920
-GOOD take long 509220
-start  509220
-GOOD take long 510360
-start  510360
-GOOD take long 608880
-start  608880
-GOOD take long 662700
-start  662700
-GOOD take long 733800
-start  733800
-GOOD take long 802980
-start  802980
-GOOD take long 821640
-start  821640
-GOOD take long 824520
-start  824520
-GOOD take long 863520
-start  863520
-GOOD take long 873000
-start  873000
-GOOD take long 1126860
-start  1126860
-GOOD take long 1126980
-start  1126980
-GOOD take long 1128960
-start  1128960
-GOOD take long 1129380
-start  1129380
-GOOD take long 1131420
-start  1131420
-GOOD take long 1147500
-start  1147500
-GOOD take long 1158240
-start  1158240
-GOOD take long 1158420
-start  1158420
-GOOD take long 1203120
-start  1203120
-GOOD take long 1203840
-start  1203840
-GOOD take long 1204440
-start  1204440
-GOOD take long 1205580
-start  1205580
-GOOD take long 1206540
-start  1206540
-GOOD take long 1237080
-start  1237080
-GOOD take long 1255020
-start  1255020
-GOOD take long 1286880
-start  1286880
-GOOD take long 1354740
-start  1354740
-GOOD take long 1371720
-start  1371720
-GOOD take long 1372500
-start  1372500
-GOOD take long 1472580
-start  1472580
-GOOD take long 1639440
-start  1639440
-GOOD take long 1699860
-start  1699860
-GOOD take long 1711080
-start  1711080
-GOOD take long 1802220
-start  1802220
-GOOD take long 1802640
-start  1802640
-GOOD take long 1838640
-start  1838640
-GOOD take long 1846380
-start  1846380
-GOOD take long 1846980
-start  1846980
-GOOD take long 1854660
-start  1854660
-GOOD take long 1890540
-start  1890540
-GOOD take long 1921140
-start  1921140
-GOOD take long 2085900
-start  2085900
-GOOD take long 2129460
-start  2129460
-GOOD take long 2130480
-start  2130480
-GOOD take long 2132940
-start  2132940
-GOOD take long 2316660
-start  2316660
-GOOD take long 2317560
-start  2317560
-GOOD take long 2318400
-start  2318400
-GOOD take long 2363220
-start  2363220
-GOOD take long 2403060
-start  2403060
-GOOD take long 2528520
-start  2528520
-GOOD take long 2544120
-start  2544120
-GOOD take long 2553420
-start  2553420
-GOOD take long 2587740
-start  2587740
-GOOD take long 2627460
-start  2627460
-GOOD take long 2645040
-start  2645040
-GOOD take long 2669040
-start  2669040
-GOOD take long 2715240
-start  2715240
-GOOD take long 2876940
-start  2876940
-GOOD take long 2881680
-start  2881680
-GOOD take long 2887380
-start  2887380
-GOOD take long 2888280
-start  2888280
-GOOD take long 2898000
-start  2898000
-GOOD take long 3363240
-start  3363240
-GOOD take long 3365520
-start  3365520
-GOOD take long 3388680
-start  3388680
-GOOD take long 3396180
-start  3396180
-GOOD take long 3424080
-start  3424080
-GOOD take long 3429960
-start  3429960
-GOOD take long 3445560
-start  3445560
-GOOD take long 3462120
-start  3462120
-GOOD take long 3539340
-start  3539340
-GOOD take long 3590460
-start  3590460
-GOOD take long 3631560
-start  3631560
-GOOD take long 3699480
-start  3699480
-GOOD take long 3700980
-start  3700980
-GOOD take long 3879060
-start  3879060
-GOOD take long 3880860
-start  3880860
-GOOD take long 3920940
-start  3920940
-GOOD take long 3957960
-start  3957960
-GOOD take long 3958260
-start  3958260
-GOOD take long 3964500
-start  3964500
-GOOD take long 3998700
-start  3998700
-GOOD take long 4015140
-start  4015140
-GOOD take long 4069440
-start  4069440
-GOOD take long 4090020
-start  4090020
-GOOD take long 4095060
-start  4095060
-GOOD take long 4155240
-start  4155240
-GOOD take long 4155660
-start  4155660
-GOOD take long 4180500
-start  4180500
-GOOD take long 4180920
-start  4180920
-GOOD take long 4204560
-start  4204560
-GOOD take long 4213020
-start  4213020
-GOOD take long 4234440
-start  4234440
-GOOD take long 4235400
-start  4235400
-GOOD take long 4239180
-start  4239180
-GOOD take long 4272060
-start  4272060
-GOOD take long 4303860
-start  4303860
-GOOD take long 4304220
-start  4304220
-GOOD take long 4311300
-start  4311300
-GOOD take long 4315620
-start  4315620
+set_take=177.981499999999980 11100
+GOOD take long 13800
+start  13800
+set_take=180.7511 20700
+GOOD take short 39300
+start  39300
+set_take=177.000999999999980 81840
+GOOD take long 88620
+start  88620
+set_take=174.515499999999970 92580
+GOOD take long 92820
+start  92820
+set_take=177.71351 105960
+GOOD take short 164340
+start  164340
+set_take=175.293999999999980 189180
+GOOD take long 200520
+start  200520
+set_take=172.885499999999980 213000
+GOOD take long 227880
+start  227880
+set_take=170.88350 232680
+GOOD take long 234360
+start  234360
+set_take=173.5391 311160
+GOOD take short 314760
+start  314760
+set_take=175.76951 344820
+set_take=180.04051 410040
+GOOD take short 425160
+start  425160
+set_take=181.93651 448560
+GOOD take short 467460
+start  467460
+set_take=185.36051 495120
+GOOD take short 495960
+start  495960
+set_take=188.9521 499620
+GOOD take short 517020
+start  517020
+set_take=186.32950 612360
+GOOD take long 614940
+start  614940
+set_take=183.6260 682920
+GOOD take long 690960
+start  690960
+set_take=181.207499999999980 743700
+GOOD take long 745680
+start  745680
+set_take=184.9971 769680
+GOOD take short 770160
+start  770160
+set_take=187.7141 794640
+GOOD take short 829920
+start  829920
+set_take=185.0120 835560
+GOOD take long 836820
+start  836820
+set_take=187.99251 912120
+set_take=192.93651 920880
+set_take=198.62251 929100
+set_take=204.83251 958380
+GOOD take short 999360
+start  999360
+set_take=201.71250 1008300
+GOOD take long 1008600
+start  1008600
+set_take=198.941500000000020 1012260
+GOOD take long 1013220
+start  1013220
+set_take=195.8370 1093320
+GOOD take long 1179420
+start  1179420
+set_take=193.8440 1259100
+GOOD take long 1263060
+start  1263060
+set_take=191.30550 1271220
+GOOD take long 1302720
+start  1302720
+set_take=194.2851 1337940
+GOOD take short 1433460
+start  1433460
+set_take=197.21 1473720
+GOOD take short 1475160
+start  1475160
+set_take=200.83451 1478820
+GOOD take short 1481820
+start  1481820
+set_take=197.44150 1501500
+unnormal_move 0 False 1504140
+set_take=182.945499999999980 1504140
+GOOD take long 1505640
+start  1505640
+set_take=185.89251 1519740
+GOOD take short 1520700
+start  1520700
+set_take=183.32050 1534020
+GOOD take long 1535160
+start  1535160
+set_take=180.988999999999980 1560900
+GOOD take long 1561560
+start  1561560
+set_take=184.064000000000021 1591260
+set_take=188.357500000000021 1632420
+GOOD take short 1815360
+start  1815360
+set_take=190.9571 1828440
+GOOD take short 1847040
+start  1847040
+set_take=188.441500000000020 1869420
+GOOD take long 1869780
+start  1869780
+set_take=191.54551 1907700
+GOOD take short 1915140
+start  1915140
+set_take=194.3171 1964940
+GOOD take short 1968240
+start  1968240
+set_take=196.6381 1990560
+GOOD take short 1995240
+start  1995240
+set_take=199.4891 2028660
+GOOD take short 2076480
+start  2076480
+set_take=202.64651 2098920
+GOOD take short 2124540
+start  2124540
+set_take=199.367000000000020 2129160
+GOOD take long 2130540
+start  2130540
+set_take=202.89951 2144940
+GOOD take short 2186580
+start  2186580
+set_take=200.1640 2220900
+GOOD take long 2221980
+start  2221980
+set_take=197.70450 2366700
+GOOD take long 2368260
+start  2368260
+set_take=195.2970 2378340
+GOOD take long 2407380
+start  2407380
+set_take=199.09051 2501760
+set_take=203.8641 2534700
+set_take=209.4421 2566080
+set_take=216.20551 2571360
+set_take=225.4821 2599800
+set_take=236.882999999999981 2636700
+set_take=250.95351 2656620
+set stop = 314.686 side: 1 last_price:273.64 first_price196.05 take:250.9535 2656620
+GOOD take short 2914800
+start  2914800
+set_take=254.9611 2933820
+GOOD take short 2934120
+start  2934120
+set_take=251.33850 2950380
+GOOD take long 2968140
+start  2968140
+set_take=248.0190 2989440
+GOOD take long 2991300
+start  2991300
+set_take=254.783000000000021 2994960
+GOOD take short 3057420
+start  3057420
+set_take=257.8721 3080040
+GOOD take short 3082020
+start  3082020
+set_take=254.53750 3090480
+GOOD take long 3092700
+start  3092700
+set_take=261.24151 3096360
+set_take=268.3321 3109980
+GOOD take short 3166080
+start  3166080
+set_take=264.650499999999970 3190140
+GOOD take long 3198360
+start  3198360
+set_take=261.14650 3203400
+set_take=254.7110 3207060
+set_take=248.2540 3238200
+set_take=240.95150 3241860
+set_take=231.6840 3300960
+GOOD take long 3320100
+start  3320100
+set_take=228.07950 3323760
+GOOD take long 3327660
+start  3327660
+set_take=231.76251 3332100
+GOOD take short 3339240
+start  3339240
+set_take=228.4090 3344760
+GOOD take long 3346320
+start  3346320
+set_take=225.54450 3387180
+set_take=220.890 3408960
+GOOD take long 3414780
+start  3414780
+set_take=220.517499999999980 3418560
+GOOD take long 3420000
+start  3420000
+set_take=217.6960 3423660
+GOOD take long 3424560
+start  3424560
+set_take=214.94750 3430260
+GOOD take long 3431400
+start  3431400
+set_take=211.120999999999980 3435060
+set_take=206.47150 3455520
+GOOD take long 3456840
+start  3456840
+set_take=204.4140 3460560
+GOOD take long 3460740
+start  3460740
+set_take=201.67550 3475260
+GOOD take long 3476160
+start  3476160
+set_take=204.861 3479820
+GOOD take short 3488040
+start  3488040
+set_take=208.0611 3491760
+GOOD take short 3502440
+start  3502440
+set_take=211.20151 3506820
+GOOD take short 3508920
+start  3508920
+set_take=214.2771 3512580
+set_take=219.52651 3554400
+GOOD take short 3564540
+start  3564540
+set_take=222.9021 3591720
+GOOD take short 3593460
+start  3593460
+set_take=219.55650 3602640
+GOOD take long 3614580
+start  3614580
+set_take=224.9881 3634620
+GOOD take short 3635820
+start  3635820
+set_take=221.5110 3644340
+GOOD take long 3645420
+start  3645420
+set_take=225.32851 3659760
+GOOD take short 3663300
+start  3663300
+set_take=222.37550 3685200
+GOOD take long 3688440
+start  3688440
+set_take=225.87151 3695100
+GOOD take short 3702540
+start  3702540
+set_take=222.6430 3720840
+set_take=218.1760 3729840
+GOOD take long 3731700
+start  3731700
+set_take=216.3230 3735360
+GOOD take long 3736080
+start  3736080
+set_take=213.3390 3739740
+GOOD take long 3741120
+start  3741120
+set_take=217.191500000000021 3770460
+GOOD take short 3770880
+start  3770880
+set_take=214.06750 3788040
+set_take=209.73050 3792000
+GOOD take long 3803280
+start  3803280
+set_take=212.928999999999971 3861420
+GOOD take short 3863820
+start  3863820
+set_take=215.9141 3891480
+GOOD take short 3898560
+start  3898560
+set_take=213.1130 3902640
+GOOD take long 3919380
+start  3919380
+set_take=210.54850 3943920
+GOOD take long 3951240
+start  3951240
+set_take=213.94351 3983220
+set_take=219.2851 4017480
+GOOD take short 4074240
+start  4074240
+set_take=216.2790 4094040
+unnormal_move 0 False 4097160
+set_take=202.548999999999980 4097160
+set_take=194.206000000000020 4249080
 GOOD take long 4316700
 start  4316700
-GOOD take long 4327620
-start  4327620
-GOOD take long 4336620
-start  4336620
-GOOD take long 4363620
-start  4363620
-GOOD take long 4514820
-start  4514820
-GOOD take long 4516920
-start  4516920
-GOOD take long 4522680
-start  4522680
-GOOD take long 4605900
-start  4605900
-GOOD take long 4608180
-start  4608180
-GOOD take long 4763880
-start  4763880
-GOOD take long 4769640
-start  4769640
-GOOD take long 4771440
-start  4771440
-GOOD take long 4826640
-start  4826640
-GOOD take long 4840560
-start  4840560
-GOOD take long 4848900
-start  4848900
-GOOD take long 4875900
-start  4875900
-GOOD take long 4876440
-start  4876440
-GOOD take long 4880880
-start  4880880
-GOOD take long 4895760
-start  4895760
-GOOD take long 4957920
-start  4957920
-GOOD take long 4993860
-start  4993860
-GOOD take long 4996440
-start  4996440
-GOOD take long 5004840
-start  5004840
-GOOD take long 5028540
-start  5028540
-GOOD take long 5154180
-start  5154180
-GOOD take long 5236440
-start  5236440
-GOOD take long 5247120
-start  5247120
-GOOD take long 5249040
-start  5249040
-GOOD take long 5249160
-start  5249160
-GOOD take long 5252160
-start  5252160
-GOOD take long 5613120
-start  5613120
-GOOD take long 5622000
-start  5622000
-GOOD take long 5872140
-start  5872140
-GOOD take long 5943540
-start  5943540
-GOOD take long 5946900
-start  5946900
-GOOD take long 5966760
-start  5966760
-GOOD take long 5967720
-start  5967720
-GOOD take long 5967960
-start  5967960
-GOOD take long 6017340
-start  6017340
-GOOD take long 6057720
-start  6057720
-GOOD take long 6085740
-start  6085740
-GOOD take long 6135060
-start  6135060
-GOOD take long 6135540
-start  6135540
-GOOD take long 6136680
-start  6136680
-GOOD take long 6154080
-start  6154080
-GOOD take long 6157560
-start  6157560
-GOOD take long 6419700
-start  6419700
-GOOD take long 6424140
-start  6424140
-GOOD take long 6424800
-start  6424800
-GOOD take long 6558300
-start  6558300
-GOOD take long 6646020
-start  6646020
-GOOD take long 6676920
-start  6676920
-GOOD take long 6731280
-start  6731280
-GOOD take long 6984420
-start  6984420
-GOOD take long 6991800
-start  6991800
-GOOD take long 7024500
-start  7024500
-GOOD take long 7072560
-start  7072560
-GOOD take long 7098420
-start  7098420
-GOOD take long 7545000
-start  7545000
-GOOD take long 7738500
-start  7738500
-GOOD take long 7869300
-start  7869300
-GOOD take long 7893120
-start  7893120
-GOOD take long 7894140
-start  7894140
-GOOD take long 8542680
-start  8542680
-GOOD take long 8550180
-start  8550180
-GOOD take long 8626140
-start  8626140
-GOOD take long 8728680
-start  8728680
-GOOD take long 8730540
-start  8730540
-GOOD take long 8746380
-start  8746380
-GOOD take long 8894640
-start  8894640
-GOOD take long 8899200
-start  8899200
-GOOD take long 8901840
-start  8901840
-GOOD take long 8904480
-start  8904480
-GOOD take long 8906160
-start  8906160
-GOOD take long 8909460
-start  8909460
-GOOD take long 8957160
-start  8957160
-GOOD take long 9213780
-start  9213780
-GOOD take long 9220920
-start  9220920
-GOOD take long 9239040
-start  9239040
-GOOD take long 9242040
-start  9242040
-GOOD take long 9242400
-start  9242400
-GOOD take long 9277080
-start  9277080
-GOOD take long 9296700
-start  9296700
-GOOD take long 9391560
-start  9391560
-GOOD take long 9396180
-start  9396180
-GOOD take long 9560340
-start  9560340
-GOOD take long 9560520
-start  9560520
-GOOD take long 9560700
-start  9560700
-GOOD take long 9560820
-start  9560820
-GOOD take long 9561060
-start  9561060
-GOOD take long 9561360
-start  9561360
-GOOD take long 9561720
-start  9561720
-GOOD take long 9575880
-start  9575880
-GOOD take long 9576360
-start  9576360
-GOOD take long 9578160
-start  9578160
-GOOD take long 9582360
-start  9582360
-GOOD take long 9615420
-start  9615420
-GOOD take long 9617700
-start  9617700
-GOOD take long 9618300
-start  9618300
-GOOD take long 9618840
-start  9618840
-GOOD take long 9619440
-start  9619440
-GOOD take long 9684780
-start  9684780
-GOOD take long 9686460
-start  9686460
-GOOD take long 9719280
-start  9719280
-GOOD take long 9721020
-start  9721020
-GOOD take long 9726060
-start  9726060
-GOOD take long 9731640
-start  9731640
-GOOD take long 9731760
-start  9731760
-GOOD take long 9748800
-start  9748800
-GOOD take long 9753720
-start  9753720
-GOOD take long 9755040
-start  9755040
-GOOD take long 9770160
-start  9770160
-GOOD take long 9803340
-start  9803340
-GOOD take long 9825000
-start  9825000
-GOOD take long 9830220
-start  9830220
-GOOD take long 9844620
-start  9844620
-GOOD take long 9846420
-start  9846420
-GOOD take long 9961980
-start  9961980
-GOOD take long 9962280
-start  9962280
-GOOD take long 9966360
-start  9966360
-GOOD take long 10104960
-start  10104960
-GOOD take long 10105500
-start  10105500
-GOOD take long 10105740
-start  10105740
-GOOD take long 10107180
-start  10107180
-unnormal_move 0 True 10117680
-GOOD take long 10236240
-start  10236240
-GOOD take long 10238520
-start  10238520
-GOOD take long 10244280
-start  10244280
-GOOD take long 10252320
-start  10252320
-GOOD take long 10263780
-start  10263780
-GOOD take long 10266900
-start  10266900
-GOOD take long 10267440
-start  10267440
-GOOD take long 10269000
-start  10269000
-GOOD take long 10269180
-start  10269180
-GOOD take long 10270380
-start  10270380
-GOOD take long 10272600
-start  10272600
-GOOD take long 10278960
-start  10278960
-GOOD take long 10297320
-start  10297320
-GOOD take long 10301040
-start  10301040
-GOOD take long 10303560
-start  10303560
-GOOD take long 10308780
-start  10308780
-GOOD take long 10310220
-start  10310220
-GOOD take long 10310640
-start  10310640
-GOOD take long 10323420
-start  10323420
-GOOD take long 10325400
-start  10325400
-GOOD take long 10332960
-start  10332960
-GOOD take long 10337400
-start  10337400
-GOOD take long 10353900
-start  10353900
-GOOD take long 10367820
-start  10367820
-GOOD take long 10371720
-start  10371720
-GOOD take long 10389720
-start  10389720
-GOOD take long 10419540
-start  10419540
-GOOD take long 10437180
-start  10437180
-GOOD take long 10592880
-start  10592880
-GOOD take long 10599180
-start  10599180
-GOOD take long 10601580
-start  10601580
-GOOD take long 10613160
-start  10613160
-GOOD take long 10614180
-start  10614180
-GOOD take long 10653960
-start  10653960
-GOOD take long 10658880
-start  10658880
-GOOD take long 10663260
-start  10663260
-GOOD take long 10692180
-start  10692180
-GOOD take long 10715520
-start  10715520
-GOOD take long 10747980
-start  10747980
-GOOD take long 10759380
-start  10759380
-GOOD take long 10851960
-start  10851960
-GOOD take long 10852080
-start  10852080
-GOOD take long 10854300
-start  10854300
-GOOD take long 10880520
-start  10880520
-GOOD take long 10884360
-start  10884360
-GOOD take long 10900380
-start  10900380
-GOOD take long 10901760
-start  10901760
-GOOD take long 10914120
-start  10914120
-GOOD take long 10952220
-start  10952220
-GOOD take long 10988640
-start  10988640
-GOOD take long 11023740
-start  11023740
-GOOD take long 11025540
-start  11025540
-GOOD take long 11026920
-start  11026920
-GOOD take long 11078580
-start  11078580
-GOOD take long 11173680
-start  11173680
-GOOD take long 11173920
-start  11173920
-GOOD take long 11180100
-start  11180100
-GOOD take long 11222580
-start  11222580
-GOOD take long 11252640
-start  11252640
-GOOD take long 11268360
-start  11268360
-GOOD take long 11269800
-start  11269800
-GOOD take long 11301360
-start  11301360
-GOOD take long 11304000
-start  11304000
-GOOD take long 11304180
-start  11304180
-GOOD take long 11304480
-start  11304480
-GOOD take long 11304600
-start  11304600
-GOOD take long 11304720
-start  11304720
-GOOD take long 11307900
-start  11307900
-GOOD take long 11312220
-start  11312220
-GOOD take long 11339640
-start  11339640
-GOOD take long 11344380
-start  11344380
-GOOD take long 11352120
-start  11352120
-GOOD take long 11352240
-start  11352240
-GOOD take long 11353320
-start  11353320
-GOOD take long 11357100
-start  11357100
-GOOD take long 11357280
-start  11357280
-GOOD take long 11394120
-start  11394120
-GOOD take long 11409840
-start  11409840
-GOOD take long 11412180
-start  11412180
-GOOD take long 11461440
-start  11461440
-GOOD take long 11485860
-start  11485860
-GOOD take long 11516700
-start  11516700
-GOOD take long 11620140
-start  11620140
-GOOD take long 11620260
-start  11620260
-GOOD take long 11630880
-start  11630880
-GOOD take long 11654820
-start  11654820
-GOOD take long 11705100
-start  11705100
-GOOD take long 11723760
-start  11723760
-GOOD take long 11727180
-start  11727180
-GOOD take long 11836560
-start  11836560
-GOOD take long 11861460
-start  11861460
-GOOD take long 11863200
-start  11863200
-GOOD take long 11870220
-start  11870220
-GOOD take long 11878380
-start  11878380
-GOOD take long 11910060
-start  11910060
-GOOD take long 11930220
-start  11930220
-GOOD take long 11950740
-start  11950740
-GOOD take long 11950920
-start  11950920
-GOOD take long 11951640
-start  11951640
-GOOD take long 11952060
-start  11952060
-GOOD take long 12035760
-start  12035760
-GOOD take long 12396900
-start  12396900
-GOOD take long 12397260
-start  12397260
-GOOD take long 12397440
-start  12397440
-GOOD take long 12398220
-start  12398220
-GOOD take long 13082040
-start  13082040
-GOOD take long 13108020
-start  13108020
-GOOD take long 13120200
-start  13120200
-GOOD take long 13123200
-start  13123200
-GOOD take long 14187180
-start  14187180
-GOOD take long 14190120
-start  14190120
-GOOD take long 14232660
-start  14232660
-GOOD take long 14675040
-start  14675040
-GOOD take long 14675580
-start  14675580
-GOOD take long 14676480
-start  14676480
-GOOD take long 14749020
-start  14749020
-GOOD take long 14776620
-start  14776620
-GOOD take long 14825700
-start  14825700
-GOOD take long 14977140
-start  14977140
-GOOD take long 14983560
-start  14983560
-GOOD take long 15194460
-start  15194460
-GOOD take long 15204180
-start  15204180
-GOOD take long 15229620
-start  15229620
-GOOD take long 15403260
-start  15403260
-GOOD take long 15404220
-start  15404220
-GOOD take long 15405360
-start  15405360
-GOOD take long 15406320
-start  15406320
-GOOD take long 15407820
-start  15407820
-GOOD take long 15410340
-start  15410340
-GOOD take long 15442500
-start  15442500
-GOOD take long 15460980
-start  15460980
-GOOD take long 15494280
-start  15494280
-GOOD take long 15562140
-start  15562140
-GOOD take long 15599160
-start  15599160
-GOOD take long 15601740
-start  15601740
-GOOD take long 15647460
-start  15647460
-GOOD take long 15660540
-start  15660540
-GOOD take long 15662040
-start  15662040
-GOOD take long 15667140
-start  15667140
-GOOD take long 15727020
-start  15727020
-GOOD take long 15734280
-start  15734280
-GOOD take long 15827700
-start  15827700
-GOOD take long 15827880
-start  15827880
-GOOD take long 15830580
-start  15830580
-GOOD take long 15837120
-start  15837120
-GOOD take long 15838620
-start  15838620
-GOOD take long 15838740
-start  15838740
-GOOD take long 15860760
-start  15860760
-GOOD take long 15867840
-start  15867840
-GOOD take long 15893520
-start  15893520
-GOOD take long 16017780
-start  16017780
-GOOD take long 16045920
-start  16045920
-GOOD take long 16065660
-start  16065660
-GOOD take long 16077360
-start  16077360
-GOOD take long 16136160
-start  16136160
-GOOD take long 16136760
-start  16136760
-GOOD take long 16154580
-start  16154580
-GOOD take long 16154880
-start  16154880
-GOOD take long 16416000
-start  16416000
-GOOD take long 16419420
-start  16419420
-GOOD take long 16427100
-start  16427100
-GOOD take long 16429140
-start  16429140
-GOOD take long 16438980
-start  16438980
-GOOD take long 16478040
-start  16478040
-GOOD take long 16501200
-start  16501200
-GOOD take long 16654020
-start  16654020
-GOOD take long 16655640
-start  16655640
-GOOD take long 16657200
-start  16657200
-GOOD take long 16864500
-start  16864500
-GOOD take long 16866000
-start  16866000
-GOOD take long 17132820
-start  17132820
-GOOD take long 17133660
-start  17133660
-GOOD take long 17134200
-start  17134200
-GOOD take long 17134560
-start  17134560
-GOOD take long 17135400
-start  17135400
-GOOD take long 17138100
-start  17138100
-GOOD take long 17200440
-start  17200440
-GOOD take long 17306220
-start  17306220
-GOOD take long 17308200
-start  17308200
-GOOD take long 17312520
-start  17312520
-GOOD take long 17316600
-start  17316600
-GOOD take long 17361240
-start  17361240
-GOOD take long 17390160
-start  17390160
-GOOD take long 17393940
-start  17393940
-GOOD take long 17396340
-start  17396340
-GOOD take long 17409660
-start  17409660
-GOOD take long 17462520
-start  17462520
-GOOD take long 17462820
-start  17462820
-GOOD take long 17471520
-start  17471520
-GOOD take long 17471940
-start  17471940
-GOOD take long 17542920
-start  17542920
-GOOD take long 17628060
-start  17628060
-GOOD take long 17920560
-start  17920560
-GOOD take long 17921160
-start  17921160
-GOOD take long 17943060
-start  17943060
-GOOD take long 17973960
-start  17973960
-GOOD take long 17991720
-start  17991720
-GOOD take long 18568080
-start  18568080
-GOOD take long 18568440
-start  18568440
-GOOD take long 18569400
-start  18569400
-GOOD take long 18621360
-start  18621360
-GOOD take long 18643140
-start  18643140
-GOOD take long 18646560
-start  18646560
-GOOD take long 18673860
-start  18673860
-GOOD take long 18675240
-start  18675240
-GOOD take long 18676320
-start  18676320
-GOOD take long 18683700
-start  18683700
-GOOD take long 18744300
-start  18744300
-GOOD take long 18745200
-start  18745200
-GOOD take long 18748980
-start  18748980
-GOOD take long 18871260
-start  18871260
-GOOD take long 19561740
-start  19561740
-GOOD take long 19618980
-start  19618980
-GOOD take long 19645200
-start  19645200
-GOOD take long 19767960
-start  19767960
-GOOD take long 19823940
-start  19823940
-GOOD take long 19828500
-start  19828500
-set stop = 61.727000000000004 side: 0 last_price:72.62 first_price97.4 take:77.23975 20619840
-GOOD take long 20850000
-start  20850000
-GOOD take long 20850120
-start  20850120
-GOOD take long 20850420
-start  20850420
-GOOD take long 20898480
-start  20898480
-GOOD take long 20899080
-start  20899080
-GOOD take long 20899680
-start  20899680
-GOOD take long 20901720
-start  20901720
-GOOD take long 20902080
-start  20902080
-GOOD take long 20903460
-start  20903460
-GOOD take long 20929380
-start  20929380
-GOOD take long 20979000
-start  20979000
-GOOD take long 20979120
-start  20979120
-GOOD take long 20979720
-start  20979720
-GOOD take long 20979840
-start  20979840
-GOOD take long 20980800
-start  20980800
-GOOD take long 20988900
-start  20988900
-GOOD take long 21016620
-start  21016620
-GOOD take long 21019200
-start  21019200
-GOOD take long 21038880
-start  21038880
-GOOD take long 21126660
-start  21126660
-GOOD take long 21156960
-start  21156960
-GOOD take long 21176640
-start  21176640
-GOOD take long 21198600
-start  21198600
-GOOD take long 21200220
-start  21200220
-GOOD take long 21201000
-start  21201000
-GOOD take long 21217860
-start  21217860
-GOOD take long 21230580
-start  21230580
-GOOD take long 21231840
-start  21231840
-GOOD take long 21271440
-start  21271440
-GOOD take long 21274980
-start  21274980
-GOOD take long 21279060
-start  21279060
-GOOD take long 21282900
-start  21282900
-GOOD take long 21283680
-start  21283680
-GOOD take long 21322440
-start  21322440
-GOOD take long 21339840
-start  21339840
-GOOD take long 21368460
-start  21368460
-GOOD take long 21409740
-start  21409740
-GOOD take long 21420240
-start  21420240
-GOOD take long 21426480
-start  21426480
-GOOD take long 21585120
-start  21585120
-GOOD take long 21586260
-start  21586260
-GOOD take long 21589260
-start  21589260
-GOOD take long 21621840
-start  21621840
-GOOD take long 21692700
-start  21692700
-GOOD take long 21697080
-start  21697080
-GOOD take long 21697680
-start  21697680
-GOOD take long 21700260
-start  21700260
-GOOD take long 21700920
-start  21700920
-GOOD take long 21701520
-start  21701520
-GOOD take long 21712860
-start  21712860
-GOOD take long 21724440
-start  21724440
-GOOD take long 21745200
-start  21745200
-GOOD take long 21746940
-start  21746940
-GOOD take long 21747120
-start  21747120
-GOOD take long 21765600
-start  21765600
-GOOD take long 21766560
-start  21766560
-GOOD take long 21796080
-start  21796080
-GOOD take long 21816960
-start  21816960
-GOOD take long 21843420
-start  21843420
-GOOD take long 21868620
-start  21868620
-GOOD take long 21876960
-start  21876960
-GOOD take long 21878220
-start  21878220
-GOOD take long 21879240
-start  21879240
-GOOD take long 21922620
-start  21922620
-GOOD take long 21976740
-start  21976740
-GOOD take long 21991020
-start  21991020
-GOOD take long 22052400
-start  22052400
-GOOD take long 22106700
-start  22106700
-GOOD take long 22215000
-start  22215000
-GOOD take long 22234620
-start  22234620
-GOOD take long 22246560
-start  22246560
-GOOD take long 22253280
-start  22253280
-GOOD take long 22259640
-start  22259640
-GOOD take long 22297680
-start  22297680
-GOOD take long 22325580
-start  22325580
-GOOD take long 22325880
-start  22325880
-GOOD take long 22391940
-start  22391940
-GOOD take long 22447800
-start  22447800
-GOOD take long 22451640
-start  22451640
-GOOD take long 22495800
-start  22495800
-GOOD take long 22496220
-start  22496220
-GOOD take long 22499580
-start  22499580
-GOOD take long 22581000
-start  22581000
-GOOD take long 22660260
-start  22660260
-GOOD take long 22691820
-start  22691820
-GOOD take long 22729860
-start  22729860
-GOOD take long 22730460
-start  22730460
-GOOD take long 22862160
-start  22862160
-GOOD take long 23319960
-start  23319960
-GOOD take long 23320080
-start  23320080
-GOOD take long 23349960
-start  23349960
-GOOD take long 23362140
-start  23362140
-GOOD take long 23368860
-start  23368860
-GOOD take long 23368980
-start  23368980
-GOOD take long 23590860
-start  23590860
-GOOD take long 23614560
-start  23614560
-GOOD take long 23614860
-start  23614860
-GOOD take long 23615640
-start  23615640
-GOOD take long 23818980
-start  23818980
-GOOD take long 23832300
-start  23832300
-GOOD take long 23832660
-start  23832660
-GOOD take long 23841300
-start  23841300
-GOOD take long 23842200
-start  23842200
-GOOD take long 23965920
-start  23965920
-GOOD take long 23968680
-start  23968680
-GOOD take long 24000000
-start  24000000
-GOOD take long 24630000
-start  24630000
-GOOD take long 24635160
-start  24635160
-GOOD take long 24687780
-start  24687780
-GOOD take long 24694260
-start  24694260
-GOOD take long 24696000
-start  24696000
-GOOD take long 24736680
-start  24736680
-GOOD take long 24737160
-start  24737160
-GOOD take long 24802800
-start  24802800
-GOOD take long 24880200
-start  24880200
-GOOD take long 24956160
-start  24956160
-GOOD take long 25219440
-start  25219440
-GOOD take long 25331100
-start  25331100
-GOOD take long 25332840
-start  25332840
-GOOD take long 25485000
-start  25485000
-GOOD take long 25688460
-start  25688460
-GOOD take long 25793040
-start  25793040
-GOOD take long 25811400
-start  25811400
-GOOD take long 25859520
-start  25859520
-GOOD take long 25903920
-start  25903920
-GOOD take long 25927380
-start  25927380
-GOOD take long 25931880
-start  25931880
-GOOD take long 25989600
-start  25989600
-GOOD take long 26030820
-start  26030820
-GOOD take long 26121660
-start  26121660
-GOOD take long 26251020
-start  26251020
-GOOD take long 26259300
-start  26259300
-GOOD take long 26261220
-start  26261220
-GOOD take long 26296620
-start  26296620
-GOOD take long 26303400
-start  26303400
-GOOD take long 26307060
-start  26307060
-GOOD take long 26312340
-start  26312340
-GOOD take long 26345040
-start  26345040
-GOOD take long 26384280
-start  26384280
-GOOD take long 26395560
-start  26395560
-GOOD take long 26404980
-start  26404980
-GOOD take long 26433480
-start  26433480
-GOOD take long 26466540
-start  26466540
-GOOD take long 26467020
-start  26467020
-GOOD take long 26471460
-start  26471460
-GOOD take long 26499480
-start  26499480
-GOOD take long 26523840
-start  26523840
-GOOD take long 26524440
-start  26524440
-GOOD take long 26529720
-start  26529720
-GOOD take long 26648280
-start  26648280
-GOOD take long 26700000
-start  26700000
-GOOD take long 26787600
-start  26787600
-GOOD take long 26994000
-start  26994000
-GOOD take long 27245160
-start  27245160
-GOOD take long 27346260
-start  27346260
-GOOD take long 27417420
-start  27417420
-GOOD take long 27428700
-start  27428700
-GOOD take long 27493200
-start  27493200
-GOOD take long 27493860
-start  27493860
-GOOD take long 27620400
-start  27620400
-GOOD take long 27624720
-start  27624720
-GOOD take long 27783900
-start  27783900
-GOOD take long 27810360
-start  27810360
-GOOD take long 27814800
-start  27814800
-GOOD take long 27818700
-start  27818700
-GOOD take long 27862620
-start  27862620
-GOOD take long 27916440
-start  27916440
-GOOD take long 27970200
-start  27970200
-GOOD take long 27970680
-start  27970680
-GOOD take long 28254540
-start  28254540
-GOOD take long 28263120
-start  28263120
-unnormal_move 0 True 28553040
-GOOD take long 29162460
-start  29162460
-GOOD take long 29288580
-start  29288580
-GOOD take long 29404560
-start  29404560
-GOOD take long 29465100
-start  29465100
-GOOD take long 29466240
-start  29466240
-GOOD take long 29467200
-start  29467200
-GOOD take long 29469600
-start  29469600
-GOOD take long 29490840
-start  29490840
-GOOD take long 29491380
-start  29491380
-GOOD take long 29509020
-start  29509020
-GOOD take long 29509620
-start  29509620
-GOOD take long 29545440
-start  29545440
-GOOD take long 29546160
-start  29546160
-GOOD take long 29576340
-start  29576340
-GOOD take long 29578380
-start  29578380
-GOOD take long 29582700
-start  29582700
-GOOD take long 29716800
-start  29716800
-GOOD take long 29718240
-start  29718240
-GOOD take long 29720520
-start  29720520
-GOOD take long 29725260
-start  29725260
-GOOD take long 29725680
-start  29725680
-GOOD take long 29758980
-start  29758980
-GOOD take long 29849460
-start  29849460
-GOOD take long 29969940
-start  29969940
-GOOD take long 30216840
-start  30216840
-GOOD take long 30273120
-start  30273120
-GOOD take long 30274320
-start  30274320
-GOOD take long 30274560
-start  30274560
-GOOD take long 30276060
-start  30276060
-GOOD take long 30276360
-start  30276360
-GOOD take long 30276480
-start  30276480
-GOOD take long 30277680
-start  30277680
-GOOD take long 30278100
-start  30278100
-GOOD take long 30279540
-start  30279540
-GOOD take long 30282060
-start  30282060
-GOOD take long 30295140
-start  30295140
-GOOD take long 30296400
-start  30296400
-GOOD take long 30299160
-start  30299160
-GOOD take long 30300720
-start  30300720
-GOOD take long 30301380
-start  30301380
-GOOD take long 30301860
-start  30301860
-GOOD take long 30310260
-start  30310260
-GOOD take long 30324240
-start  30324240
-GOOD take long 30324480
-start  30324480
-GOOD take long 30324720
-start  30324720
-GOOD take long 30324840
-start  30324840
-GOOD take long 30325020
-start  30325020
-GOOD take long 30325140
-start  30325140
-GOOD take long 30325680
-start  30325680
-GOOD take long 30326580
-start  30326580
-GOOD take long 30340560
-start  30340560
-GOOD take long 30349740
-start  30349740
-GOOD take long 30355260
-start  30355260
-GOOD take long 30376200
-start  30376200
-GOOD take long 30376320
-start  30376320
-GOOD take long 30382500
-start  30382500
-GOOD take long 30382680
-start  30382680
-GOOD take long 30382860
-start  30382860
-GOOD take long 30455280
-start  30455280
-GOOD take long 30455760
-start  30455760
-GOOD take long 30456000
-start  30456000
-GOOD take long 30467460
-start  30467460
-GOOD take long 30483060
-start  30483060
-GOOD take long 30517620
-start  30517620
-GOOD take long 30529620
-start  30529620
-GOOD take long 30804360
-start  30804360
-GOOD take long 31196640
-start  31196640
-GOOD take long 31201260
-start  31201260
-GOOD take long 31242240
-start  31242240
-GOOD take long 31330320
-start  31330320
-GOOD take long 31408800
-start  31408800
-GOOD take long 31410420
-start  31410420
-GOOD take long 31411440
-start  31411440
-GOOD take long 31420440
-start  31420440
-GOOD take long 31444320
-start  31444320
-GOOD take long 31445100
-start  31445100
-GOOD take long 31452480
-start  31452480
-GOOD take long 31476780
-start  31476780
-GOOD take long 31918080
-start  31918080
-GOOD take long 32022780
-start  32022780
-GOOD take long 32025420
-start  32025420
-GOOD take long 32145000
-start  32145000
-GOOD take long 32169120
-start  32169120
-GOOD take long 32170320
-start  32170320
-GOOD take long 32603700
-start  32603700
-GOOD take long 32845020
-start  32845020
-GOOD take long 32851860
-start  32851860
-GOOD take long 32855460
-start  32855460
-GOOD take long 32860680
-start  32860680
-GOOD take long 32946240
-start  32946240
-GOOD take long 33080580
-start  33080580
-GOOD take long 33081600
-start  33081600
-GOOD take long 33081960
-start  33081960
-unnormal_move 0 True 34490460
-set stop = 54.7655 side: 0 last_price:64.43 first_price93.92 take:70.66364 34490460
-GOOD take long 40296360
-start  40296360
-GOOD take long 40297140
-start  40297140
-GOOD take long 40297680
-start  40297680
-GOOD take long 40332360
-start  40332360
-GOOD take long 40333800
-start  40333800
-GOOD take long 40376820
-start  40376820
-GOOD take long 40378320
-start  40378320
-GOOD take long 40427280
-start  40427280
-GOOD take long 40472880
-start  40472880
-GOOD take long 40489320
-start  40489320
-GOOD take long 40646580
-start  40646580
-GOOD take long 40782960
-start  40782960
-GOOD take long 40838880
-start  40838880
-GOOD take long 40864320
-start  40864320
-GOOD take long 40894440
-start  40894440
-GOOD take long 40925460
-start  40925460
-GOOD take long 41045760
-start  41045760
-GOOD take long 41052660
-start  41052660
-GOOD take long 41054520
-start  41054520
-GOOD take long 41077080
-start  41077080
-GOOD take long 41087940
-start  41087940
-GOOD take long 41322600
-start  41322600
-GOOD take long 41337060
-start  41337060
-GOOD take long 41365440
-start  41365440
-GOOD take long 41388000
-start  41388000
-GOOD take long 41414640
-start  41414640
-GOOD take long 41443860
-start  41443860
-GOOD take long 41448780
-start  41448780
-GOOD take long 41465160
-start  41465160
-GOOD take long 41485020
-start  41485020
-GOOD take long 41528940
-start  41528940
-GOOD take long 41569260
-start  41569260
-GOOD take long 41679180
-start  41679180
-GOOD take long 41721660
-start  41721660
-GOOD take long 41723520
-start  41723520
-GOOD take long 41755440
-start  41755440
-GOOD take long 41756820
-start  41756820
-GOOD take long 41758020
-start  41758020
-GOOD take long 41833080
-start  41833080
-GOOD take long 41874360
-start  41874360
-GOOD take long 41876580
-start  41876580
-GOOD take long 41887320
-start  41887320
-GOOD take long 41891640
-start  41891640
-GOOD take long 41944200
-start  41944200
-GOOD take long 41956680
-start  41956680
-GOOD take long 41967300
-start  41967300
-GOOD take long 42133920
-start  42133920
-GOOD take long 42151200
-start  42151200
-GOOD take long 42181860
-start  42181860
-GOOD take long 42192720
-start  42192720
-GOOD take long 42218160
-start  42218160
-GOOD take long 42253860
-start  42253860
-GOOD take long 42256560
-start  42256560
-GOOD take long 42272880
-start  42272880
-GOOD take long 42316680
-start  42316680
-GOOD take long 42601080
-start  42601080
-GOOD take long 42656160
-start  42656160
-GOOD take long 42752520
-start  42752520
-GOOD take long 42753720
-start  42753720
-GOOD take long 42884880
-start  42884880
-GOOD take long 42904200
-start  42904200
-GOOD take long 42970440
-start  42970440
-GOOD take long 43020540
-start  43020540
-GOOD take long 43028760
-start  43028760
-GOOD take long 43058880
-start  43058880
-GOOD take long 43430040
-start  43430040
-GOOD take long 43605960
-start  43605960
-GOOD take long 43622760
-start  43622760
-GOOD take long 43729440
-start  43729440
-GOOD take long 43835460
-start  43835460
-GOOD take long 43836180
-start  43836180
-GOOD take long 43863720
-start  43863720
-GOOD take long 44035440
-start  44035440
-GOOD take long 44110020
-start  44110020
-GOOD take long 44148420
-start  44148420
-GOOD take long 44188860
-start  44188860
-GOOD take long 44209800
-start  44209800
-GOOD take long 44230140
-start  44230140
-GOOD take long 44233920
-start  44233920
-GOOD take long 44234280
-start  44234280
-GOOD take long 44279580
-start  44279580
-GOOD take long 44372580
-start  44372580
-GOOD take long 44397360
-start  44397360
-GOOD take long 45445200
-start  45445200
-GOOD take long 45451440
-start  45451440
-GOOD take long 45469560
-start  45469560
-GOOD take long 45771720
-start  45771720
-GOOD take long 45778920
-start  45778920
-GOOD take long 45819660
-start  45819660
-GOOD take long 45837960
-start  45837960
-GOOD take long 45847680
-start  45847680
-GOOD take long 45848220
-start  45848220
-GOOD take long 45862800
-start  45862800
-GOOD take long 45863640
-start  45863640
-GOOD take long 45927900
-start  45927900
-GOOD take long 45973620
-start  45973620
-GOOD take long 45991620
-start  45991620
-GOOD take long 45999660
-start  45999660
-GOOD take long 46000440
-start  46000440
-GOOD take long 46337520
-start  46337520
-unnormal_move 0 True 46465260
-unnormal_move 0 True 46465800
-GOOD take long 46466100
-start  46466100
-GOOD take long 46466220
-start  46466220
-GOOD take long 46466520
-start  46466520
-GOOD take long 46468440
-start  46468440
-GOOD take long 46476660
-start  46476660
-GOOD take long 46479720
-start  46479720
-GOOD take long 46558440
-start  46558440
-GOOD take long 46562400
-start  46562400
-GOOD take long 46601340
-start  46601340
-GOOD take long 46619520
-start  46619520
-GOOD take long 46654740
-start  46654740
-GOOD take long 46670040
-start  46670040
-GOOD take long 46789440
-start  46789440
-GOOD take long 46877340
-start  46877340
-GOOD take long 46898040
-start  46898040
-GOOD take long 46918860
-start  46918860
-GOOD take long 46921080
-start  46921080
-GOOD take long 46932060
-start  46932060
-GOOD take long 46936500
-start  46936500
-GOOD take long 47006700
-start  47006700
-GOOD take long 47016840
-start  47016840
-GOOD take long 47041860
-start  47041860
-GOOD take long 47085060
-start  47085060
-GOOD take long 47098320
-start  47098320
-GOOD take long 47103060
-start  47103060
-GOOD take long 47106000
-start  47106000
-GOOD take long 47107020
-start  47107020
-GOOD take long 47124120
-start  47124120
-GOOD take long 47154420
-start  47154420
-GOOD take long 47155680
-start  47155680
-GOOD take long 47159580
-start  47159580
-GOOD take long 47167320
-start  47167320
-GOOD take long 47222880
-start  47222880
-GOOD take long 47234820
-start  47234820
-GOOD take long 47236140
-start  47236140
-GOOD take long 47249820
-start  47249820
-GOOD take long 47273100
-start  47273100
-GOOD take long 47854800
-start  47854800
-GOOD take long 47870760
-start  47870760
-GOOD take long 47886480
-start  47886480
-GOOD take long 47898060
-start  47898060
-GOOD take long 47917080
-start  47917080
+set_take=197.181 4323960
+GOOD take short 4360800
+start  4360800
+set_take=200.595500000000021 4375560
+GOOD take short 4378140
+start  4378140
+set_take=203.7191 4388100
+GOOD take short 4417440
+start  4417440
+set_take=200.6910 4434120
+GOOD take long 4437240
+start  4437240
+set_take=203.916499999999981 4454460
+set_take=209.0651 4458120
+GOOD take short 4470780
+start  4470780
+set_take=212.14851 4509900
+GOOD take short 4510740
+start  4510740
+set_take=215.638500000000021 4551900
+GOOD take short 4554060
+start  4554060
+set_take=212.71650 4567080
+set_take=208.2040 4596360
+set_take=203.14450 4729260
+set_take=197.860 4732920
+set_take=190.70550 4762440
+set_take=180.045000000000020 4775640
+unnormal_move 0 False 4777320
+set_take=165.16550 4777320
+set stop = 125.85949999999998 side: 0 last_price:148.07 first_price215.59 take:165.1655 4777320
+GOOD take long 4831980
+start  4831980
+set_take=163.06850 4836360
+GOOD take long 4837620
+start  4837620
+set_take=160.9020 4846440
+GOOD take long 4847460
+start  4847460
+set_take=158.6520 4877460
+GOOD take long 4879680
+start  4879680
+set_take=156.5910 4894980
+set_take=152.987000000000020 4900260
+GOOD take long 4902120
+start  4902120
+set_take=155.64151 4928040
+GOOD take short 4928580
+start  4928580
+set_take=153.2520 4932300
+GOOD take long 4935000
+start  4935000
+set_take=151.410 4955220
+set_take=148.02050 4961040
+GOOD take long 4973580
+start  4973580
+set_take=150.808499999999981 4990440
+GOOD take short 4995900
+start  4995900
+set_take=153.0111 5005260
+GOOD take short 5006280
+start  5006280
+set_take=156.70251 5009940
+set_take=160.76151 5059620
+GOOD take short 5061660
+start  5061660
+set_take=162.7121 5089800
+GOOD take short 5090460
+start  5090460
+set_take=160.5460 5097300
+GOOD take long 5098680
+start  5098680
+set_take=163.21151 5131500
+GOOD take short 5139480
+start  5139480
+set_take=159.865999999999990 5143140
+GOOD take long 5150040
+start  5150040
+set_take=162.593000000000021 5155680
+GOOD take short 5186160
+start  5186160
+set_take=164.733999999999981 5190420
+GOOD take short 5191440
+start  5191440
+set_take=162.3740 5198400
+GOOD take long 5217180
+start  5217180
+set_take=160.2160 5223420
+GOOD take long 5229720
+start  5229720
+set_take=157.90050 5241900
+set_take=154.46750 5276220
+GOOD take long 5278320
+start  5278320
+set_take=152.402499999999970 5301360
+GOOD take long 5309040
+start  5309040
+set_take=154.742000000000021 5319780
+GOOD take short 5329740
+start  5329740
+set_take=151.64450 5334240
+GOOD take long 5342100
+start  5342100
+set_take=149.9550 5362320
+GOOD take long 5364540
+start  5364540
+set_take=152.478999999999981 5381520
+GOOD take short 5387280
+start  5387280
+set_take=154.7521 5408520
+GOOD take short 5433360
+start  5433360
+set_take=157.1921 5447040
+GOOD take short 5451180
+start  5451180
+set_take=155.17350 5470320
+GOOD take long 5472120
+start  5472120
+set_take=157.8821 5510580
+GOOD take short 5538900
+start  5538900
+set_take=155.47250 5542740
+GOOD take long 5556480
+start  5556480
+set_take=153.459999999999980 5586900
+set_take=150.304500000000020 5592600
+set_take=146.72850 5606520
+GOOD take long 5650020
+start  5650020
+set_take=149.15651 5664780
+GOOD take short 5670660
+start  5670660
+set_take=147.0290 5688960
+GOOD take long 5691480
+start  5691480
+set_take=149.3171 5698320
+GOOD take short 5714460
+start  5714460
+set_take=147.2860 5761380
+GOOD take long 5775840
+start  5775840
+set_take=150.1631 5779500
+GOOD take short 5866140
+start  5866140
+set_take=147.9530 5906640
+GOOD take long 5911800
+start  5911800
+set_take=146.050 5931660
+GOOD take long 5938320
+start  5938320
+set_take=144.373499999999980 5961420
+GOOD take long 5962020
+start  5962020
+set_take=146.737000000000021 5987940
+GOOD take short 5992620
+start  5992620
+set_take=148.871 6064560
+set_take=152.7091 6104460
+GOOD take short 6125400
+start  6125400
+set_take=154.7921 6156660
+GOOD take short 6160980
+start  6160980
+set_take=151.60950 6164640
+set_take=148.3390 6187380
+GOOD take long 6193560
+start  6193560
+set_take=150.98451 6215400
+GOOD take short 6229020
+start  6229020
+set_take=152.7921 6240900
+GOOD take short 6247080
+start  6247080
+set_take=155.030500000000021 6322260
+GOOD take short 6348000
+start  6348000
+set_take=157.50251 6371280
+GOOD take short 6376740
+start  6376740
+set_take=155.346999999999980 6400020
+GOOD take long 6404940
+start  6404940
+set_take=157.926499999999981 6462720
+set_take=161.66151 6489180
+GOOD take short 6540000
+start  6540000
+set_take=159.06450 6658680
+GOOD take long 6790560
+start  6790560
+set_take=157.510 6829200
+set_take=154.2350 6837720
+set_take=150.541499999999980 6847500
+GOOD take long 6854940
+start  6854940
+set_take=148.541499999999980 6894960
+GOOD take long 6896340
+start  6896340
+set_take=146.8480 6900360
+GOOD take long 6904800
+start  6904800
+set_take=149.091 6953700
+GOOD take short 6956640
+start  6956640
+set_take=147.1140 6966060
+GOOD take long 6967260
+start  6967260
+set_take=144.8530 7005120
+GOOD take long 7005840
+start  7005840
+set_take=148.067999999999981 7064340
+GOOD take short 7078920
+start  7078920
+set_take=150.17751 7121520
+GOOD take short 7144860
+start  7144860
+set_take=148.1490 7153680
+GOOD take long 7180200
+start  7180200
+set_take=150.72151 7324140
+GOOD take short 7330080
+start  7330080
+set_take=148.7060 7409040
+GOOD take long 7412880
+start  7412880
+set_take=146.71350 7504320
+GOOD take long 7505100
+start  7505100
+set_take=145.240999999999990 7593960
+set_take=142.2760 7598160
+set_take=138.8570 7602660
+set_take=135.2450 7708800
+set_take=129.62950 8006280
+GOOD take long 8054040
+start  8054040
+set_take=127.98550 8093340
+GOOD take long 8094660
+start  8094660
+set_take=130.13751 8100480
+set_take=133.178499999999991 8176680
+set_take=137.036999999999981 8198100
+GOOD take short 8255100
+start  8255100
+set_take=139.029499999999981 8265960
+GOOD take short 8268780
+start  8268780
+set_take=137.210 8275920
+GOOD take long 8298480
+start  8298480
+set_take=139.42551 8347680
+set_take=142.7121 8353200
+set_take=146.5991 8592480
+GOOD take short 8621580
+start  8621580
+set_take=148.49351 8630640
+GOOD take short 8635740
+start  8635740
+set_take=150.8391 8641380
+GOOD take short 8651940
+start  8651940
+set_take=148.81250 8658180
+set_take=145.5720 8678340
+set_take=142.02450 8745420
+set_take=138.3670 8757960
+GOOD take long 8798040
+start  8798040
+set_take=140.6841 8873280
+GOOD take short 8887140
+start  8887140
+set_take=138.21450 8896800
+set_take=135.33450 8900580
+set_take=132.15850 8905320
+set_take=128.7920 8911620
+set_take=124.10550 8950680
+GOOD take long 8962440
+start  8962440
+set_take=122.54450 8969700
+GOOD take long 8970060
+start  8970060
+set_take=121.0430 8977140
+GOOD take long 8979600
+start  8979600
+set_take=117.79350 8983260
+set_take=114.91350 8987220
+GOOD take long 8988960
+start  8988960
+set_take=113.3620 9004800
+GOOD take long 9006000
+start  9006000
+set_take=111.8870 9011280
+set_take=109.432999999999990 9014940
+GOOD take long 9015660
+start  9015660
+set_take=107.8930 9019320
+GOOD take long 9020700
+start  9020700
+set_take=106.633000000000010 9024480
+GOOD take long 9024960
+start  9024960
+set_take=101.4470 9028620
+GOOD take long 9029040
+start  9029040
+set_take=104.05151 9032700
+GOOD take short 9033720
+start  9033720
+set_take=106.3481 9037380
+GOOD take short 9045480
+start  9045480
+set_take=104.9340 9049440
+GOOD take long 9049560
+start  9049560
+set_take=106.91451 9053220
+GOOD take short 9053520
+start  9053520
+set_take=109.051 9064320
+GOOD take short 9064920
+start  9064920
+set_take=107.4590 9087720
+GOOD take long 9093120
+start  9093120
+set_take=109.38251 9110640
+GOOD take short 9121680
+start  9121680
+set_take=107.38650 9131220
+GOOD take long 9132120
+start  9132120
+set_take=109.758000000000011 9161460
+GOOD take short 9169800
+start  9169800
+set_take=108.002000000000010 9182820
+GOOD take long 9185820
+start  9185820
+set_take=106.64350 9192240
+GOOD take long 9195060
+start  9195060
+set_take=105.08650 9198720
+set_take=102.738499999999990 9202380
+set_take=100.2140 9211380
+GOOD take long 9212760
+start  9212760
+set_take=98.94250 9219000
+GOOD take long 9219720
+start  9219720
+set_take=101.664999999999991 9223380
+GOOD take short 9224760
+start  9224760
+set_take=103.6661 9228420
+set_take=106.574999999999991 9238500
+GOOD take short 9267840
+start  9267840
+set_take=108.341000000000011 9287700
+GOOD take short 9288660
+start  9288660
+set_take=106.8510 9299220
+GOOD take long 9300480
+start  9300480
+set_take=108.536499999999991 9313260
+GOOD take short 9315300
+start  9315300
+set_take=110.2081 9386220
+GOOD take short 9402120
+start  9402120
+set_take=113.0951 9405780
+GOOD take short 9406440
+start  9406440
+set_take=109.9240 9410100
+set_take=107.50850 9415500
+GOOD take long 9424140
+start  9424140
+set_take=106.0890 9429240
+GOOD take long 9449880
+start  9449880
+set_take=107.967999999999991 9474720
+GOOD take short 9477420
+start  9477420
+set_take=106.5590 9494280
+GOOD take long 9494640
+start  9494640
+set_take=105.245499999999990 9498480
+GOOD take long 9505080
+start  9505080
+set_take=107.24951 9521580
+GOOD take short 9527400
+start  9527400
+set_take=108.72851 9586920
+GOOD take short 9592380
+start  9592380
+set_take=110.397500000000011 9645960
+GOOD take short 9649980
+start  9649980
+set_take=108.89550 9653640
+GOOD take long 9657060
+start  9657060
+set_take=110.5681 9670200
+GOOD take short 9671520
+start  9671520
+set_take=108.7970 9752100
+GOOD take long 9755700
+start  9755700
+set_take=107.3490 9771780
+GOOD take long 9823140
+start  9823140
+set_take=109.07751 9834060
+GOOD take short 9845400
+start  9845400
+set_take=110.70851 9888180
+GOOD take short 9889680
+start  9889680
+set_take=112.41051 9915960
+GOOD take short 9994380
+start  9994380
+set_take=109.9790 9999780
+GOOD take long 10002840
+start  10002840
+set_take=108.3820 10019940
+GOOD take long 10021140
+start  10021140
+set_take=107.018499999999990 10064400
+GOOD take long 10069860
+start  10069860
+set_take=109.06251 10111500
+GOOD take short 10120560
+start  10120560
+set_take=110.653500000000011 10134300
+GOOD take short 10163400
+start  10163400
+set_take=112.495499999999991 10169100
+set_take=115.209499999999991 10174140
+set_take=118.377000000000011 10216800
+set_take=121.9951 10319760
+GOOD take short 10340880
+start  10340880
+set_take=123.5361 10364820
+set_take=126.4351 10424640
+set_take=129.8451 10433220
+set_take=133.856499999999981 10442820
+GOOD take short 10504980
+start  10504980
+set_take=131.62050 10521180
+GOOD take long 10522980
+start  10522980
+set_take=133.71 10544220
+GOOD take short 10546020
+start  10546020
+set_take=136.02051 10564200
+GOOD take short 10565340
+start  10565340
+set_take=138.271000000000021 10602120
+GOOD take short 10604460
+start  10604460
+set_take=140.302000000000021 10674180
+GOOD take short 10681800
+start  10681800
+set_take=137.08150 10686480
+GOOD take long 10686720
+start  10686720
+set_take=139.5271 10692420
+GOOD take short 10697280
+start  10697280
+set_take=137.6130 10702320
+set_take=134.7130 10721040
+set_take=131.326000000000020 10788300
+set_take=127.861499999999990 10806660
+GOOD take long 10942680
+start  10942680
+set_take=126.25250 10954440
+GOOD take long 10968180
+start  10968180
+set_take=124.510500000000010 10984080
+GOOD take long 11003940
+start  11003940
+set_take=122.846499999999990 11048520
+GOOD take long 11052780
+start  11052780
+set_take=124.8981 11070780
+set_take=127.8051 11100960
+GOOD take short 11167080
+start  11167080
+set_take=125.82750 11268900
+GOOD take long 11270400
+start  11270400
+set_take=124.30250 11286060
+set_take=121.6070 11303640
+set_take=118.566499999999990 11314260
+GOOD take long 11353200
+start  11353200
+set_take=119.20 11364240
+GOOD take long 11368440
+start  11368440
+set_take=118.0640 11376960
+GOOD take long 11378040
+start  11378040
+set_take=116.88850 11381700
+GOOD take long 11383320
+start  11383320
+set_take=115.37850 11404380
+GOOD take long 11408580
+start  11408580
+set_take=113.85650 11454420
+GOOD take long 11454660
+start  11454660
+set_take=115.863499999999991 11469360
+GOOD take short 11471100
+start  11471100
+set_take=114.22950 11509560
+set_take=111.902999999999990 11523540
+GOOD take long 11579940
+start  11579940
+set_take=110.28650 11625540
+GOOD take long 11635140
+start  11635140
+set_take=109.2140 11648700
+GOOD take long 11651220
+start  11651220
+set_take=107.7930 11662380
+set_take=105.6490 11668920
+set_take=103.088500000000010 11681640
+GOOD take long 11702280
+start  11702280
+set_take=104.79351 11723160
+set_take=107.2931 11786820
+GOOD take short 11828580
+start  11828580
+set_take=105.6950 11842920
+GOOD take long 11843700
+start  11843700
+set_take=104.2980 11853360
+set_take=101.307999999999990 11857020
+set_take=98.4450 11862480
+set_take=95.67250 11869980
+GOOD take long 11872140
+start  11872140
+set_take=94.7610 11877720
+GOOD take long 11891700
+start  11891700
+set_take=96.24651 11897640
+set_take=98.580999999999991 11910660
+set_take=101.979999999999991 11915040
+GOOD take short 11963160
+start  11963160
+set_take=103.431999999999991 11972220
+set_take=105.8561 12004320
+set_take=108.7691 12017880
+GOOD take short 12075300
+start  12075300
+set_take=107.2870 12103800
+GOOD take long 12135480
+start  12135480
+set_take=109.02351 12148440
+GOOD take short 12150780
+start  12150780
+set_take=107.28250 12154680
+GOOD take long 12156900
+start  12156900
+set_take=105.9830 12171840
+set_take=103.64450 12178680
+GOOD take long 12193260
+start  12193260
+set_take=102.4410 12210660
+GOOD take long 12210840
+start  12210840
+set_take=104.2221 12217620
+GOOD take short 12219540
+start  12219540
+set_take=105.86951 12242280
+set_take=108.4321 12267240
+set_take=111.41451 12274920
+GOOD take short 12297000
+start  12297000
+set_take=112.989499999999991 12324480
+GOOD take short 12327120
+start  12327120
+set_take=111.32750 12335760
+GOOD take long 12336060
+start  12336060
+set_take=113.2211 12374940
+GOOD take short 12378840
+start  12378840
+set_take=111.2620 12408960
+GOOD take long 12414120
+start  12414120
+set_take=110.1480 12431220
+GOOD take long 12431940
+start  12431940
+set_take=111.88951 12499800
+GOOD take short 12500220
+start  12500220
+set_take=110.31750 12504240
+GOOD take long 12506460
+start  12506460
+set_take=108.8880 12537000
+set_take=106.573000000000010 12589020
+set_take=104.0430 12607560
+GOOD take long 12680220
+start  12680220
+set_take=102.69050 12742860
+GOOD take long 12751860
+start  12751860
+set_take=101.43350 12793380
+GOOD take long 12836820
+start  12836820
+set_take=100.182999999999990 12860340
+set_take=98.07350 12865380
+GOOD take long 12869760
+start  12869760
+set_take=99.8761 12889380
+GOOD take short 12895980
+start  12895980
+set_take=101.3781 12923820
+GOOD take short 12925260
+start  12925260
+set_take=99.9680 12938940
+GOOD take long 12941760
+start  12941760
+set_take=101.6551 12970320
+set_take=104.05151 12981540
+GOOD take short 13060140
+start  13060140
+set_take=102.641500000000010 13069080
+GOOD take long 13101000
+start  13101000
+set_take=101.6430 13143900
+GOOD take long 13159860
+start  13159860
+set_take=103.675000000000011 13180560
+GOOD take short 13193940
+start  13193940
+set_take=105.02951 13228860
+GOOD take short 13267620
+start  13267620
+set_take=103.4560 13393740
+GOOD take long 13413240
+start  13413240
+set_take=105.18751 13487280
+GOOD take short 13489020
+start  13489020
+set_take=103.46250 13510380
+GOOD take long 13520580
+start  13520580
+set_take=105.529500000000011 13542900
+set_take=108.5931 13578480
+GOOD take short 13582320
+start  13582320
+set_take=106.5060 13587120
+GOOD take long 13591440
+start  13591440
+set_take=108.2381 13623120
+GOOD take short 13627200
+start  13627200
+set_take=109.96951 13650780
+GOOD take short 13661220
+start  13661220
+set_take=111.6081 13815600
+GOOD take short 13826340
+start  13826340
+set_take=113.1681 13889760
+GOOD take short 13902240
+start  13902240
+set_take=115.1371 13915920
+GOOD take short 13945260
+start  13945260
+set_take=113.32550 13960080
+GOOD take long 13967760
+start  13967760
+set_take=115.2081 13989120
+GOOD take short 13991400
+start  13991400
+set_take=117.0331 14096520
+set_take=119.96851 14130000
+GOOD take short 14189700
+start  14189700
+set_take=121.761500000000011 14262780
+GOOD take short 14263860
+start  14263860
+set_take=123.4791 14318400
+GOOD take short 14408700
+start  14408700
+set_take=125.268499999999991 14535360
+GOOD take short 14563560
+start  14563560
+set_take=127.17051 14598780
+GOOD take short 14693580
+start  14693580
+set_take=129.012999999999981 14700360
+GOOD take short 14705340
+start  14705340
+set_take=131.08451 14826540
+GOOD take short 14828520
+start  14828520
+set_take=128.8620 14915700
+set_take=126.1490 14924100
+set_take=123.15150 14963580
+GOOD take long 15000000
+start  15000000
+set_take=125.071 15025140
+GOOD take short 15034920
+start  15034920
+set_take=126.91251 15085020
+GOOD take short 15093900
+start  15093900
+set_take=125.0760 15104940
+GOOD take long 15105480
+start  15105480
+set_take=127.19351 15205260
+GOOD take short 15213960
+start  15213960
+set_take=125.3320 15258300
+GOOD take long 15263460
+start  15263460
+set_take=123.7860 15270000
+GOOD take long 15270900
+start  15270900
+set_take=122.2240 15276180
+GOOD take long 15276900
+start  15276900
+set_take=124.153500000000011 15297300
+GOOD take short 15349500
+start  15349500
+set_take=122.354999999999990 15385740
+set_take=119.8630 15434580
+set_take=116.92650 15445140
+set_take=113.87150 15474720
+GOOD take long 15510480
+start  15510480
+set_take=112.38950 15604380
+GOOD take long 15609840
+start  15609840
+set_take=111.02750 15641280
+GOOD take long 15646260
+start  15646260
+set_take=112.82551 15793320
+GOOD take short 15811020
+start  15811020
+set_take=110.90 15817080
+set_take=108.671500000000010 15852120
+set_take=106.1370 15865920
+GOOD take long 16023720
+start  16023720
+set_take=108.03651 16039380
+GOOD take short 16126200
+start  16126200
+set_take=109.6541 16178280
+GOOD take short 16186620
+start  16186620
+set_take=111.09551 16216320
+GOOD take short 16216860
+start  16216860
+set_take=112.6561 16303200
+GOOD take short 16304040
+start  16304040
+set_take=111.1240 16321620
+GOOD take long 16327140
+start  16327140
+set_take=112.871 16334400
+GOOD take short 16362360
+start  16362360
+set_take=111.2750 16417620
+set_take=108.52750 16437540
+GOOD take long 16485180
+start  16485180
+set_take=110.322499999999991 16504740
+GOOD take short 16716060
+start  16716060
+set_take=111.8931 16726860
+GOOD take short 16742400
+start  16742400
+set_take=110.189500000000010 16752540
+set_take=107.79450 16762200
+GOOD take long 16786140
+start  16786140
+set_take=106.45150 16839300
+GOOD take long 16871340
+start  16871340
+set_take=104.90750 16989480
+GOOD take long 16991040
+start  16991040
+set_take=103.18750 17028180
+set_take=100.7540 17052120
+GOOD take long 17067840
+start  17067840
+set_take=102.61551 17094420
+GOOD take short 17163000
+start  17163000
+set_take=101.1370 17169660
+GOOD take long 17172000
+start  17172000
+set_take=99.778500000000010 17183580
+GOOD take long 17184240
+start  17184240
+set_take=98.207500000000010 17197020
+GOOD take long 17198100
+start  17198100
+set_take=99.7071 17228040
+GOOD take short 17240460
+start  17240460
+set_take=101.127000000000011 17322180
+GOOD take short 17333940
+start  17333940
+set_take=102.83551 17350620
+GOOD take short 17366760
+start  17366760
+set_take=101.3890 17410980
+GOOD take long 17422560
+start  17422560
+set_take=100.0290 17439900
+GOOD take long 17449080
+start  17449080
+set_take=98.62350 17541720
+set_take=96.502000000000010 17547060
+GOOD take long 17553540
+start  17553540
+set_take=98.219500000000011 17602260
+GOOD take short 17613600
+start  17613600
+set_take=99.7151 17649060
+GOOD take short 17666880
+start  17666880
+set_take=98.34350 17788800
+GOOD take long 17793540
+start  17793540
+set_take=99.9081 17831160
+set_take=102.24251 17872140
+GOOD take short 17943120
+start  17943120
+set_take=100.0290 17946780
+set_take=97.71850 17957040
+GOOD take long 17997120
+start  17997120
+set_take=96.34550 18004800
+GOOD take long 18005280
+start  18005280
+set_take=95.42450 18018360
+GOOD take long 18019020
+start  18019020
+set_take=93.973000000000010 18026160
+GOOD take long 18026460
+start  18026460
+set_take=96.1971 18060240
+GOOD take short 18071220
+start  18071220
+set_take=94.574999999999990 18142740
+GOOD take long 18147960
+start  18147960
+set_take=93.22450 18157500
+GOOD take long 18164460
+start  18164460
+set_take=94.73051 18221820
+GOOD take short 18229320
+start  18229320
+set_take=93.420999999999990 18245160
+set_take=91.4620 18273780
+set_take=89.30550 18277440
+set_take=87.010 18292200
+set_take=83.698000000000010 18303540
+set_take=79.7120 18323400
+GOOD take long 18338220
+start  18338220
+set_take=81.004500000000011 18343140
+GOOD take short 18356640
+start  18356640
+set_take=82.3391 18367140
+GOOD take short 18372300
+start  18372300
+set_take=80.770000000000010 18376020
+GOOD take long 18376920
+start  18376920
+set_take=79.7630 18397740
+GOOD take long 18402540
+start  18402540
+set_take=78.685499999999990 18427500
+GOOD take long 18427740
+start  18427740
+set_take=77.65250 18433500
+GOOD take long 18438720
+start  18438720
+set_take=78.853000000000011 18442380
+GOOD take short 18452460
+start  18452460
+unnormal_move 0 False 18455340
+set_take=73.5360 18455340
+GOOD take long 18456480
+start  18456480
+set_take=76.19051 18460140
+GOOD take short 18463320
+start  18463320
+set_take=75.060499999999990 18466980
+set_take=73.0560 18470640
+set_take=71.1560 18477600
+set_take=69.246000000000010 18482700
+GOOD take long 18498120
+start  18498120
+set_take=68.2610 18501780
+set_take=65.6220 18505440
+set_take=63.4670 18510420
+set_take=60.3250 18514080
+GOOD take long 18522300
+start  18522300
+set_take=60.6110000000000040 18525960
+GOOD take long 18527760
+start  18527760
+set_take=60.00050 18532380
+GOOD take long 18532560
+start  18532560
+set_take=61.80051 18536220
+GOOD take short 18539460
+start  18539460
+set_take=62.55351 18543120
+GOOD take short 18544320
+start  18544320
+set_take=63.29051 18549180
+set_take=64.83151 18553740
+GOOD take short 18559620
+start  18559620
+set_take=63.2129999999999940 18563280
+GOOD take long 18565200
+start  18565200
+set_take=62.69450 18573120
+GOOD take long 18575400
+start  18575400
+set_take=63.6675000000000041 18580500
+GOOD take short 18582900
+start  18582900
+set_take=65.3571 18586560
+GOOD take short 18587460
+start  18587460
+set_take=66.40651 18591120
+GOOD take short 18592500
+start  18592500
+set_take=68.677500000000011 18596160
+GOOD take short 18596640
+start  18596640
+set_take=69.50051 18600480
+GOOD take short 18603540
+start  18603540
+set_take=68.50 18610140
+GOOD take long 18611160
+start  18611160
+set_take=69.5821 18621000
+GOOD take short 18622560
+start  18622560
+set_take=70.9921 18626220
+GOOD take short 18627660
+start  18627660
+set_take=71.99751 18633720
+GOOD take short 18635100
+start  18635100
+set_take=70.75050 18641100
+GOOD take long 18642360
+start  18642360
+set_take=69.8160 18646020
+GOOD take long 18649920
+start  18649920
+set_take=69.1140 18654480
+GOOD take long 18655320
+start  18655320
+set_take=68.237500000000010 18665640
+GOOD take long 18665760
+start  18665760
+set_take=69.448000000000011 18674760
+GOOD take short 18675720
+start  18675720
+set_take=68.45850 18684600
+GOOD take long 18700620
+start  18700620
+set_take=67.56550 18705720
+set_take=66.19050 18709560
+GOOD take long 18727860
+start  18727860
+set_take=67.2511 18733980
+GOOD take short 18736920
+start  18736920
+set_take=68.3111 18750900
+GOOD take short 18755580
+start  18755580
+set_take=67.11450 18764340
+GOOD take long 18769740
+start  18769740
+set_take=68.1851 18775740
+GOOD take short 18777300
+start  18777300
+set_take=69.149499999999991 18826740
+GOOD take short 18846960
+start  18846960
+set_take=68.18250 18856080
+GOOD take long 18856860
+start  18856860
+set_take=67.17150 18863160
+GOOD take long 18880020
+start  18880020
+set_take=66.27050 18897420
+GOOD take long 18898080
+start  18898080
+set_take=67.33151 18907920
+GOOD take short 18912720
+start  18912720
+set_take=68.31351 18934260
+set_take=69.9051 18976020
+GOOD take short 18993720
+start  18993720
+set_take=70.9951 18997380
+GOOD take short 19028220
+start  19028220
+set_take=72.06251 19035180
+GOOD take short 19038420
+start  19038420
+set_take=71.00950 19060320
+set_take=69.5470 19066800
+set_take=67.90650 19098420
+GOOD take long 19123020
+start  19123020
+set_take=67.03850 19134480
+GOOD take long 19137420
+start  19137420
+set_take=68.1871 19147860
+GOOD take short 19150320
+start  19150320
+set_take=69.253999999999991 19154040
+set_take=70.9411 19158180
+GOOD take short 19162380
+start  19162380
+set_take=71.9061 19192380
+GOOD take short 19198320
+start  19198320
+set_take=70.528500000000010 19201980
+GOOD take long 19207440
+start  19207440
+set_take=69.64650 19211100
+GOOD take long 19212480
+start  19212480
+set_take=68.77650 19240380
+GOOD take long 19258560
+start  19258560
+set_take=69.923499999999991 19331580
+GOOD take short 19336500
+start  19336500
+set_take=71.0361 19394040
+GOOD take short 19414800
+start  19414800
+set_take=72.0441 19472640
+GOOD take short 19475700
+start  19475700
+set_take=73.122000000000011 19484520
+GOOD take short 19489260
+start  19489260
+set_take=71.89750 19514400
+set_take=70.42050 19518120
+GOOD take long 19524660
+start  19524660
+set_take=69.981500000000010 19528320
+GOOD take long 19543260
+start  19543260
+set_take=69.01250 19564380
+GOOD take long 19565700
+start  19565700
+set_take=68.14150 19583280
+GOOD take long 19588020
+start  19588020
+set_take=69.233499999999991 19597860
+GOOD take short 19600500
+start  19600500
+set_take=70.22851 19627440
+GOOD take short 19638780
+start  19638780
+set_take=69.19350 19659180
+GOOD take long 19667760
+start  19667760
+set_take=68.461999999999990 19716480
+set_take=67.079000000000010 19727220
+set_take=65.49050 19735500
+set_take=63.71750 19752660
+GOOD take long 19756020
+start  19756020
+set_take=64.7351 19763880
+GOOD take short 19765560
+start  19765560
+set_take=63.89350 19778520
+GOOD take long 19778940
+start  19778940
+set_take=63.0970 19795560
+GOOD take long 19804200
+start  19804200
+set_take=62.57450 19809420
+GOOD take long 19810140
+start  19810140
+set_take=61.83950 19853880
+GOOD take long 19854480
+start  19854480
+set_take=62.84851 19918980
+GOOD take short 19940640
+start  19940640
+set_take=63.9441 20056620
+set_take=65.477499999999991 20075520
+GOOD take short 20095680
+start  20095680
+set_take=66.431999999999991 20112900
+set_take=68.0881 20127720
+GOOD take short 20171940
+start  20171940
+set_take=69.062000000000011 20226240
+GOOD take short 20231820
+start  20231820
+set_take=67.972000000000010 20275740
+set_take=66.620499999999990 20281380
+set_take=65.0460 20296080
+set_take=63.35650 20449200
+GOOD take long 20553960
+start  20553960
+set_take=62.5590 20619420
+GOOD take long 20625540
+start  20625540
+set_take=63.6291 20658540
+GOOD take short 20743320
+start  20743320
+set_take=61.9280 20746980
+GOOD take long 20791860
+start  20791860
+set_take=62.9959999999999951 20812320
+GOOD take short 20824140
+start  20824140
+set_take=63.331 20827800
+GOOD take short 20832420
+start  20832420
+set_take=62.4220 20858160
+GOOD take long 20877300
+start  20877300
+set_take=61.65550 20895300
+GOOD take long 20895900
+start  20895900
+set_take=61.0224999999999940 20984700
+set_take=59.80950 21002160
+GOOD take long 21008700
+start  21008700
+set_take=58.90550 21046200
+set_take=57.2750 21060480
+GOOD take long 21062640
+start  21062640
+set_take=56.450 21085440
+GOOD take long 21085800
+start  21085800
+set_take=55.64250 21128460
+GOOD take long 21130920
+start  21130920
+set_take=54.5870 21134580
+GOOD take long 21135660
+start  21135660
+set_take=53.9110 21140160
+set_take=52.7985000000000040 21144060
+GOOD take long 21145560
+start  21145560
+set_take=52.1509999999999960 21172680
+GOOD take long 21174240
+start  21174240
+set_take=51.55950 21179400
+GOOD take long 21179580
+start  21179580
+set_take=50.3559999999999950 21183240
+GOOD take long 21204420
+start  21204420
+set_take=49.8045000000000040 21213600
+GOOD take long 21216480
+start  21216480
+set_take=49.1654999999999940 21225420
+GOOD take long 21225780
+start  21225780
+set_take=50.9505000000000051 21229440
+GOOD take short 21233940
+start  21233940
+set_take=50.180 21252840
+set_take=49.05050 21259200
+set_take=47.733500000000010 21263400
+set_take=46.420 21268860
+GOOD take long 21276240
+start  21276240
+set_take=45.6580 21279900
+set_take=44.6585000000000040 21284580
+set_take=43.5395000000000040 21292500
+GOOD take long 21304320
+start  21304320
+set_take=42.82250 21307980
+GOOD take long 21309000
+start  21309000
+set_take=42.3315000000000050 21313260
+GOOD take long 21315300
+start  21315300
+set_take=43.2351 21318960
+GOOD take short 21340260
+start  21340260
+set_take=42.5879999999999940 21344100
+GOOD take long 21344400
+start  21344400
+set_take=42.14650 21351840
+set_take=41.2925000000000040 21355680
+GOOD take long 21356340
+start  21356340
+set_take=43.129499999999991 21360000
+GOOD take short 21364320
+start  21364320
+set_take=44.38951 21367980
+GOOD take short 21377460
+start  21377460
+set_take=45.03851 21402480
+GOOD take short 21402720
+start  21402720
+set_take=44.4050 21425160
+GOOD take long 21426180
+start  21426180
+set_take=45.18151 21430140
+GOOD take short 21430620
+start  21430620
+set_take=45.9351 21439440
+GOOD take short 21441360
+start  21441360
+set_take=45.26450 21445500
+set_take=44.2990 21449160
+set_take=43.24850 21463320
+GOOD take long 21474060
+start  21474060
+set_take=44.07851 21478440
+GOOD take short 21494220
+start  21494220
+set_take=44.851 21497880
+GOOD take short 21498240
+start  21498240
+set_take=46.2459999999999951 21501900
+set_take=47.5971 21507840
+set_take=49.091 21514020
+GOOD take short 21537000
+start  21537000
+set_take=48.37450 21544380
+GOOD take long 21544920
+start  21544920
+set_take=47.77050 21548760
+GOOD take long 21550320
+start  21550320
+set_take=46.5850 21553980
+set_take=45.4740000000000040 21570240
+GOOD take long 21574140
+start  21574140
+set_take=46.26251 21588540
+GOOD take short 21588720
+start  21588720
+set_take=45.4730 21593880
+GOOD take long 21594000
+start  21594000
+set_take=44.8990 21602100
+GOOD take long 21606360
+start  21606360
+set_take=45.62251 21611760
+GOOD take short 21620040
+start  21620040
+set_take=46.328999999999991 21626340
+GOOD take short 21628800
+start  21628800
+set_take=47.0731 21632580
+GOOD take short 21637500
+start  21637500
+set_take=46.4235000000000040 21651960
+GOOD take long 21654660
+start  21654660
+set_take=47.1735000000000041 21684900
+GOOD take short 21698520
+start  21698520
+set_take=47.81251 21714420
+GOOD take short 21717060
+start  21717060
+set_take=45.6880 21720720
+GOOD take long 21730980
+start  21730980
+set_take=45.15250 21736680
+GOOD take long 21737160
+start  21737160
+set_take=44.58650 21756060
+GOOD take long 21759660
+start  21759660
+set_take=43.81250 21763320
+set_take=42.64050 21767340
+GOOD take long 21768240
+start  21768240
+set_take=43.9009999999999961 21771900
+set_take=45.0551 21775620
+GOOD take short 21799500
+start  21799500
+set_take=45.7851 21803160
+set_take=47.01851 21812160
+set_take=48.411 21816780
+set_take=49.90051 21835860
+set_take=51.98551 21847140
+GOOD take short 21869400
+start  21869400
+set_take=52.63751 21879180
+GOOD take short 21879720
+start  21879720
+set_take=51.90050 21884280
+GOOD take long 21885600
+start  21885600
+set_take=52.78451 21895140
+GOOD take short 21897240
+start  21897240
+set_take=51.9260 21914940
+GOOD take long 21915540
+start  21915540
+set_take=52.74051 21919320
+GOOD take short 21919860
+start  21919860
+set_take=51.990 21930420
+GOOD take long 21931200
+start  21931200
+set_take=52.88751 21955860
+GOOD take short 21956400
+start  21956400
+set_take=53.75251 21972600
+GOOD take short 21976920
+start  21976920
+set_take=52.99850 21993660
+GOOD take long 21997800
+start  21997800
+set_take=53.8971 22004520
+GOOD take short 22007940
+start  22007940
+set_take=53.14850 22024380
+GOOD take long 22025760
+start  22025760
+set_take=54.0891 22035360
+GOOD take short 22035780
+start  22035780
+set_take=52.79650 22039440
+set_take=51.52450 22063740
+GOOD take long 22070520
+start  22070520
+set_take=52.3465000000000061 22088100
+GOOD take short 22093680
+start  22093680
+set_take=51.640 22109340
+GOOD take long 22109580
+start  22109580
+set_take=52.4971 22120380
+GOOD take short 22121880
+start  22121880
+set_take=53.10551 22125720
+set_take=54.5430000000000061 22147920
+GOOD take short 22165860
+start  22165860
+set_take=55.3971 22197120
+GOOD take short 22203180
+start  22203180
+set_take=56.2721 22215900
+GOOD take short 22221480
+start  22221480
+set_take=55.39550 22265940
+GOOD take long 22267920
+start  22267920
+set_take=56.2831 22290960
+GOOD take short 22291560
+start  22291560
+set_take=55.47050 22341660
+GOOD take long 22352940
+start  22352940
+set_take=56.35851 22356780
+set_take=57.71151 22365360
+GOOD take short 22437960
+start  22437960
+set_take=56.59650 22519380
+set_take=55.3960 22563480
+GOOD take long 22579500
+start  22579500
+set_take=56.3354999999999961 22602180
+GOOD take short 22603500
+start  22603500
+set_take=55.4690 22609860
+set_take=54.2880 22622160
+set_take=52.9304999999999950 22667460
+GOOD take long 22693860
+start  22693860
+set_take=52.4775000000000060 22704780
+GOOD take long 22707300
+start  22707300
+set_take=53.3075000000000051 22714500
+GOOD take short 22726020
+start  22726020
+set_take=52.53850 22752600
+set_take=51.4820 22762260
+GOOD take long 22774860
+start  22774860
+set_take=50.6670 22778640
+GOOD take long 22780440
+start  22780440
+set_take=51.5541 22788720
+GOOD take short 22789260
+start  22789260
+set_take=52.3700000000000051 22814880
+set_take=53.86851 22818540
+GOOD take short 22829520
+start  22829520
+set_take=53.10450 22833180
+GOOD take long 22835040
+start  22835040
+set_take=51.63950 22838700
+GOOD take long 22842900
+start  22842900
+set_take=50.9270 22853940
+GOOD take long 22861980
+start  22861980
+set_take=50.2300000000000040 22936020
+GOOD take long 22937940
+start  22937940
+set_take=49.5340 23006100
+GOOD take long 23006220
+start  23006220
+set_take=50.4321 23059500
+GOOD take short 23079660
+start  23079660
+set_take=51.2141 23118120
+GOOD take short 23119620
+start  23119620
+set_take=51.9115000000000041 23162040
+GOOD take short 23165580
+start  23165580
+set_take=51.2330000000000040 23191560
+set_take=50.2110 23204640
+GOOD take long 23231220
+start  23231220
+set_take=49.56850 23253840
+GOOD take long 23260320
+start  23260320
+set_take=50.3421 23385300
+set_take=51.51051 23425440
+GOOD take short 23453640
+start  23453640
+set_take=52.3465000000000061 23570100
+set_take=53.59851 23609040
+GOOD take short 23642940
+start  23642940
+set_take=52.8940 23646840
+set_take=51.82350 23661840
+GOOD take long 23669220
+start  23669220
+set_take=51.21550 23701920
+GOOD take long 23713020
+start  23713020
+set_take=50.5365000000000040 23729460
+GOOD take long 23732640
+start  23732640
+set_take=49.85950 23758140
+set_take=48.7459999999999950 23800680
+GOOD take long 23824740
+start  23824740
+set_take=48.072999999999990 23835420
+GOOD take long 23843160
+start  23843160
+set_take=47.3670000000000040 23852460
+GOOD take long 23854080
+start  23854080
+set_take=48.0981 23877360
+GOOD take short 23897520
+start  23897520
+set_take=47.1735000000000040 23901180
+GOOD take long 23901600
+start  23901600
+set_take=48.031 23913720
+GOOD take short 23973600
+start  23973600
+set_take=48.7161 23993760
+set_take=49.9115000000000041 24003240
+set_take=51.4205000000000041 24169560
+set_take=53.1341 24196620
+set_take=55.433000000000011 24308160
+GOOD take short 24554100
+start  24554100
+set_take=56.26951 24569940
+GOOD take short 24573240
+start  24573240
+set_take=57.0471 24602820
+GOOD take short 24686400
+start  24686400
+set_take=56.2925000000000040 24701460
+GOOD take long 24709440
+start  24709440
+set_take=56.0320 24716760
+GOOD take long 24717240
+start  24717240
+set_take=55.32850 24758580
+GOOD take long 24761880
+start  24761880
+set_take=56.2011 24798600
+set_take=57.5130000000000051 24863520
+GOOD take short 24890940
+start  24890940
+set_take=56.6059999999999950 24898380
+GOOD take long 24920760
+start  24920760
+set_take=55.8540 24958140
+GOOD take long 24961260
+start  24961260
+set_take=54.9660 24974940
+set_take=53.7930 25020660
+GOOD take long 25061280
+start  25061280
+set_take=54.951 25126920
+set_take=56.4251 25130580
+set_take=58.10051 25158360
+set_take=59.8979999999999961 25205580
+GOOD take short 25280640
+start  25280640
+set_take=60.7921 25284300
+GOOD take short 25292760
+start  25292760
+set_take=61.6615000000000041 25318440
+GOOD take short 25319700
+start  25319700
+set_take=62.50051 25371720
+GOOD take short 25392120
+start  25392120
+set_take=61.4530 25400400
+GOOD take long 25423740
+start  25423740
+set_take=60.5755000000000050 25489080
+GOOD take long 25501320
+start  25501320
+set_take=59.7955000000000040 25517160
+GOOD take long 25522020
+start  25522020
+set_take=59.0840 25541580
+GOOD take long 25543440
+start  25543440
+set_take=58.2590 25589580
+GOOD take long 25632540
+start  25632540
+set_take=57.5460 25669200
+GOOD take long 25679100
+start  25679100
+set_take=58.42251 25699860
+GOOD take short 25748520
+start  25748520
+set_take=59.2661 25802580
+GOOD take short 25804620
+start  25804620
+set_take=60.25351 25846860
+GOOD take short 26015820
+start  26015820
+set_take=60.961 26051220
+GOOD take short 26095320
+start  26095320
+set_take=61.7831 26128980
+GOOD take short 26218800
+start  26218800
+set_take=60.90550 26222880
+set_take=59.61550 26236020
+GOOD take long 26316600
+start  26316600
+set_take=61.12651 26320260
+GOOD take short 26339280
+start  26339280
+set_take=62.0785000000000051 26401920
+GOOD take short 26410860
+start  26410860
+set_take=61.1730 26486040
+GOOD take long 26492040
+start  26492040
+set_take=62.1191 26528040
+set_take=63.5755000000000051 26587740
+GOOD take short 26599860
+start  26599860
+set_take=64.435499999999991 26635800
+GOOD take short 26659200
+start  26659200
+set_take=63.5250 26678400
+GOOD take long 26685480
+start  26685480
+set_take=64.5741 26715240
+GOOD take short 26716980
+start  26716980
+set_take=63.610 26726040
+set_take=62.3450 26731020
+GOOD take long 26881620
+start  26881620
+set_take=63.3381 26888340
+GOOD take short 26902980
+start  26902980
+set_take=62.4220 26906700
+GOOD take long 26909520
+start  26909520
+set_take=61.5644999999999950 26921160
+GOOD take long 26999160
+start  26999160
+set_take=60.7245000000000060 27022680
+GOOD take long 27024540
+start  27024540
+set_take=60.0254999999999940 27046740
+GOOD take long 27047700
+start  27047700
+set_take=59.2660 27051360
+set_take=57.82150 27073020
+set_take=56.1550 27089160
+set_take=54.5734999999999960 27211020
+GOOD take long 27250980
+start  27250980
+set_take=53.96750 27335220
+GOOD take long 27345720
+start  27345720
+set_take=54.80851 27359100
+GOOD take short 27360000
+start  27360000
+set_take=55.9445000000000051 27363660
+GOOD take short 27375960
+start  27375960
+set_take=56.7874999999999941 27394440
+GOOD take short 27401460
+start  27401460
+set_take=55.94950 27413880
+GOOD take long 27424140
+start  27424140
+set_take=56.9031 27460920
+GOOD take short 27465360
+start  27465360
+set_take=56.14550 27487440
+GOOD take long 27488640
+start  27488640
+set_take=57.0641 27539340
+GOOD take short 27539700
+start  27539700
+set_take=56.2759999999999960 27623100
+GOOD take long 27626340
+start  27626340
+set_take=55.55950 27679740
+GOOD take long 27682320
+start  27682320
+set_take=56.4625000000000061 27699480
+GOOD take short 27706200
+start  27706200
+set_take=55.0725000000000050 27709860
+set_take=53.8150 27737700
+GOOD take long 27865020
+start  27865020
+set_take=54.7471 27882840
+GOOD take short 27897300
+start  27897300
+set_take=53.9920000000000040 27912600
+GOOD take long 27919980
+start  27919980
+set_take=54.89451 27958140
+GOOD take short 28001940
+start  28001940
+set_take=54.13750 28051920
+set_take=52.9570 28059840
+GOOD take long 28068240
+start  28068240
+set_take=54.01051 28093980
+GOOD take short 28113900
+start  28113900
+set_take=54.9151 28180860
+GOOD take short 28184040
+start  28184040
+set_take=55.72851 28214340
+GOOD take short 28217640
+start  28217640
+set_take=54.7470 28225680
+GOOD take long 28226280
+start  28226280
+set_take=55.6894999999999951 28235220
+GOOD take short 28236840
+start  28236840
+set_take=56.5335000000000041 28241340
+GOOD take short 28267080
+start  28267080
+set_take=57.4710000000000041 28272180
+GOOD take short 28275780
+start  28275780
+set_take=58.29051 28303980
+set_take=59.77251 28315620
+GOOD take short 28373340
+start  28373340
+set_take=60.551 28404600
+GOOD take short 28414260
+start  28414260
+set_take=59.5890 28432860
+GOOD take long 28436640
+start  28436640
+set_take=60.63351 28522260
+GOOD take short 28525560
+start  28525560
+set_take=59.7470 28537860
+GOOD take long 28540500
+start  28540500
+set_take=60.73751 28605600
+GOOD take short 28611540
+start  28611540
+set_take=59.7925000000000040 28638360
+GOOD take long 28640820
+start  28640820
+set_take=58.8829999999999960 28655520
+GOOD take long 28656360
+start  28656360
+set_take=58.1209999999999950 28665900
+set_take=56.6960 28669560
+set_take=55.19750 28690860
+GOOD take long 28737720
+start  28737720
+set_take=56.1811 28763880
+GOOD take short 28803840
+start  28803840
+set_take=57.011 28817220
+GOOD take short 28821600
+start  28821600
+set_take=57.7780000000000061 28849140
+GOOD take short 28857840
+start  28857840
+set_take=58.62251 28876260
+set_take=59.9941 28899360
+set_take=61.6971 28996440
+GOOD take short 29115120
+start  29115120
+set_take=62.4311 29129280
+GOOD take short 29130300
+start  29130300
+set_take=61.45250 29135040
+GOOD take long 29148780
+start  29148780
+set_take=60.6690 29180940
+GOOD take long 29181900
+start  29181900
+set_take=61.7331 29236380
+set_take=63.2971 29249040
+set_take=65.13851 29253000
+GOOD take short 29254200
+start  29254200
+set_take=63.77950 29258160
+GOOD take long 29259780
+start  29259780
+set_take=62.7650 29263440
+GOOD take long 29272200
+start  29272200
+set_take=61.3850 29275860
+set_take=59.9930 29286840
+GOOD take long 29308320
+start  29308320
+set_take=59.1765000000000040 29323740
+GOOD take long 29326380
+start  29326380
+set_take=60.1765000000000041 29346420
+GOOD take short 29347560
+start  29347560
+set_take=59.10350 29361360
+GOOD take long 29361960
+start  29361960
+set_take=60.20851 29408400
+GOOD take short 29409240
+start  29409240
+set_take=59.1890 29434800
+GOOD take long 29435100
+start  29435100
+set_take=58.3469999999999940 29438760
+set_take=57.1684999999999950 29463840
+GOOD take long 29601420
+start  29601420
+set_take=56.20050 29699580
+GOOD take long 29710440
+start  29710440
+set_take=55.4740000000000040 29717340
+set_take=54.3340 29721000
+set_take=52.8075000000000050 29739600
+GOOD take long 29813160
+start  29813160
+set_take=52.13650 29826000
+GOOD take long 29832420
+start  29832420
+set_take=51.460 29861880
+GOOD take long 29866020
+start  29866020
+set_take=52.37651 29871780
+GOOD take short 29875920
+start  29875920
+set_take=51.63850 29923680
+GOOD take long 29928600
+start  29928600
+set_take=52.42851 29942760
+set_take=53.7051 29967900
+GOOD take short 29971080
+start  29971080
+set_take=52.8919999999999960 29974740
+GOOD take long 29975940
+start  29975940
+set_take=51.7720000000000060 29979600
+GOOD take long 29997000
+start  29997000
+set_take=52.5851 30017100
+GOOD take short 30036300
+start  30036300
+set_take=53.41551 30057960
+GOOD take short 30059040
+start  30059040
+set_take=54.20951 30092880
+GOOD take short 30097320
+start  30097320
+set_take=53.44450 30103620
+GOOD take long 30135660
+start  30135660
+set_take=54.4214999999999951 30154140
+GOOD take short 30236280
+start  30236280
+set_take=53.61050 30244440
+GOOD take long 30246540
+start  30246540
+set_take=52.8180 30325320
+GOOD take long 30326040
+start  30326040
+set_take=53.75251 30423600
+GOOD take short 30477180
+start  30477180
+set_take=52.94050 30480840
+GOOD take long 30548580
+start  30548580
+set_take=53.8011 30730620
+GOOD take short 30749520
+start  30749520
+set_take=52.98550 30829500
+GOOD take long 30857700
+start  30857700
+set_take=52.2680 30933960
+GOOD take long 30941220
+start  30941220
+set_take=53.15151 30989220
+set_take=54.4364999999999951 31098540
+GOOD take short 31139880
+start  31139880
+set_take=53.62250 31286760
+GOOD take long 31292760
+start  31292760
+set_take=52.89850 31328820
+GOOD take long 31330680
+start  31330680
+set_take=53.7699999999999961 31545600
+GOOD take short 31571040
+start  31571040
+set_take=53.0120 31621620
+GOOD take long 31626600
+start  31626600
+set_take=52.24050 31630260
+GOOD take long 31672740
+start  31672740
+set_take=51.5350 31826460
+set_take=50.11950 31839000
+GOOD take long 31843140
+start  31843140
+set_take=49.3280 31846800
+GOOD take long 31852320
+start  31852320
+set_take=50.161 31861260
+set_take=51.3391 31894140
+GOOD take short 31938840
+start  31938840
+set_take=50.62950 32056920
+GOOD take long 32058720
+start  32058720
+set_take=51.40551 32195580
+GOOD take short 32268000
+start  32268000
+set_take=50.7129999999999940 32523540
+GOOD take long 32539620
+start  32539620
+set_take=51.5455000000000041 32613360
+set_take=52.74251 32746500
+GOOD take short 32778360
+start  32778360
+set_take=53.7271 32899200
+set_take=55.0941 32907300
+GOOD take short 33083520
+start  33083520
+set_take=54.3580000000000040 33124140
+GOOD take long 33144360
+start  33144360
+set_take=55.27451 33213540
+GOOD take short 33231660
+start  33231660
+set_take=56.0875000000000061 33241740
+GOOD take short 33249720
+start  33249720
+set_take=55.35850 33350220
+GOOD take long 33354900
+start  33354900
+set_take=54.6290000000000050 33364380
+GOOD take long 33366600
+start  33366600
+set_take=55.511 33392460
+GOOD take short 33406200
+start  33406200
+set_take=54.6389999999999960 33409860
+GOOD take long 33413580
+start  33413580
+set_take=55.6041 33560340
+unnormal_move 1 False 33561720
+set_take=58.721 33561720
+GOOD take short 33565200
+start  33565200
+set_take=59.3691 33575880
+set_take=60.8679999999999951 33582360
+GOOD take short 33583200
+start  33583200
+set_take=59.9610 33599220
+GOOD take long 33607680
+start  33607680
+set_take=61.0061 33617700
+set_take=62.4371 33621660
+GOOD take short 33632400
+start  33632400
+set_take=61.5760 33657360
+GOOD take long 33674340
+start  33674340
+set_take=62.5755000000000051 33686040
+GOOD take short 33688860
+start  33688860
+set_take=63.51951 33721560
+GOOD take short 33722820
+start  33722820
+set_take=64.8221 33731640
+GOOD take short 33744540
+start  33744540
+set_take=65.8341 33748800
+set_take=67.63351 33755040
+GOOD take short 33759840
+start  33759840
+set_take=68.7441 33803580
+GOOD take short 33804060
+start  33804060
+set_take=69.65251 33830100
+GOOD take short 33832200
+start  33832200
+set_take=70.96051 33848340
+GOOD take short 33848760
+start  33848760
+set_take=69.98050 33859200
+GOOD take long 33861120
+start  33861120
+set_take=69.05350 33875340
+GOOD take long 33877140
+start  33877140
+set_take=68.13250 33959940
+GOOD take long 33960720
+start  33960720
+set_take=69.25151 33964380
+set_take=70.91951 33970620
+GOOD take short 33983100
+start  33983100
+set_take=69.795999999999990 33989520
+GOOD take long 33990900
+start  33990900
+set_take=68.884999999999990 34012080
+GOOD take long 34012740
+start  34012740
+set_take=68.039999999999990 34041780
+GOOD take long 34047960
+start  34047960
+set_take=67.0710 34058040
+set_take=65.56850 34061880
+set_take=63.95050 34066980
+GOOD take long 34071120
+start  34071120
+set_take=65.05751 34103760
+set_take=66.57151 34107660
+GOOD take short 34109100
+start  34109100
+set_take=64.19650 34112760
+set_take=62.40650 34116480
+unnormal_move 0 False 34117860
+set_take=58.5370000000000060 34117860
+GOOD take long 34141560
+start  34141560
+set_take=57.68450 34162920
+set_take=56.49150 34169460
+GOOD take long 34173360
+start  34173360
+set_take=55.7080 34190160
+set_take=54.5230 34193820
+GOOD take long 34194240
+start  34194240
+set_take=53.7830 34199280
+GOOD take long 34203780
+start  34203780
+set_take=53.1040 34208580
+GOOD take long 34208700
+start  34208700
+unnormal_move 0 False 34211280
+set_take=49.5470 34211280
+GOOD take long 34211580
+start  34211580
+set_take=50.62051 34221000
+set_take=51.9191 34224660
+GOOD take short 34225860
+start  34225860
+set_take=52.77551 34231620
+GOOD take short 34233060
+start  34233060
+set_take=53.575999999999991 34237680
+GOOD take short 34244820
+start  34244820
+set_take=54.4094999999999941 34264500
+GOOD take short 34264680
+start  34264680
+set_take=55.2851 34268340
+set_take=57.5545000000000041 34272000
+GOOD take short 34284360
+start  34284360
+set_take=58.6521 34295580
+set_take=60.14851 34308720
+GOOD take short 34314840
+start  34314840
+set_take=60.89751 34323420
+GOOD take short 34324380
+start  34324380
+set_take=61.83151 34332840
+GOOD take short 34336380
+start  34336380
+set_take=62.7014999999999961 34342140
+GOOD take short 34343160
+start  34343160
+set_take=61.5010000000000050 34357260
+GOOD take long 34357620
+start  34357620
+set_take=60.5540 34361340
+GOOD take long 34361580
+start  34361580
+set_take=59.5590 34365240
+GOOD take long 34365780
+start  34365780
+set_take=60.5861 34371240
+GOOD take short 34374480
+start  34374480
+set_take=59.7220 34408620
+GOOD take long 34419720
+start  34419720
+set_take=59.1160 34503000
+set_take=57.9170 34519800
+GOOD take long 34522140
+start  34522140
+set_take=57.06650 34555320
+GOOD take long 34557480
+start  34557480
+set_take=56.2990 34572120
+GOOD take long 34572780
+start  34572780
+set_take=55.55850 34581480
+GOOD take long 34590180
+start  34590180
+set_take=56.75651 34593840
+GOOD take short 34618560
+start  34618560
+set_take=55.94050 34637760
+GOOD take long 34648860
+start  34648860
+set_take=56.91 34657920
+set_take=58.22251 34756680
+GOOD take short 34769700
+start  34769700
+set_take=57.3450 34796460
+GOOD take long 34797120
+start  34797120
+set_take=58.47951 34852080
+GOOD take short 34858980
+start  34858980
+set_take=59.5381 34883640
+set_take=61.0331 34900560
+GOOD take short 35127720
+start  35127720
+set_take=62.0941 35173680
+GOOD take short 35179380
+start  35179380
+set_take=60.7920 35183040
+GOOD take long 35192400
+start  35192400
+set_take=61.76051 35268480
+GOOD take short 35277120
+start  35277120
+set_take=62.6951 35303520
+set_take=65.770000000000011 35307180
+unnormal_move 1 False 35352120
+set_take=70.13951 35352120
+set_take=73.7651 35357100
+GOOD take short 35598660
+start  35598660
+set_take=74.88351 35607840
+GOOD take short 35616780
+start  35616780
+set_take=76.511500000000011 35620440
+GOOD take short 35657700
+start  35657700
+set_take=77.3891 35705040
+GOOD take short 35705760
+start  35705760
+set_take=76.118500000000010 35759940
+GOOD take long 35771160
+start  35771160
+set_take=75.0310 35779800
+GOOD take long 35780220
+start  35780220
+set_take=73.2920 35783880
+GOOD take long 35835780
+start  35835780
+set_take=74.570500000000011 35863200
+set_take=76.4911 35950980
+GOOD take short 36055080
+start  36055080
+set_take=77.883000000000011 36086580
+GOOD take short 36086880
+start  36086880
+set_take=76.848000000000010 36129060
+GOOD take long 36162540
+start  36162540
+set_take=78.0941 36396360
+set_take=80.517500000000011 36400020
+GOOD take short 36449700
+start  36449700
+set_take=79.11750 36521460
+GOOD take long 36522000
+start  36522000
+set_take=77.317000000000010 36579120
+GOOD take long 36707280
+start  36707280
+set_take=76.3450 36846360
+GOOD take long 36850920
+start  36850920
+set_take=77.581 36967320
+GOOD take short 36971760
+start  36971760
+set_take=76.18050 36995460
+GOOD take long 37062540
+start  37062540
+set_take=75.254500000000010 37097640
+GOOD take long 37099440
+start  37099440
+set_take=76.54551 37120140
+GOOD take short 37222920
+start  37222920
+set_take=75.38950 37228440
+GOOD take long 37228740
+start  37228740
+set_take=74.3620 37251840
+GOOD take long 37252680
+start  37252680
+set_take=73.298499999999990 37309560
+GOOD take long 37341180
+start  37341180
+set_take=72.16850 37362840
+set_take=70.582500000000010 37366680
+set_take=68.7610 37389900
+set_take=66.6220 37438860
+GOOD take long 37770960
+start  37770960
+set_take=65.7230 37775280
+GOOD take long 37806300
+start  37806300
+set_take=64.9280 37906920
+GOOD take long 37911060
+start  37911060
+set_take=65.939500000000011 37937400
+GOOD take short 37957920
+start  37957920
+set_take=67.00551 38187120
+set_take=68.933500000000011 38232660
+GOOD take short 38344980
+start  38344980
+set_take=67.858499999999990 38388240
+GOOD take long 38389440
+start  38389440
+set_take=66.935499999999990 38444700
+GOOD take long 38494140
+start  38494140
+set_take=67.973000000000011 38670840
+set_take=69.6251 38776620
+set_take=72.881 38825700
+GOOD take short 39168180
+start  39168180
+set_take=73.4951 39193920
+set_take=75.2591 39375600
+set_take=77.4081 39406080
+set_take=79.741999999999991 39441420
+GOOD take short 39539820
+start  39539820
+set_take=80.834499999999991 39559980
+GOOD take short 39572340
+start  39572340
+set_take=82.23751 39601740
+GOOD take short 39608400
+start  39608400
+set_take=81.09950 39635160
+GOOD take long 39637260
+start  39637260
+set_take=82.3611 39647520
+GOOD take short 39653640
+start  39653640
+set_take=83.5941 39661620
+GOOD take short 39664800
+start  39664800
+set_take=84.804499999999991 39670560
+GOOD take short 39673860
+start  39673860
+set_take=83.4250 39712260
+GOOD take long 39712440
+start  39712440
+set_take=84.75851 39733980
+GOOD take short 39744600
+start  39744600
+set_take=86.0661 39828960
+GOOD take short 39832080
+start  39832080
+set_take=87.7381 39838620
+GOOD take short 39869820
+start  39869820
+set_take=86.21650 39924780
+GOOD take long 39924900
+start  39924900
+set_take=87.58651 39976740
+GOOD take short 39987840
+start  39987840
+set_take=85.55950 40038540
+GOOD take long 40039020
+start  40039020
+set_take=87.14851 40136760
+GOOD take short 40148040
+start  40148040
+set_take=88.22951 40154880
+GOOD take short 40155240
+start  40155240
+set_take=86.913000000000010 40218060
+GOOD take long 40231560
+start  40231560
+set_take=85.564500000000010 40239180
+set_take=83.73850 40316100
+GOOD take long 40326600
+start  40326600
+set_take=85.058500000000011 40415220
+set_take=87.0411 40427940
+GOOD take short 40602780
+start  40602780
+set_take=88.2431 40645620
+set_take=90.43051 40657200
+GOOD take short 40663860
+start  40663860
+set_take=88.47850 40779240
+GOOD take long 40858680
+start  40858680
+set_take=89.9551 40864740
+GOOD take short 40868820
+start  40868820
+set_take=88.4170 40930440
+GOOD take long 41022060
+start  41022060
+set_take=89.758000000000011 41132820
+set_take=92.371000000000011 41136480
+GOOD take short 41251380
+start  41251380
+set_take=90.75350 41287800
+GOOD take long 41303640
+start  41303640
+set_take=92.19251 41308080
+set_take=94.3561 41396340
+GOOD take short 41448360
+start  41448360
+set_take=95.95451 41462400
+set_take=98.7061 41471940
+GOOD take short 41531880
+start  41531880
+set_take=100.233499999999991 41542920
+GOOD take short 41547720
+start  41547720
+set_take=98.897500000000010 41557320
+GOOD take long 41558160
+start  41558160
+set_take=100.4111 41652840
+GOOD take short 41654160
+start  41654160
+set_take=99.096499999999990 41736540
+set_take=97.094500000000010 41804400
+GOOD take long 41827200
+start  41827200
+set_take=95.82750 41843220
+GOOD take long 41846520
+start  41846520
+set_take=97.5631 41920740
+set_take=99.9341 42022080
+GOOD take short 42047160
+start  42047160
+set_take=98.592999999999990 42055140
+GOOD take long 42057540
+start  42057540
+set_take=96.94850 42093900
+GOOD take long 42107280
+start  42107280
+set_take=95.7170 42152340
+set_take=93.3860 42156000
+GOOD take long 42239340
+start  42239340
+set_take=92.253999999999990 42421620
+GOOD take long 42424320
+start  42424320
+set_take=93.95351 42428880
+GOOD take short 42429480
+start  42429480
+set_take=92.676999999999990 42459720
+set_take=90.71850 42491820
+GOOD take long 42512520
+start  42512520
+set_take=92.1481 42568020
+set_take=94.3221 42621480
+set_take=96.937999999999991 42674400
+set_take=99.84351 42745200
+GOOD take short 42772440
+start  42772440
+set_take=98.25250 43019160
+GOOD take long 43024680
+start  43024680
+set_take=96.5960 43037640
+GOOD take long 43038420
+start  43038420
+set_take=95.38850 43104540
+GOOD take long 43109940
+start  43109940
+set_take=94.16250 43151160
+GOOD take long 43152180
+start  43152180
+set_take=92.9220 43170240
+GOOD take long 43171200
+start  43171200
+set_take=94.3741 43220460
+GOOD take short 43224360
+start  43224360
+set_take=92.95650 43260960
+GOOD take long 43267080
+start  43267080
+set_take=94.49151 43292520
+GOOD take short 43333620
+start  43333620
+set_take=93.2750 43433700
+GOOD take long 43548660
+start  43548660
+set_take=94.68651 43645320
+GOOD take short 43653240
+start  43653240
+set_take=93.35950 43704300
+GOOD take long 43708200
+start  43708200
+set_take=94.777999999999991 43781880
+GOOD take short 43794420
+start  43794420
+set_take=96.3941 43828500
+GOOD take short 43934700
+start  43934700
+set_take=94.9470 43957020
+GOOD take long 43965600
+start  43965600
+set_take=93.722000000000010 43988460
+set_take=90.9380 43992120
+GOOD take long 44161200
+start  44161200
+set_take=89.848999999999990 44249640
+set_take=87.99350 44364120
+set_take=85.8090 44466480
+set_take=83.5710 44570700
+set_take=80.4870 44576760
+set_take=77.010500000000010 44614440
+set_take=72.427500000000010 44702220
+set stop = 56.82249999999999 side: 0 last_price:66.85 first_price91.03 take:72.42750000000001 44702220
+GOOD take long 44835600
+start  44835600
+set_take=73.6061 44841840
+GOOD take short 44843640
+start  44843640
+set_take=74.8811 44847300
+set_take=76.776000000000011 44850960
+GOOD take short 44879460
+start  44879460
+set_take=75.65150 44883120
+GOOD take long 44887020
+start  44887020
+set_take=77.01851 44898480
+set_take=79.22051 44902140
+set_take=81.9131 44979720
+GOOD take short 45010020
+start  45010020
+set_take=83.0131 45016740
+GOOD take short 45022140
+start  45022140
+set_take=84.11 45025800
+GOOD take short 45033000
+start  45033000
+set_take=82.955000000000010 45057540
+GOOD take long 45065460
+start  45065460
+set_take=81.920999999999990 45070560
+set_take=80.252000000000010 45076440
+set_take=78.247999999999990 45080340
+GOOD take long 45126480
+start  45126480
+set_take=79.48651 45200100
+set_take=81.3781 45230580
+GOOD take short 45246180
+start  45246180
+set_take=82.6891 45271320
+set_take=84.6541 45282900
+GOOD take short 45335580
+start  45335580
+set_take=83.0130 45339240
+GOOD take long 45339600
+start  45339600
+set_take=84.7141 45425820
+GOOD take short 45430860
+start  45430860
+set_take=83.5020 45455220
+GOOD take long 45457860
+start  45457860
+set_take=82.399499999999990 45464700
+GOOD take long 45478320
+start  45478320
+set_take=81.3680 45511560
+GOOD take long 45511800
+start  45511800
+set_take=80.33550 45517140
+GOOD take long 45519060
+start  45519060
+set_take=79.45350 45536160
+GOOD take long 45541620
+start  45541620
+set_take=78.390999999999990 45564600
+GOOD take long 45570540
+start  45570540
+set_take=79.7621 45574800
+GOOD take short 45687420
+start  45687420
+set_take=80.98851 45691260
+GOOD take short 45692160
+start  45692160
+set_take=81.05951 45695820
+GOOD take short 45696360
+start  45696360
+set_take=83.14451 45700020
+set_take=85.3641 45710580
+set_take=87.84451 45747120
+set_take=90.51151 45771300
+GOOD take short 45840420
+start  45840420
+set_take=90.82951 45844080
+GOOD take short 45846000
+start  45846000
+set_take=92.169000000000011 45878820
+GOOD take short 45881520
+start  45881520
+set_take=90.919999999999990 45952860
+GOOD take long 45959340
+start  45959340
+set_take=92.5111 45976800
+GOOD take short 46024260
+start  46024260
+set_take=91.22150 46111080
+set_take=88.77050 46147260
+GOOD take long 46215120
+start  46215120
+set_take=90.61 46253280
+GOOD take short 46282200
+start  46282200
+set_take=92.15451 46325880
+GOOD take short 46327440
+start  46327440
+set_take=90.7610 46331100
+GOOD take long 46343700
+start  46343700
+set_take=89.5550 46367640
+GOOD take long 46370880
+start  46370880
+set_take=88.35350 46379520
+GOOD take long 46386360
+start  46386360
+set_take=89.77151 46495740
+set_take=91.859000000000011 46499580
+GOOD take short 46550160
+start  46550160
+set_take=93.46851 46601700
+GOOD take short 46607340
+start  46607340
+set_take=92.08650 46630620
+GOOD take long 46630920
+start  46630920
+set_take=93.591000000000011 46730160
+GOOD take short 46733760
+start  46733760
+set_take=92.0230 46737420
+GOOD take long 46740720
+start  46740720
+set_take=93.5011 46843200
+GOOD take short 46883700
+start  46883700
+set_take=92.2170 46888980
+GOOD take long 46891140
+start  46891140
+set_take=90.96150 46957260
+GOOD take long 46965900
+start  46965900
+set_take=89.79350 47035800
+GOOD take long 47037240
+start  47037240
+set_take=91.5721 47320080
+set_take=94.1541 47368920
+GOOD take short 47425260
+start  47425260
+set_take=92.8110 47447700
+GOOD take long 47484840
+start  47484840
+set_take=94.864499999999991 47614560
+GOOD take short 47668260
+start  47668260
+set_take=96.19851 47686320
+GOOD take short 47689080
+start  47689080
+set_take=97.73451 47832480
+GOOD take short 47835240
+start  47835240
+set_take=99.330999999999991 47841300
+GOOD take short 47873340
+start  47873340
+set_take=100.4221 47966220
+GOOD take short 48023280
+start  48023280
+set_take=98.96950 48073860
+set_take=96.96450 48078120
+set_take=94.2550 48121320
+set_take=91.66650 48188580
+GOOD take long 48638640
+start  48638640
+set_take=93.06251 48696000
+GOOD take short 48697920
+start  48697920
+set_take=91.80150 48718620
+set_take=88.661499999999990 48722280
+GOOD take long 48729660
+start  48729660
+set_take=90.16251 48956160
+GOOD take short 48971400
+start  48971400
+set_take=88.551999999999990 49067460
+GOOD take long 49070520
+start  49070520
+set_take=87.2950 49087200
+GOOD take long 49089180
+start  49089180
+set_take=86.018499999999990 49150500
+GOOD take long 49151220
+start  49151220
+set_take=87.42851 49198320
+GOOD take short 49261500
+start  49261500
+set_take=86.16050 49308240
+GOOD take long 49314660
+start  49314660
+set_take=87.506499999999991 49331040
+GOOD take short 49389540
+start  49389540
+set_take=88.808500000000011 49485660
+GOOD take short 49486680
+start  49486680
+set_take=87.6570 49521900
+set_take=85.83850 49561920
+set_take=83.4190 49692240
+set_take=81.056000000000010 49750560
+GOOD take long 49903920
+start  49903920
+set_take=79.969500000000010 49920900
+GOOD take long 49925400
+start  49925400
+set_take=78.8780 50043180
+GOOD take long 50048880
+start  50048880
+set_take=80.116000000000011 50153760
+GOOD take short 50167140
+start  50167140
+set_take=81.426999999999991 50259000
+set_take=83.4431 50303400
+set_take=85.80851 50395380
+set_take=88.3991 50466900
+GOOD take short 51083580
+start  51083580
+set_take=86.1330 51118260
+GOOD take long 51148920
+start  51148920
+set_take=85.00050 51159780
+GOOD take long 51198180
+start  51198180
+set_take=86.43351 51245100
+GOOD take short 51260640
+start  51260640
+set_take=87.82251 51402480
+set_take=89.8941 51493380
+GOOD take short 51690960
+start  51690960
+set_take=90.8721 51776100
+set_take=93.05651 51814860
+GOOD take short 51848280
+start  51848280
+set_take=94.2751 51855180
+GOOD take short 51892860
+start  51892860
+set_take=95.74751 51970500
+GOOD take short 52007760
+start  52007760
+set_take=94.4240 52108020
+set_take=92.3510 52160700
+set_take=89.9220 52164360
+GOOD take long 52261440
+start  52261440
+set_take=88.79650 52330620
+GOOD take long 52330920
+start  52330920
+set_take=87.6950 52460340
+GOOD take long 52466160
+start  52466160
+set_take=89.081 52498560
+GOOD take short 52504140
+start  52504140
+set_take=87.881499999999990 52546920
+set_take=86.0780 52552740
+unnormal_move 0 False 52553040
+set_take=80.8360 52553040
+set_take=77.1890 52956660
+GOOD take long 53162460
+start  53162460
+set_take=76.41450 53453220
+GOOD take long 53458020
+start  53458020
+set_take=77.728000000000011 53466060
+set_take=79.6021 53490900
+set_take=81.91651 53509620
+set_take=84.42551 53578680
+set_take=88.131 53759100
+GOOD take short 53802720
+start  53802720
+set_take=89.03251 53832960
+GOOD take short 53835660
+start  53835660
+set_take=87.87650 53882100
+GOOD take long 53882520
+start  53882520
+set_take=89.231 53970900
+GOOD take short 53971860
+start  53971860
+set_take=87.8380 53979900
+GOOD take long 54011880
+start  54011880
+set_take=86.6560 54119580
+set_take=84.222000000000010 54162600
+GOOD take long 54212580
+start  54212580
+set_take=85.57951 54273180
+set_take=88.360999999999991 54276840
+set_take=91.15051 54280500
+set_take=94.1241 54296520
+GOOD take short 54314460
+start  54314460
+set_take=94.6861 54318120
+set_take=97.254500000000011 54324360
+unnormal_move 1 False 54326580
+set_take=102.99851 54326580
+GOOD take short 54332640
+start  54332640
+set_take=104.6241 54336300
+set_take=107.2431 54352140
+GOOD take short 54354300
+start  54354300
+set_take=105.314500000000010 54367320
+GOOD take long 54367380
+start  54367380
+set_take=106.93451 54376080
+GOOD take short 54378240
+start  54378240
+set_take=109.30351 54382680
+GOOD take short 54384600
+start  54384600
+set_take=107.175999999999990 54390060
+GOOD take long 54437520
+start  54437520
+set_take=108.9791 54455460
+set_take=111.5171 54529620
+GOOD take short 54547860
+start  54547860
+set_take=109.6790 54567720
+GOOD take long 54568980
+start  54568980
+set_take=108.18750 54583620
+GOOD take long 54623640
+start  54623640
+set_take=106.6780 54679620
+GOOD take long 54688140
+start  54688140
+set_take=105.1910 54696900
+GOOD take long 54697860
+start  54697860
+set_take=103.318999999999990 54735480
+GOOD take long 54735780
+start  54735780
+set_take=102.25150 54741300
+GOOD take long 54741600
+start  54741600
+set_take=100.98350 54753000
+GOOD take long 54759060
+start  54759060
+set_take=102.72851 54791460
+GOOD take short 54801420
+start  54801420
+set_take=104.26951 54805080
+GOOD take short 54805860
+start  54805860
+set_take=102.862500000000010 54826680
+set_take=100.81550 54833700
+set_take=98.440 54866880
+GOOD take long 54952800
+start  54952800
+set_take=97.19650 55070460
+GOOD take long 55102500
+start  55102500
+set_take=95.975500000000010 55128120
+GOOD take long 55196460
+start  55196460
+set_take=97.5311 55410180
+set_take=99.80751 55444320
+GOOD take short 55464480
+start  55464480
+set_take=101.33651 55475640
+GOOD take short 55488060
+start  55488060
+set_take=99.598999999999990 55536300
+set_take=97.0680 55540800
+set_take=94.61150 55732500
+GOOD take long 56024520
+start  56024520
+set_take=93.032999999999990 56045820
+GOOD take long 56138880
+start  56138880
+set_take=94.61651 56169960
+GOOD take short 56178360
+start  56178360
+set_take=93.177500000000010 56248860
+GOOD take long 56319360
+start  56319360
+set_take=89.4750 56374200
+GOOD take long 56375040
+start  56375040
+set_take=90.98751 56605320
+GOOD take short 56607780
+start  56607780
+set_take=92.3661 56851800
+GOOD take short 56929320
+start  56929320
+set_take=92.7291 56933340
+GOOD take short 56959800
+start  56959800
+set_take=91.2810 57037740
+GOOD take long 57079620
+start  57079620
+set_take=92.81151 57087960
+GOOD take short 57088560
+start  57088560
+set_take=91.4960 57143880
+set_take=89.534500000000010 57177060
+set_take=86.84750 57282360
+set_take=84.3180 57356700
+GOOD take long 57691620
+start  57691620
+set_take=83.3620 57877740
+GOOD take long 57937800
+start  57937800
+set_take=82.2850 58148400
+GOOD take long 58169760
+start  58169760
+set_take=80.76950 58308420
+set_take=79.0240 58376580
+set_take=77.08850 58399680
+set_take=75.1050 58490100
+unnormal_move 0 False 58490460
+set_take=70.07750 58490460
+unnormal_move 0 False 58490580
+set_take=62.94550 58490580
+GOOD take long 58491240
+start  58491240
+set_take=64.61051 58495020
+GOOD take short 58497240
+start  58497240
+set_take=65.627000000000011 58760640
+GOOD take short 58784760
+start  58784760
+set_take=66.596499999999991 58844580
+GOOD take short 58855740
+start  58855740
+set_take=65.705000000000010 58904040
+GOOD take long 58904220
+start  58904220
+set_take=65.0110 58907940
+GOOD take long 58911540
+start  58911540
+set_take=64.1160 58921560
+GOOD take long 58926000
+start  58926000
+set_take=65.24551 58989600
+GOOD take short 59009580
+start  59009580
+set_take=64.3380 59116020
+GOOD take long 59126760
+start  59126760
+set_take=65.323000000000011 59330820
+GOOD take short 59339940
+start  59339940
+set_take=66.338500000000011 59501160
+set_take=67.90151 59511480
+GOOD take short 59539680
+start  59539680
+set_take=66.8120 59678460
+set_take=64.9760 59683200
+set_take=62.89650 60501720
+set_take=61.0370 60634620
+GOOD take long 60696120
+start  60696120
+set_take=60.3260 60721080
+GOOD take long 60728100
+start  60728100
+set_take=61.691 60772680
+GOOD take short 60772980
+start  60772980
+set_take=62.3451 60834840
+GOOD take short 60836280
+start  60836280
+set_take=63.25151 60967260
+GOOD take short 60971220
+start  60971220
+set_take=64.17651 60985020
+GOOD take short 61094460
+start  61094460
+set_take=64.74251 61211400
+set_take=66.258000000000011 61297320
+GOOD take short 61371840
+start  61371840
+set_take=65.31650 61395420
+GOOD take long 61416720
+start  61416720
+set_take=64.503999999999990 61421160
+GOOD take long 61426560
+start  61426560
+set_take=63.6970 61475640
+GOOD take long 61481400
+start  61481400
+set_take=64.685499999999991 61528920
+GOOD take short 61540980
+start  61540980
+set_take=63.79350 61782720
+GOOD take long 61785780
+start  61785780
+set_take=64.7791 61997460
+GOOD take short 62004720
+start  62004720
+set_take=63.6270 62052600
+GOOD take long 62061960
+start  62061960
+set_take=64.615000000000011 62099100
+GOOD take short 62108700
+start  62108700
+set_take=65.558500000000011 62155140
+GOOD take short 62176800
+start  62176800
+set_take=66.534500000000011 62336760
+GOOD take short 62363820
+start  62363820
+set_take=67.6281 62381040
+GOOD take short 62402580
+start  62402580
+set_take=66.21850 62453940
+GOOD take long 62458500
+start  62458500
+set_take=65.29350 62560620
+GOOD take long 62740020
+start  62740020
+set_take=64.480 63026760
+set_take=63.1280 63051780
+GOOD take long 63063960
+start  63063960
+set_take=62.31250 63219360
+GOOD take long 63615480
+start  63615480
+set_take=63.2994999999999951 63642720
+GOOD take short 63646140
+start  63646140
+set_take=62.2890 63732480
+GOOD take long 63735480
+start  63735480
+set_take=61.47650 63839040
+GOOD take long 63909840
+start  63909840
+set_take=62.42851 63969420
+set_take=63.879500000000011 64116480
+GOOD take short 64142400
+start  64142400
+set_take=64.379500000000011 64173480
+GOOD take short 64191060
+start  64191060
+set_take=65.342999999999991 64206180
+set_take=66.8731 64282800
+set_take=68.6971 64296360
+GOOD take short 64310820
+start  64310820
+set_take=69.765999999999991 64330500
+GOOD take short 64339320
+start  64339320
+set_take=68.3460 64343400
+GOOD take long 64343520
+start  64343520
+set_take=69.54451 64378080
+GOOD take short 64382760
+start  64382760
+set_take=68.364499999999990 64401960
+GOOD take long 64404600
+start  64404600
+set_take=69.4671 64429740
+GOOD take short 64433280
+start  64433280
+set_take=68.4940 64452000
+GOOD take long 64454040
+start  64454040
+set_take=69.551999999999991 64487820
+GOOD take short 64494480
+start  64494480
+set_take=68.5940 64512840
+GOOD take long 64540380
+start  64540380
+set_take=67.51350 64607220
+GOOD take long 64635120
+start  64635120
+set_take=68.602499999999991 64782960
+GOOD take short 64789380
+start  64789380
+set_take=69.72251 64925460
+GOOD take short 64928820
+start  64928820
+set_take=68.665500000000010 64948980
+GOOD take long 64951680
+start  64951680
+set_take=67.7130 65000520
+GOOD take long 65002140
+start  65002140
+set_take=68.81251 65052840
+GOOD take short 65121060
+start  65121060
+set_take=69.64251 65322600
+set_take=71.2691 65448720
+GOOD take short 65558700
+start  65558700
+set_take=72.42651 65562420
+set_take=74.1781 65722500
+GOOD take short 65728200
+start  65728200
+set_take=72.25950 65731860
+GOOD take long 65752140
+start  65752140
+set_take=73.4241 65756700
+GOOD take short 65760060
+start  65760060
+set_take=72.43650 65806620
+GOOD take long 65820300
+start  65820300
+set_take=73.5551 65886480
+GOOD take short 65931000
+start  65931000
+set_take=74.60951 65954940
+GOOD take short 65974020
+start  65974020
+set_take=73.548499999999990 66038880
+GOOD take long 66040380
+start  66040380
+set_take=72.50150 66091980
+GOOD take long 66133920
+start  66133920
+set_take=71.55950 66142380
+GOOD take long 66150780
+start  66150780
+set_take=70.71050 66169380
+GOOD take long 66186660
+start  66186660
+set_take=71.94251 66253860
+GOOD take short 66322560
+start  66322560
+set_take=70.72550 66344460
+GOOD take long 66346020
+start  66346020
+set_take=69.82750 66414300
+GOOD take long 66425880
+start  66425880
+set_take=68.901000000000010 66471960
+GOOD take long 66476340
+start  66476340
+set_take=69.9821 66618600
+GOOD take short 66671460
+start  66671460
+set_take=70.74151 66753780
+GOOD take short 66756120
+start  66756120
+set_take=69.43250 66761460
+GOOD take long 66763800
+start  66763800
+set_take=68.61850 66770640
+GOOD take long 66782040
+start  66782040
+set_take=67.808500000000010 66787380
+GOOD take long 66811500
+start  66811500
+set_take=68.995499999999991 66903300
+GOOD take short 66920640
+start  66920640
+set_take=69.9921 67020660
+GOOD take short 67197660
+start  67197660
+set_take=69.01950 67277460
+GOOD take long 67286940
+start  67286940
+set_take=70.088500000000011 67604280
+set_take=71.70851 67835400
+GOOD take short 67942980
+start  67942980
+set_take=72.823000000000011 67980720
+GOOD take short 67989660
+start  67989660
+set_take=73.88851 68002800
+GOOD take short 68008020
+start  68008020
+set_take=72.8640 68024760
+GOOD take long 68025480
+start  68025480
+set_take=74.0131 68035320
+GOOD take short 68038680
+start  68038680
+set_take=72.9260 68086080
+GOOD take long 68092020
+start  68092020
+set_take=74.0351 68188680
+GOOD take short 68202600
+start  68202600
+set_take=75.1311 68216820
+set_take=76.8871 68235180
+GOOD take short 68238240
+start  68238240
+set_take=77.997999999999991 68263140
+GOOD take short 68268720
+start  68268720
+set_take=76.49650 68346780
+GOOD take long 68348400
+start  68348400
+set_take=77.84751 68372520
+GOOD take short 68378760
+start  68378760
+set_take=76.59350 68442420
+set_take=75.02350 68451060
+set_take=73.284500000000010 68583960
+GOOD take long 68682480
+start  68682480
+set_take=72.310499999999990 68809620
+GOOD take long 68813520
+start  68813520
+set_take=71.3720 68864640
+GOOD take long 68867640
+start  68867640
+set_take=72.5841 68974980
+GOOD take short 68976900
+start  68976900
+set_take=71.629500000000010 69037560
+set_take=70.1460 69073320
+GOOD take long 69102360
+start  69102360
+set_take=71.22251 69264660
+GOOD take short 69273180
+start  69273180
+set_take=70.2230 69290400
+GOOD take long 69295020
+start  69295020
+set_take=71.2971 69439380
+GOOD take short 69638040
+start  69638040
+set_take=72.251 69746640
+GOOD take short 69749880
+start  69749880
+set_take=73.39251 69772980
+GOOD take short 69784260
+start  69784260
+set_take=72.37350 69794340
+GOOD take long 69794640
+start  69794640
+set_take=73.49051 69819900
+GOOD take short 69821820
+start  69821820
+set_take=74.54751 69848160
+GOOD take short 69848880
+start  69848880
+set_take=75.86751 69863580
+GOOD take short 69867900
+start  69867900
+set_take=76.9111 69944700
+GOOD take short 69950160
+start  69950160
+set_take=75.51950 69955440
+GOOD take long 69955620
+start  69955620
+set_take=76.67451 69988140
+GOOD take short 69989700
+start  69989700
+set_take=75.6870 69995100
+GOOD take long 69997020
+start  69997020
+set_take=76.9221 70000680
+GOOD take short 70006260
+start  70006260
+set_take=75.91450 70047060
+set_take=74.3760 70070400
+GOOD take long 70320480
+start  70320480
+set_take=73.3840 70411260
+GOOD take long 70425840
+start  70425840
+set_take=72.2290 70464900
+unnormal_move 0 False 70465740
+set_take=65.3690 70465740
+GOOD take long 70468440
+start  70468440
+set_take=64.6080 70472160
+GOOD take long 70472340
+start  70472340
+set_take=65.7311 70562400
+GOOD take short 70601220
+start  70601220
+set_take=64.801999999999990 70650000
+GOOD take long 70650780
+start  70650780
+set_take=63.95550 70706100
+GOOD take long 70707420
+start  70707420
+set_take=64.9991 70730580
+GOOD take short 70824240
+start  70824240
+set_take=64.073000000000010 70858680
+set_take=62.7579999999999960 70866120
+GOOD take long 70870080
+start  70870080
+set_take=63.8589999999999951 70877340
+GOOD take short 70893300
+start  70893300
+set_take=64.83751 70900800
+set_take=66.344500000000011 70933920
+GOOD take short 70973940
+start  70973940
+set_take=64.9470 70986960
+GOOD take long 70987020
+start  70987020
+set_take=65.945500000000011 71007120
+GOOD take short 71007420
+start  71007420
+set_take=66.8811 71036940
+GOOD take short 71049240
+start  71049240
+set_take=65.9110 71073300
+GOOD take long 71073900
+start  71073900
+set_take=66.990000000000011 71091180
+set_take=68.6181 71106840
+set_take=70.5881 71155680
+set_take=72.76951 71236140
+GOOD take short 71261880
+start  71261880
+set_take=73.56551 71272860
+GOOD take short 71275740
+start  71275740
+set_take=72.56950 71279820
+GOOD take long 71281680
+start  71281680
+set_take=71.6250 71326920
+GOOD take long 71329620
+start  71329620
+set_take=70.72850 71444460
+GOOD take long 71445060
+start  71445060
+set_take=69.81250 71515620
+GOOD take long 71516820
+start  71516820
+set_take=68.90650 71762580
+GOOD take long 71767920
+start  71767920
+set_take=67.9650 71789760
+GOOD take long 71799240
+start  71799240
+set_take=69.020000000000011 71852340
+GOOD take short 71863680
+start  71863680
+set_take=69.997999999999991 71871480

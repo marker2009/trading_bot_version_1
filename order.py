@@ -39,9 +39,9 @@ class order:
 
     def get_profit(self, price, comm=0.055 * 0.01):
         volume = self.volume
-        paid = volume * comm
+        paid = volume * comm * price
         plus = (price - self.average_price) * volume * self.side
-        paid1 = volume  * comm
+        paid1 = volume  * comm * price
         plus = plus - paid - paid1
         return (plus)
 
@@ -56,9 +56,9 @@ class order:
 
     def get_spec_profit(self, price, comm=0.055 * 0.01):
         volume = self.volume
-        paid = volume * comm
+        paid = volume * comm * price
         plus = (price - self.last_price) * volume * self.side
-        paid1 = volume * comm
+        paid1 = volume * comm * price
         plus = plus - paid - paid1
         return (plus)
 
