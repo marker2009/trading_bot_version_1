@@ -32,13 +32,13 @@ class work_1:
         self.need_to_delete = []
 
     def add_user(self, api, api_secret, coin, leverage, layers_long, layers_short, multiplicity, deposit, delta_time,
-                 unnormal_move, token, take, stop, no_short, coins):
+                 unnormal_move, token, take, stop, no_short,tks,  coins):
         print("start_now", token,coins[coin])
         orders.add_take_or_stop("start ")
         deposit = orders.summ * leverage
         self.pers_data.append(
             [api, api_secret, coin, leverage, layers_long, layers_short, multiplicity, deposit, delta_time,
-             unnormal_move, token, take, stop, no_short])
+             unnormal_move, token, take, stop, no_short, tks])
 
         self.tokens.append(token)
         self.users.append(futures_positions(api, api_secret, leverage, coin))

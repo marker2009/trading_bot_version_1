@@ -15,7 +15,7 @@ class orde:
         self.file = open("output.txt", "w")
         self.files = open("takesorstops.txt", "w")
         self.order =[]
-        self.summ = 10000
+        self.summ = 2000
         self.oun = 0
         self.volume = 0
     def add_volume(self, x):

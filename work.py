@@ -6,25 +6,28 @@ timm = tm.time()
 from visual_backtest import *
 
 print(time.time())
-m2 = export_from_file("data_ltcusdt_6000.csv")[:]
+m2 = export_from_file("data_LTCUSDT_6000.csv")[:]
 # m2 = export(1, "USDT", 1200)
 print(m2[-1], m2[0])
 m = [i[0] for i in m2]
-# from work_with_futures_position_with_specially_time import *
-from work_with_fhird import *
+from work_with_futures_position_with_specially_time import *
+# from work_with_fhird import *
 
 #
 # orde = [[], []]
 # #m1 = [[] for i in range(len(m))]
 clas = work_1(["A7hKrcISyhFZdzddCZ"], ["hBmMLMprHruxZL6QxTy35JpWsbBAR9234aWI"])
 leverage = 20
-tks = [4,4, 5, 6, 10]
-mas_1 = [2,3,3,3,5,5,6]
+# tks = [4, 4, 5, 6, 10]
+tks = 0.8
+mas_1 = [4,5,5,5,6,6,6]
 mas_2 = mas_1[::]
+summm = 2000
+orders.summ = summm
 clas.add_user("A7hKrcISyhFZdzddCZ", "hBmMLMprHruxZL6QxTy35JpWsbBAR9234aWI", "ETCUSDT", leverage,
-              [i *1.2 * leverage for i in mas_1], [i * leverage for i in mas_2], 2,
-              10000 * leverage,
-              60 * 60, 10 * leverage, "marker", 5 * leverage, 15 * leverage, False, tks, {"ETCUSDT": float(m[0])})
+              [i * 1.2 * leverage for i in mas_1], [i * leverage for i in mas_2], 2,
+              summm * leverage,
+              60 * 60, 10 * leverage, "marker", 5 * leverage, 20 * leverage, False, tks, {"ETCUSDT": float(m[0])})
 # time.add_time(3601)
 # clas.obxod({"MATICUSDT": float(9.5)})
 #

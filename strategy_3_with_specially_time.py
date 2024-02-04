@@ -44,7 +44,7 @@ class strategy:
             summm += ss
             first *= self.multiplicity
             ss *= 1.5
-        return calc_sum((0.22 / (summ + summm) * self.deposit) / 2, self.coin) * 2
+        return calc_sum((0.44 / (summ + summm) * self.deposit) / 2, self.coin) * 2
 
     def calc_next_order(self, order_sum):
         self.h_or *= 1.5

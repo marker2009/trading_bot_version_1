@@ -54,13 +54,15 @@ class work_1:
         buf = self.strateges[-1].open_first_orders()
         buf[0][2] = buf[0][2] / coins[coin]
         buf[0][2] = calc_sum(buf[0][2], coin)
+        self.sides.append(-1)
         self.long.append(self.users[-1].open_long_order(buf[0][2], coins[coin]))
         if no_short == False:
             self.short.append(self.users[-1].open_short_order(buf[0][2], coins[coin]))
         else:
             self.short.append(self.users[-1].open_short_order(0.01, coins[coin]))
+            self.sides[-1] = 0
         self.layers.append(coins[coin])
-        self.sides.append(-1)
+
         self.takes.append(take)
         self.stops.append(stop)
         self.leverage.append(leverage)
@@ -236,6 +238,7 @@ class work_1:
     def in_need_to_close_take_or_stop(self, i, price):
         if self.sides[i] == -1:
             return False
+
         if self.sides[i] == 0:
             if price >= self.take_price[i]:
                 orders.add_take_or_stop("GOOD take long")

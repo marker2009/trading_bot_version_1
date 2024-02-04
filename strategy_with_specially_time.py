@@ -25,6 +25,7 @@ def get_res(pr, apr, v1, v2, side):
 
 class strategy:
     def __init__(self, step_buy, step_sell, delta_time, multiplicity, unnormal_price_move, deposit, coin):
+        self.koff = 0.5
         self.step_buy = step_buy
         self.step_sell = step_sell
         self.need_delta_time = delta_time
@@ -39,6 +40,7 @@ class strategy:
         self.order_now = self.calculate_sum_of_first_order()
         self.sum_order_now = self.order_now
 
+
     def open_first_orders(self):
         return [[1, 1, self.order_now], [1, -1, self.order_now]]
 
@@ -48,7 +50,7 @@ class strategy:
         for i in range(8):
             summ += first
             first *= self.multiplicity
-        return calc_sum((0.44 / (summ * 1.5) * self.deposit) / 2, self.coin) * 2
+        return calc_sum((0.44 / (summ * 1 + summ * self.koff) * self.deposit) / 2, self.coin) * 2
 
     def calc_next_order(self, order_sum):
         self.sum_order_now += calc_sum((self.order_now * self.multiplicity) / 2, self.coin) * 2
@@ -67,27 +69,27 @@ class strategy:
                     self.side_glav = 1
                     self.col_orders += 1
                     self.time = time.time()
-                    return [[1, 1, self.order_now], [-1, 0], [1, 0, self.sum_order_now / 2]]
+                    return [[1, 1, self.order_now], [-1, 0], [1, 0, self.sum_order_now * self.koff]]
                 elif order_info[1]['spec_pnl'] > self.step_sell[0]:
                     self.order_now = self.calc_next_order(self.order_now)
                     self.is_first_order = False
                     self.side_glav = 0
                     self.col_orders += 1
                     self.time = time.time()
-                    return [[1, 0, self.order_now], [-1, 1], [1, 1, self.sum_order_now / 2]]
+                    return [[1, 0, self.order_now], [-1, 1], [1, 1, self.sum_order_now * self.koff]]
             else:
                 if self.side_glav == 1:
                     if order_info[0]['spec_pnl'] > self.step_buy[self.col_orders]:
                         self.order_now = self.calc_next_order(self.order_now)
                         self.col_orders += 1
                         self.time = time.time()
-                        return [[1, 1, self.order_now], [-1, 0], [1, 0, self.sum_order_now / 2]]
+                        return [[1, 1, self.order_now], [-1, 0], [1, 0, self.sum_order_now * self.koff]]
                 else:
                     if order_info[1]['spec_pnl'] > self.step_sell[self.col_orders]:
                         self.order_now = self.calc_next_order(self.order_now)
                         self.col_orders += 1
                         self.time = time.time()
-                        return [[1, 0, self.order_now], [-1, 1], [1, 1, self.sum_order_now / 2]]
+                        return [[1, 0, self.order_now], [-1, 1], [1, 1, self.sum_order_now * self.koff]]
 
         return [[0]]
 
@@ -108,7 +110,7 @@ class strategy:
                 self.is_first_order = False
                 self.col_orders += 1
                 orders.add_take_or_stop("unnormal_move " + str(self.side_glav) + " " + str(self.is_first_order))
-                return [[1, 1, self.order_now], [-1, 0], [1, 0, self.sum_order_now / 2]]
+                return [[1, 1, self.order_now], [-1, 0], [1, 0, self.sum_order_now * self.koff]]
             elif order_info[1]['spec_pnl'] > self.unnormal_price_move:
                 self.order_now = self.calc_next_order(self.order_now)
                 self.time = time.time()
@@ -116,7 +118,7 @@ class strategy:
                 self.is_first_order = False
                 self.col_orders += 1
                 orders.add_take_or_stop("unnormal_move " + str(self.side_glav) + " " + str(self.is_first_order))
-                return [[1, 0, self.order_now], [-1, 1], [1, 1, self.sum_order_now / 2]]
+                return [[1, 0, self.order_now], [-1, 1], [1, 1, self.sum_order_now * self.koff]]
         else:
             if order_info[1 - self.side_glav]['spec_pnl'] > self.unnormal_price_move:
                 self.order_now = self.calc_next_order(self.order_now)
@@ -124,7 +126,7 @@ class strategy:
                 self.col_orders += 1
                 orders.add_take_or_stop("unnormal_move " + str(self.side_glav) + " " + str(self.is_first_order))
                 if 1 - self.side_glav == 1:
-                    return [[1, 0, self.order_now], [-1, 1], [1, 1, self.sum_order_now / 2]]
-                return [[1, 1, self.order_now], [-1, 0], [1, 0, self.sum_order_now / 2]]
+                    return [[1, 0, self.order_now], [-1, 1], [1, 1, self.sum_order_now * self.koff]]
+                return [[1, 1, self.order_now], [-1, 0], [1, 0, self.sum_order_now * self.koff]]
 
         return [[0]]
