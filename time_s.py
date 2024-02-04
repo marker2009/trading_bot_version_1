@@ -1,10 +1,10 @@
-import time
+
 import time as tt
 class times:
     def __init__(self, time):
         self.tim = time
     def time(self):
-        return self.tim
+        return tt.time()#self.tim
     def change_time(self, time):
         self.tim = time
     def add_time(self, tim):
