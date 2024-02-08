@@ -1,6 +1,6 @@
 from futures_positions_without_bybit import *
 # from strategy_with_specially_time import *
-from str4 import *
+from strategies.str4 import *
 import time as tm
 class work_1:
     def __init__(self, system_apis, system_secret_apis):

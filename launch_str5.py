@@ -10,7 +10,7 @@ m2 = export_from_file("data/data_ltcusdt_6000.csv")[:]
 # m2 = export(1, "USDT", 1200)
 print(m2[-1], m2[0])
 m = [i[0] for i in m2]
-from work_with_st4 import *
+from work_with_str5 import *
 
 # from work_with_fhird import *
 
@@ -21,7 +21,7 @@ clas = work_1(["A7hKrcISyhFZdzddCZ"], ["hBmMLMprHruxZL6QxTy35JpWsbBAR9234aWI"])
 leverage = 25
 # tks = [4, 4, 5, 6, 10]
 tks = 1
-mas_1 = []
+mas_1 = [2, 3, 3, 3, 5, 5, 6]
 mas_2 = mas_1[::]
 summm = 2000
 orders.summ = summm

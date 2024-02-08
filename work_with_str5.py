@@ -1,6 +1,6 @@
 from futures_positions_without_bybit import *
 # from strategy_with_specially_time import *
-from strategies.str4 import *
+from strategies.str5 import *
 import time as tm
 class work_1:
     def __init__(self, system_apis, system_secret_apis):
@@ -238,7 +238,7 @@ class work_1:
             if (self.sides[i] != -1 and flag) or self.is_first[i] == True:
                 self.is_first[i] = False
                 buf = self.take_price[i]
-                if self.strateges[i].col_orders < 5:
+                if 1 == 1:
                     if self.sides[i] == 0:
                         res = get_res(self.users[i].get_open_orders()[self.long[i]]['last_price'],
                                       self.users[i].get_open_orders()[self.long[i]]['average_price'],
@@ -246,15 +246,18 @@ class work_1:
                                       self.users[i].get_open_orders()[self.short[i]]['volume'], 0)
                         self.take_price[i] = res * ((100 + self.takes[i] / self.leverage[i]) / 100)
                         # self.stop_price[i] = self.layers[i] * (100 - self.stops[i] / self.leverage) / 100
-                    # self.stop_price[i] = self.layers[i] * (100 + self.stops[i] / self.leverage) / 100
-                else:
-                    res = self.users[i].get_open_orders()[self.long[i]]['average_price'] + self.users[i].get_open_orders()[self.short[i]]['average_price']
-                    res = res / 2
-                    self.take_price[i] = res
+                    else:
+                        res = get_res(self.users[i].get_open_orders()[self.short[i]]['last_price'],
+                                      self.users[i].get_open_orders()[self.short[i]]['average_price'],
+                                      self.users[i].get_open_orders()[self.short[i]]['volume'],
+                                      self.users[i].get_open_orders()[self.long[i]]['volume'], 1)
+                        self.take_price[i] = res * ((100 - self.takes[i] / self.leverage[i]) / 100)
+                    if buf != self.take_price[i]:
+                        print(self.take_price[i])
                 if buf != self.take_price[i]:
                         print(self.take_price[i])
                         orders.add_take_or_stop("set_take=" + str(self.take_price[i]) + str(self.sides[i]) + " " + str(self.users[i].get_open_orders()[self.long[i]]['average_price'])+ str(self.users[i].get_open_orders()[self.short[i]]['average_price']))
-            if self.strateges[i].col_orders > 3 and self.stop_price[i] == None:
+            if self.strateges[i].col_orders > len(self.strateges[i].step_buy) - 1 and self.stop_price[i] == None:
                 print("stop", self.deposits)
                 if self.sides[i] == 0:
                     # self.take_price[i] = self.layers[i] * (100 + self.takes[i] / self.leverage) / 100
