@@ -30,10 +30,12 @@ class work_1:
         self.pers_data = []
         self.need_adds = []
         self.need_to_delete = []
+        self.is_first = []
 
     def add_user(self, api, api_secret, coin, leverage, layers_long, layers_short, multiplicity, deposit, delta_time,
                  unnormal_move, token, take, stop, no_short,tks,  coins):
         print("start_now", token,coins[coin])
+        self.is_first.append(True)
         orders.add_take_or_stop("start ")
         deposit = orders.summ * leverage
         self.pers_data.append(
@@ -228,9 +230,11 @@ class work_1:
                                 self.users[i].buy_more(self.long[i], coins[self.coins[i]], j[2])
 
             self.sides[i] = self.strateges[i].side_glav
-            if self.sides[i] != -1:
+
+            if (self.sides[i] != -1 and flag) or self.is_first[i] == True:
+                self.is_first[i] = False
                 buf = self.take_price[i]
-                if self.strateges[i].col_orders < 2:
+                if self.strateges[i].col_orders < 5:
                     if self.sides[i] == 0:
                         res = get_res(self.users[i].get_open_orders()[self.long[i]]['last_price'],
                                       self.users[i].get_open_orders()[self.long[i]]['average_price'],
@@ -246,7 +250,7 @@ class work_1:
                 if buf != self.take_price[i]:
                         print(self.take_price[i])
                         orders.add_take_or_stop("set_take=" + str(self.take_price[i]) + str(self.sides[i]) + " " + str(self.users[i].get_open_orders()[self.long[i]]['average_price'])+ str(self.users[i].get_open_orders()[self.short[i]]['average_price']))
-            if self.strateges[i].col_orders > 6 and self.stop_price[i] == None:
+            if self.strateges[i].col_orders > 3 and self.stop_price[i] == None:
                 print("stop", self.deposits)
                 if self.sides[i] == 0:
                     # self.take_price[i] = self.layers[i] * (100 + self.takes[i] / self.leverage) / 100
@@ -327,3 +331,4 @@ class work_1:
         self.leverage.pop(i)
         self.take_price.pop(i)
         self.stop_price.pop(i)
+        self.is_first.pop(i)

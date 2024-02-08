@@ -6,7 +6,7 @@ timm = tm.time()
 from visual_backtest import *
 
 print(time.time())
-m2 = export_from_file("data_ksmusdt_6000.csv")[:]
+m2 = export_from_file("data_ltcusdt_6000.csv")[:]
 # m2 = export(1, "USDT", 1200)
 print(m2[-1], m2[0])
 m = [i[0] for i in m2]
