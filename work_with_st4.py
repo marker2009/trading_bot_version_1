@@ -1,7 +1,7 @@
 from futures_positions_without_bybit import *
 # from strategy_with_specially_time import *
 from str4 import *
-
+import time as tm
 class work_1:
     def __init__(self, system_apis, system_secret_apis):
         self.system_apis = system_apis
@@ -32,9 +32,12 @@ class work_1:
         self.need_to_delete = []
         self.is_first = []
 
+        self.sum = 0
+        self.col = 0
+
     def add_user(self, api, api_secret, coin, leverage, layers_long, layers_short, multiplicity, deposit, delta_time,
                  unnormal_move, token, take, stop, no_short,tks,  coins):
-        print("start_now", token,coins[coin])
+        print("start_now", token,coins[coin], self.sum / self.col if self.col != 0 else 0)
         self.is_first.append(True)
         orders.add_take_or_stop("start ")
         deposit = orders.summ * leverage
@@ -117,6 +120,7 @@ class work_1:
 
     def obxod(self, coins):
         # coins = {coin:price}
+        st = tm.time()
         for i in range(len(self.users)):
             # print(self.sides, self.takes, self.stops, self.take_price, self.stop_price)
             if self.in_need_to_close_take_or_stop(i, coins[self.coins[i]]):
@@ -268,6 +272,8 @@ class work_1:
         self.add()
         self.need_adds = []
         self.need_to_delete = []
+        self.sum += tm.time() - st
+        self.col += 1
 
     def close(self):
         pass

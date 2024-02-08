@@ -1,4 +1,3 @@
-import time
 import time as tm
 from bybit_1 import *
 
@@ -6,7 +5,7 @@ timm = tm.time()
 from visual_backtest import *
 
 print(time.time())
-m2 = export_from_file("data_ksmusdt_6000.csv")[400000:]
+m2 = export_from_file("data/data_ksmusdt_6000.csv")[400000:]
 # m2 = export(1, "USDT", 1200)
 print(m2[-1], m2[0])
 m = [i[0] for i in m2]
