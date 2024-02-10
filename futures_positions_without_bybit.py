@@ -30,6 +30,7 @@ class futures_positions:
             return -1
 
     def open_short_order(self, volume, price):
+        print("open_short")
         orders.append([self.coin, price, volume, 0])
         coin = self.coin
         volume = calc_sum(volume, coin)
@@ -37,6 +38,7 @@ class futures_positions:
         return len(self.orders) - 1
 
     def open_long_order(self, volume, price):
+        print("open_long")
         orders.append([self.coin, price, volume, 1])
         coin = self.coin
         volume = calc_sum(volume, coin)
@@ -49,18 +51,21 @@ class futures_positions:
         return orders
 
     def buy_more(self, order_id, price, volume):
+        print("buy_more")
         orders.append([self.orders[order_id].get_data(price)['coin'], price, volume, 3])
         coin = self.orders[order_id].get_data(price)['coin']
         volume = calc_sum(volume, coin)
         self.orders[order_id].buy_more(price, volume)
 
     def sell_more(self, order_id, price, volume):
+        print("sell_more")
         orders.append([self.orders[order_id].get_data(price)['coin'], price, volume, 2])
         coin = self.orders[order_id].get_data(price)['coin']
         volume = calc_sum(volume, coin)
         self.orders[order_id].buy_more(price, volume)
 
     def close_short_order(self, order_id, price):
+        print("close_short")
         orders.update_summ(self.orders[order_id].get_data(price)['profit'])
         coin = self.orders[order_id].get_data(price)['coin']
         orders.append([self.coin, price, calc_sum(self.orders[order_id].get_data(price)['volume'], coin), 4])
@@ -70,6 +75,7 @@ class futures_positions:
         return buf
 
     def close_long_order(self, order_id, price):
+        print("close_long")
         orders.update_summ(self.orders[order_id].get_data(price)['profit'])
         coin = self.orders[order_id].get_data(price)['coin']
         volume = calc_sum(self.orders[order_id].get_data(price)['volume'], coin)

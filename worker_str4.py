@@ -18,17 +18,17 @@ from work_with_st4 import *
 # orde = [[], []]
 # #m1 = [[] for i in range(len(m))]
 clas = work_1(["A7hKrcISyhFZdzddCZ"], ["hBmMLMprHruxZL6QxTy35JpWsbBAR9234aWI"])
-leverage = 25
+leverage = 20
 # tks = [4, 4, 5, 6, 10]
 tks = 1
-mas_1 = []
+mas_1 = [2, 3, 3, 3, 5, 5, 6]
 mas_2 = mas_1[::]
 summm = 2000
 orders.summ = summm
 clas.add_user("A7hKrcISyhFZdzddCZ", "hBmMLMprHruxZL6QxTy35JpWsbBAR9234aWI", "ETCUSDT", leverage,
               [i * 1.2 * leverage for i in mas_1], [i * leverage for i in mas_2], 2,
               summm * leverage,
-              60 * 60, 20 * leverage, "marker", 5 * leverage, 15 * leverage, False, tks, {"ETCUSDT": float(m[0])})
+              60 * 60, 10 * leverage, "marker", 1 * leverage, 15 * leverage, False, tks, {"ETCUSDT": float(m[0])})
 # time.add_time(3601)
 # clas.obxod({"MATICUSDT": float(9.5)})
 #
@@ -88,11 +88,11 @@ from matplotlib import pyplot as plt
 plt.plot([ds[i] for i in range(len(ds)) if i % 10 == 0])
 plt.show()
 print(orders.volume)
-# orde = [[],[]]
-# for i in orders.order:
-#     if i[-2] %  2 == 0:
-#         orde[0].append(i[-1] // 60)
-#     else:
-#         orde[1].append(i[-1] // 60)
-# print(orde)
+orde = [[], []]
+for i in orders.order:
+    if i[-2] % 2 == 0:
+        orde[0].append(i[-1] // 60)
+    else:
+        orde[1].append(i[-1] // 60)
+print(orde)
 # crasota(m2, orde)
