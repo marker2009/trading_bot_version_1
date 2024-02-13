@@ -13,6 +13,7 @@ def get_res(pr, apr, v1, v2, side):
         for i in range(int(apr / 2), pr * 2):
             if al(i, pr, apr,v1, v2)  > 0:
                 return i / 100
+print(get_res(1,1,1,1,1))
 # print(get_res(54.62, 54.183,  1.25, 0.62, 1))
 # print(get_res(51.86, 52.725,  3.02, 1.54, 0))
 # 6731280
