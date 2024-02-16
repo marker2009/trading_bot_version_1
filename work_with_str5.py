@@ -1,7 +1,10 @@
+import time as tm
+
 from futures_positions_without_bybit import *
 # from strategy_with_specially_time import *
-from strategies.str5 import *
-import time as tm
+from trading_bot_version_1.str5 import *
+
+
 class work_1:
     def __init__(self, system_apis, system_secret_apis):
         self.system_apis = system_apis
@@ -36,8 +39,8 @@ class work_1:
         self.col = 0
 
     def add_user(self, api, api_secret, coin, leverage, layers_long, layers_short, multiplicity, deposit, delta_time,
-                 unnormal_move, token, take, stop, no_short,tks,  coins):
-        print("start_now", token,coins[coin], self.sum / self.col if self.col != 0 else 0)
+                 unnormal_move, token, take, stop, no_short, tks, coins):
+        print("start_now", token, coins[coin], self.sum / self.col if self.col != 0 else 0)
         self.is_first.append(True)
         orders.add_take_or_stop("start ")
         deposit = orders.summ * leverage
@@ -68,45 +71,44 @@ class work_1:
         self.long.append(-1)
         i = len(self.users) - 1
         if buf != [[0]]:
-                flag = True
-                self.orders.append(buf + [-1])
-                for j in buf:
-                    if j[0] == -1:
-                        if j[1] == 1:
-                            if self.short[i] == -1:
-                                # print("Error_short:", i, buf)
-                                pass
-                            else:
-                                self.users[i].close_short_order(self.short[i], coins[self.coins[i]])
-                                # print("Close is ok")
-                                self.long[i] = 0
-                                self.short[i] = -1
+            flag = True
+            self.orders.append(buf + [-1])
+            for j in buf:
+                if j[0] == -1:
+                    if j[1] == 1:
+                        if self.short[i] == -1:
+                            # print("Error_short:", i, buf)
+                            pass
                         else:
-                            if self.long[i] == -1:
-                                # print("Error_long:", i, buf)
-                                pass
-                            else:
-                                self.users[i].close_long_order(self.long[i], coins[self.coins[i]])
-                                # print("Close_long is ok")
-                                self.short[i] = 0
-                                self.long[i] = -1
-                    elif j[0] == 1:
-                        j[2] = calc_sum(j[2] / coins[self.coins[i]], self.coins[i])
-                        if j[1] == 1:
-                            if self.short[i] == -1:
-                                self.short[i] = self.users[i].open_short_order(j[2], coins[self.coins[i]])
-                                # print("Open short order is ok")
-                            else:
-                                self.users[i].sell_more(self.short[i], coins[self.coins[i]], j[2])
-                                # print("sell more is ok")
+                            self.users[i].close_short_order(self.short[i], coins[self.coins[i]])
+                            # print("Close is ok")
+                            self.long[i] = 0
+                            self.short[i] = -1
+                    else:
+                        if self.long[i] == -1:
+                            # print("Error_long:", i, buf)
+                            pass
                         else:
-                            if self.long[i] == -1:
-                                self.long[i] = self.users[i].open_long_order(j[2], coins[self.coins[i]])
-                                # print("Open long order is OK")
-                            else:
-                                self.users[i].buy_more(self.long[i], coins[self.coins[i]], j[2])
-                                # print("Buy more is OK")
-
+                            self.users[i].close_long_order(self.long[i], coins[self.coins[i]])
+                            # print("Close_long is ok")
+                            self.short[i] = 0
+                            self.long[i] = -1
+                elif j[0] == 1:
+                    j[2] = calc_sum(j[2] / coins[self.coins[i]], self.coins[i])
+                    if j[1] == 1:
+                        if self.short[i] == -1:
+                            self.short[i] = self.users[i].open_short_order(j[2], coins[self.coins[i]])
+                            # print("Open short order is ok")
+                        else:
+                            self.users[i].sell_more(self.short[i], coins[self.coins[i]], j[2])
+                            # print("sell more is ok")
+                    else:
+                        if self.long[i] == -1:
+                            self.long[i] = self.users[i].open_long_order(j[2], coins[self.coins[i]])
+                            # print("Open long order is OK")
+                        else:
+                            self.users[i].buy_more(self.long[i], coins[self.coins[i]], j[2])
+                            # print("Buy more is OK")
 
         return len(self.users) - 1
 
@@ -144,18 +146,26 @@ class work_1:
                 continue
             orders_info = [{'spec_pnl': 0}, {'spec_pnl': 0}]
             order_info = self.users[i].get_open_orders(coins[self.coins[i]])
+
+            orders_info1 = [{'volume': 0, "price": 0}, {'volume': 0, "price": 0}]
             for j in order_info:
                 if j['side'] == -1:
                     orders_info[1]['spec_pnl'] = j['spec_pnl']
+                    orders_info1[1]['volume'] = j['volume']
+                    orders_info1[1]['price'] = j['average_price']
                 else:
                     orders_info[0]['spec_pnl'] = j['spec_pnl']
+                    orders_info1[0]['volume'] = j['volume']
+                    orders_info1[0]['price'] = j['average_price']
             flag = False
             # print(*orders_info, sep=" \n")
             # print("start_normal")
-            buf = self.strateges[i].what_to_do_unnormal(orders_info)
+            buf = self.strateges[i].what_to_do_unnormal(orders_info, orders_info1, coins[self.coins[i]])
+
             # print("end_normal")
             # print(buf, "un")
             if buf != [[0]]:
+                print(buf)
                 flag = True
                 self.orders.append(buf + [0])
                 for j in buf:
@@ -180,6 +190,7 @@ class work_1:
                                 self.long[i] = -1
                     elif j[0] == 1:
                         j[2] = calc_sum(j[2] / coins[self.coins[i]], self.coins[i])
+                        print("summ of order", j[1], j[2])
                         if j[1] == 1:
                             if self.short[i] == -1:
                                 self.short[i] = self.users[i].open_short_order(j[2], coins[self.coins[i]])
@@ -195,43 +206,56 @@ class work_1:
                                 self.users[i].buy_more(self.long[i], coins[self.coins[i]], j[2])
                                 # print("Buy more is OK")
             # print("start_unnormal")
-            buf = self.strateges[i].what_to_do_normal(orders_info)
+            buf = self.strateges[i].what_to_do_normal(orders_info, orders_info1, coins[self.coins[i]], order_info)
+
             # print("end_unnormal")
             # print(buf)
             if buf != [[0]]:
+                print(buf)
                 flag = True
-                orders.oun += 1
-                self.orders.append(buf + [-1])
+                self.orders.append(buf + [0])
                 for j in buf:
-                    if j[0] == -1:
-                        if j[1] == 1:
-                            if self.short[i] == -1:
-                                # print("Error_short:", i, buf)
-                                pass
+                    print(j)
+                    try:
+                        if j[0] == -1:
+                            if j[1] == 1:
+                                if self.short[i] == -1:
+                                    # print("Error_short:", i, buf)
+                                    pass
+                                else:
+                                    self.users[i].close_short_order(self.short[i], coins[self.coins[i]])
+                                    # print("Close is ok")
+                                    self.long[i] = 0
+                                    self.short[i] = -1
                             else:
-                                self.users[i].close_short_order(self.short[i], coins[self.coins[i]])
-                                self.long[i] = 0
-                                self.short[i] = -1
-                        else:
-                            if self.long[i] == -1:
-                                # print("Error_long:", i, buf)
-                                pass
+                                if self.long[i] == -1:
+                                    # print("Error_long:", i, buf)
+                                    pass
+                                else:
+                                    self.users[i].close_long_order(self.long[i], coins[self.coins[i]])
+                                    # print("Close_long is ok")
+                                    self.short[i] = 0
+                                    self.long[i] = -1
+                        elif j[0] == 1:
+                            j[2] = calc_sum(j[2] / coins[self.coins[i]], self.coins[i])
+                            print("summ of order", j[1], j[2])
+                            if j[1] == 1:
+                                if self.short[i] == -1:
+                                    self.short[i] = self.users[i].open_short_order(j[2], coins[self.coins[i]])
+                                    # print("Open short order is ok")
+                                else:
+                                    print("want_to_sell_more")
+                                    self.users[i].sell_more(self.short[i], coins[self.coins[i]], j[2])
+                                    # print("sell more is ok")
                             else:
-                                self.users[i].close_long_order(self.long[i], coins[self.coins[i]])
-                                self.short[i] = 0
-                                self.long[i] = -1
-                    elif j[0] == 1:
-                        j[2] = calc_sum(j[2] / coins[self.coins[i]], self.coins[i])
-                        if j[1] == 1:
-                            if self.short[i] == -1:
-                                self.short[i] = self.users[i].open_short_order(j[2], coins[self.coins[i]])
-                            else:
-                                self.users[i].sell_more(self.short[i], coins[self.coins[i]], j[2])
-                        else:
-                            if self.long[i] == -1:
-                                self.long[i] = self.users[i].open_long_order(j[2], coins[self.coins[i]])
-                            else:
-                                self.users[i].buy_more(self.long[i], coins[self.coins[i]], j[2])
+                                if self.long[i] == -1:
+                                    self.long[i] = self.users[i].open_long_order(j[2], coins[self.coins[i]])
+                                    # print("Open long order is OK")
+                                else:
+                                    self.users[i].buy_more(self.long[i], coins[self.coins[i]], j[2])
+                                    # print("Buy more is OK")
+                    except Exception as e:
+                        print(e)
 
             self.sides[i] = self.strateges[i].side_glav
 
@@ -244,20 +268,34 @@ class work_1:
                                       self.users[i].get_open_orders()[self.long[i]]['average_price'],
                                       self.users[i].get_open_orders()[self.long[i]]['volume'],
                                       self.users[i].get_open_orders()[self.short[i]]['volume'], 0)
-                        self.take_price[i] = res * ((100 + self.takes[i] / self.leverage[i]) / 100)
+                        if res == None or 1 == 1:
+                            self.take_price[i] = ((self.users[i].get_open_orders()[self.short[i]]['average_price'] +
+                                                   self.users[i].get_open_orders()[self.long[i]][
+                                                       'average_price']) / 2) * (
+                                                         (100 + self.takes[i] / self.leverage[i]) / 100)
+                        else:
+                            self.take_price[i] = res * ((100 + self.takes[i] / self.leverage[i]) / 100)
                         # self.stop_price[i] = self.layers[i] * (100 - self.stops[i] / self.leverage) / 100
                     else:
                         res = get_res(self.users[i].get_open_orders()[self.short[i]]['last_price'],
                                       self.users[i].get_open_orders()[self.short[i]]['average_price'],
                                       self.users[i].get_open_orders()[self.short[i]]['volume'],
                                       self.users[i].get_open_orders()[self.long[i]]['volume'], 1)
-                        self.take_price[i] = res * ((100 - self.takes[i] / self.leverage[i]) / 100)
+                        if res == None or 1 == 1:
+                            self.take_price[i] = ((self.users[i].get_open_orders()[self.short[i]]['average_price'] +
+                                                   self.users[i].get_open_orders()[self.long[i]][
+                                                       'average_price']) / 2) * (
+                                                         (100 - self.takes[i] / self.leverage[i]) / 100)
+                        else:
+                            self.take_price[i] = res * ((100 - self.takes[i] / self.leverage[i]) / 100)
                     if buf != self.take_price[i]:
                         print(self.take_price[i])
                 if buf != self.take_price[i]:
-                        print(self.take_price[i])
-                        orders.add_take_or_stop("set_take=" + str(self.take_price[i]) + str(self.sides[i]) + " " + str(self.users[i].get_open_orders()[self.long[i]]['average_price'])+ str(self.users[i].get_open_orders()[self.short[i]]['average_price']))
-            if self.strateges[i].col_orders > len(self.strateges[i].step_buy) - 1 and self.stop_price[i] == None:
+                    print(self.take_price[i])
+                    orders.add_take_or_stop("set_take=" + str(self.take_price[i]) + str(self.sides[i]) + " " + str(
+                        self.users[i].get_open_orders()[self.long[i]]['average_price']) + str(
+                        self.users[i].get_open_orders()[self.short[i]]['average_price']))
+            if self.strateges[i].col_orders > len(self.strateges[i].step_buy) and self.stop_price[i] == None:
                 print("stop", self.deposits)
                 if self.sides[i] == 0:
                     # self.take_price[i] = self.layers[i] * (100 + self.takes[i] / self.leverage) / 100
@@ -293,14 +331,14 @@ class work_1:
                 return True
             if self.stop_price[i] != None and price < self.stop_price[i]:
                 orders.add_take_or_stop("BAD stop long " + str(self.strateges[i].col_orders) + " " + str(
-                    self.users[i].get_open_orders(price)))
+                    self.users[i].get_open_orders(price)) + str(self.layers[i]))
                 print("BAD but STOP", time.time())
                 return True
         if self.sides[i] == 1:
             if self.stop_price[i] != None and price > self.stop_price[i]:
                 print("BAD but STOP short", time.time())
                 orders.add_take_or_stop("BAD stop short " + str(self.strateges[i].col_orders) + " " + str(
-                    self.users[i].get_open_orders(price)))
+                    self.users[i].get_open_orders(price)) + str(self.layers[i]))
                 return True
             if price <= self.take_price[i]:
                 print(self.users[i].get_open_orders(price))
