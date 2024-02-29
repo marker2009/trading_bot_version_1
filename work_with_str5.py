@@ -34,6 +34,7 @@ class work_1:
         self.need_adds = []
         self.need_to_delete = []
         self.is_first = []
+        self.op = 0
 
         self.sum = 0
         self.col = 0
@@ -47,7 +48,7 @@ class work_1:
         self.pers_data.append(
             [api, api_secret, coin, leverage, layers_long, layers_short, multiplicity, deposit, delta_time,
              unnormal_move, token, take, stop, no_short, tks])
-
+        self.op += 1
         self.tokens.append(token)
         self.users.append(futures_positions(api, api_secret, leverage, coin))
         self.layers_short.append(layers_short)
@@ -321,6 +322,7 @@ class work_1:
 
     def in_need_to_close_take_or_stop(self, i, price):
         if self.sides[i] == -1:
+            print(self.sides)
             return False
         if self.sides[i] == 0:
             if price >= self.take_price[i]:
@@ -332,11 +334,11 @@ class work_1:
             if self.stop_price[i] != None and price < self.stop_price[i]:
                 orders.add_take_or_stop("BAD stop long " + str(self.strateges[i].col_orders) + " " + str(
                     self.users[i].get_open_orders(price)) + str(self.layers[i]))
-                print("BAD but STOP", time.time())
+                print("BAD but STOP", time.time(), self.take_price)
                 return True
         if self.sides[i] == 1:
             if self.stop_price[i] != None and price > self.stop_price[i]:
-                print("BAD but STOP short", time.time())
+                print("BAD but STOP short", time.time(), self.take_price)
                 orders.add_take_or_stop("BAD stop short " + str(self.strateges[i].col_orders) + " " + str(
                     self.users[i].get_open_orders(price)) + str(self.layers[i]))
                 return True
@@ -345,12 +347,11 @@ class work_1:
                 orders.add_take_or_stop("GOOD take short")
                 print("GOOD take short", self.strateges[i].col_orders, time.time(), self.take_price,
                       self.users[i].get_open_orders()[self.short[i]]['last_price'])
-
                 return True
         return False
 
     def delete_user(self, token, coins):
-        print("delete_user", token)
+        print("delete_user", token, self.op)
         i = self.tokens.index(token)
         # print(self.short, self.long)
         if self.short[i] != -1:

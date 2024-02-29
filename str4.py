@@ -1,4 +1,3 @@
-from coins import *
 from time_s import *
 
 
@@ -44,18 +43,21 @@ class strategy:
         self.col_orders = 0
         self.side_glav = 0
         self.coin = coin
-        self.volumes_long = [0.1, 0.2, 0.44, 1.056, 2.7455, 7.68768, 23.06304, 73.801728]
-        self.volumes_short = [0, 0.15,0.3,  0.6, 1.2, 2.4, 4.8, 12]
-        self.volumes_short = [i /100 * self.deposit / 2 for i in self.volumes_short]
-        self.volumes_long = [i / 100 * self.deposit / 2 for i in self.volumes_long]
+        self.volumes_long = [0.5, 1,2,4,8,19.2]
+        self.volumes_short = [0]
+        for i in range(1, len(self.volumes_long)):
+            self.volumes_short.append(sum(self.volumes_long[:i + 1]) /2)
+        print(self.volumes_short)
+        self.volumes_short = [i / 100 * self.deposit / 2 for i in self.volumes_short]
+        self.volumes_long = [i / 100 * self.deposit /2 for i in self.volumes_long]
 
     def open_first_orders(self):
         return [[1, 1, self.volumes_short[0]], [1, -1, self.volumes_long[0]]]
 
     def what_to_do_normal(self, order_info):
         # print(time.time()- self.time)
-        print(order_info, self.step_sell, self.step_buy, time.time() - self.time, self.need_delta_time, self.side_glav,
-              order_info[0]['spec_pnl'] * -1, self.step_sell[self.col_orders] if self.col_orders != len(self.step_sell) else - 10, self.col_orders)
+        # print(order_info, self.step_sell, self.step_buy, time.time() - self.time, self.need_delta_time, self.side_glav,
+        #       order_info[0]['spec_pnl'] * -1, self.step_sell[self.col_orders] if self.col_orders != len(self.step_sell) else - 10, self.col_orders)
         if self.col_orders >= len(self.step_sell):
             return [[0]]
         delta_time = time.time() - self.time
@@ -64,8 +66,8 @@ class strategy:
                 if order_info[0]['spec_pnl'] * -1 > self.step_sell[self.col_orders]:
                     self.col_orders += 1
                     self.time = time.time()
-                    return [[1, 0, self.volumes_long[self.col_orders ]],
-                            [1, 1, self.volumes_short[self.col_orders ]]]
+                    return [[1, 0, self.volumes_long[self.col_orders]], [-1, 1],
+                            [1, 1, self.volumes_short[self.col_orders]]]
 
         return [[0]]
 
@@ -82,5 +84,5 @@ class strategy:
             self.time = time.time()
             self.col_orders += 1
             orders.add_take_or_stop("unnormal_move " + str(self.side_glav) + " " + str(self.is_first_order))
-            return [[1, 0, self.volumes_long[self.col_orders]], [1, 1, self.volumes_short[self.col_orders]]]
+            return [[1, 0, self.volumes_long[self.col_orders]], [-1, 1], [1, 1, self.volumes_short[self.col_orders]]]
         return [[0]]

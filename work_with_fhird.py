@@ -1,6 +1,6 @@
 from futures_positions_without_bybit import *
 # from strategy_with_specially_time import *
-from strategy_3_with_specially_time import *
+from str6 import *
 
 class work_1:
     def __init__(self, system_apis, system_secret_apis):
@@ -50,7 +50,7 @@ class work_1:
         self.unnormal_moves.append(unnormal_move)
         self.coins.append(coin)
         self.strateges.append(
-            strategy(layers_long, layers_short, delta_time, multiplicity, unnormal_move, deposit, coin))
+            strategy(layers_long, layers_short, delta_time, unnormal_move, deposit, coin, [0.1 * (2 ** i) for i in range(8)],[0.1 * (1.5 ** i) for i in range(8)] ))
         buf = self.strateges[-1].open_first_orders()
         buf[0][2] = buf[0][2] / coins[coin]
         buf[0][2] = calc_sum(buf[0][2], coin)
@@ -103,16 +103,26 @@ class work_1:
                 self.need_adds.append([self.pers_data[i], coins])
                 continue
             orders_info = [{'spec_pnl': 0}, {'spec_pnl': 0}]
+            orders_info11 = [{'spec_pnl': 0}, {'spec_pnl': 0}]
             order_info = self.users[i].get_open_orders(coins[self.coins[i]])
             for j in order_info:
                 if j['side'] == -1:
                     orders_info[1]['spec_pnl'] = j['spec_pnl']
                 else:
                     orders_info[0]['spec_pnl'] = j['spec_pnl']
+            orders_info1 = [{'volume': 0, "price": 0}, {'volume': 0, "price": 0}]
+            for j in order_info:
+                bufs = int(j['side'] * (-0.5) + 0.5)
+                orders_info11[bufs]['spec_pnl'] = j['spec_pnl']
+                orders_info1[bufs]['volume'] = j['volume']
+                orders_info1[bufs]['price'] = j['average_price']
+                orders_info1[bufs]['last_price'] = j['last_price']
+            if orders_info11 != orders_info:
+                print("no")
             flag = False
             # print(*orders_info, sep=" \n")
             # print("start_normal")
-            buf = self.strateges[i].what_to_do_unnormal(orders_info)
+            buf = self.strateges[i].what_to_do_unnormal(orders_info, orders_info1, coins[self.coins[i]])
             # print("end_normal")
             # print(buf, "un")
             if buf != [[0]]:
@@ -155,7 +165,7 @@ class work_1:
                                 self.users[i].buy_more(self.long[i], coins[self.coins[i]], j[2])
                                 # print("Buy more is OK")
             # print("start_unnormal")
-            buf = self.strateges[i].what_to_do_normal(orders_info)
+            buf = self.strateges[i].what_to_do_normal(orders_info, orders_info1, coins[self.coins[i]], order_info)
             # print("end_unnormal")
             # print(buf)
             if buf != [[0]]:

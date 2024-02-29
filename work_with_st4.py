@@ -1,6 +1,7 @@
 from futures_positions_without_bybit import *
 # from strategy_with_specially_time import *
 from trading_bot_version_1.str4 import *
+from errors import *
 import time as tm
 class work_1:
     def __init__(self, system_apis, system_secret_apis):
@@ -34,7 +35,16 @@ class work_1:
 
         self.sum = 0
         self.col = 0
+    def get_deposit(self, api, api_secret):
+        try:
+            session = HTTP(api_key=api, api_secret=api_secret)
+            buf = session.get_wallet_balance(accountType="CONTRACT")
+            buf = buf['result']['list'][0]['coin'][0]['equity']
 
+            return float(buf)
+        except Exception as e:
+            send_error(e, api)
+            return 0
     def add_user(self, api, api_secret, coin, leverage, layers_long, layers_short, multiplicity, deposit, delta_time,
                  unnormal_move, token, take, stop, no_short,tks,  coins):
         print("start_now", token,coins[coin], self.sum / self.col if self.col != 0 else 0)
@@ -118,6 +128,7 @@ class work_1:
         for i in self.need_adds:
             self.add_user(*i[0], i[1])
 
+
     def obxod(self, coins):
         # coins = {coin:price}
         st = tm.time()
@@ -139,8 +150,8 @@ class work_1:
                     self.short[i] = 0
                 self.short[i] = -1
                 self.long[i] = -1
-                self.need_to_delete.append([self.tokens[i], coins])
-                self.need_adds.append([self.pers_data[i], coins])
+                self.need_to_delete.append([self.tokens[i], coins, i])
+                self.need_adds.append([self.pers_data[i], coins, i])
                 continue
             orders_info = [{'spec_pnl': 0}, {'spec_pnl': 0}]
             order_info = self.users[i].get_open_orders(coins[self.coins[i]])
@@ -258,7 +269,7 @@ class work_1:
                     if buf != self.take_price[i]:
                             print(self.take_price[i])
                             orders.add_take_or_stop("set_take=" + str(self.take_price[i]) + str(self.sides[i]) + " " + str(self.users[i].get_open_orders()[self.long[i]]['average_price'])+ str(self.users[i].get_open_orders()[self.short[i]]['average_price']))
-            if self.strateges[i].col_orders > 6 and self.stop_price[i] == None:
+            if self.strateges[i].col_orders > 4 and self.stop_price[i] == None:
                 print("stop", self.deposits)
                 if self.sides[i] == 0:
                     # self.take_price[i] = self.layers[i] * (100 + self.takes[i] / self.leverage) / 100
@@ -325,6 +336,7 @@ class work_1:
             self.users[i].close_long_order(self.long[i], coins[self.coins[i]])
             self.short[i] = 0
         self.tokens.pop(i)
+        self.pers_data.pop(i)
         self.users.pop(i)
         self.layers_short.pop(i)
         self.layers_long.pop(i)
@@ -344,3 +356,4 @@ class work_1:
         self.take_price.pop(i)
         self.stop_price.pop(i)
         self.is_first.pop(i)
+

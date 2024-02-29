@@ -15,14 +15,14 @@ def get_res(pr, apr, v1, v2, side):
 
 
 class strategy:
-    def __init__(self, step_buy, step_sell, delta_time, multiplicity, unnormal_price_move, deposit, coin):
+    def __init__(self, step_buy, step_sell, delta_time, unnormal_price_move, deposit, coin, volum, volum1):
         self.step_buy = step_buy
         self.step_sell = step_sell
         self.need_delta_time = delta_time
-        self.unnormal_price_move = unnormal_price_move
+        self.unnormal_price_move = 10*20
         self.time = time.time()
         self.deposit = deposit
-        self.multiplicity = multiplicity
+        self.multiplicity = 2
         self.is_first_order = True
         self.col_orders = 0
         self.side_glav = -1
@@ -51,7 +51,7 @@ class strategy:
         self.sum_order_now += calc_sum((self.order_now * self.multiplicity) / 2, self.coin) * 2
         return order_sum * self.multiplicity
 
-    def what_to_do_normal(self, order_info):
+    def what_to_do_normal(self, order_info, a, a1, a2):
         # print(time.time()- self.time)
         if self.col_orders >= len(self.step_sell):
             return [[0]]
@@ -94,7 +94,8 @@ class strategy:
         else:
             return 1
 
-    def what_to_do_unnormal(self, order_info):
+    def what_to_do_unnormal(self, order_info, a, a1):
+        # print(order_info)
         if self.col_orders >= 7:
             return [[0]]
         if self.is_first_order:

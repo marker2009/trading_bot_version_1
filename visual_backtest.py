@@ -25,7 +25,7 @@ def crasota(m, orders):
     mi = min(m0 + m1)
     ma = max(m0 + m1)
     width = 10 * len(m0) + 10
-    height = 500
+    height = 2000
     m0_do = [i - mi for i in m0]
     m1_do = [i - mi for i in m1]
     one_dollar_to_pixel = (height - 100) / buf
