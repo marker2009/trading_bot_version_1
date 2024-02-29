@@ -2,3 +2,9 @@ error in  main loopdivision by zero
 error in  main loopdivision by zero
 error in  main loopdivision by zero
 error in  main loopdivision by zero
+error in  main loop'work_1' object has no attribute 'polsovatel'
+error in  main loop'work_1' object has no attribute 'polsovatel'
+error in  main loop'work_1' object has no attribute 'polsovatel'
+add user is error1[] is not in list
+add user is error1[] is not in list
+error in send_time
