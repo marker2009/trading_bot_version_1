@@ -10,7 +10,7 @@ def al(prr, pr, apr, v1, v2):
 
 
 def calc_last_order(glav_price, glav_volume, hedge_price, hedge_volume, price):
-    print(glav_price, glav_volume, hedge_price, hedge_volume, price)
+    # print(glav_price, glav_volume, hedge_price, hedge_volume, price)
     delta = 0.5
     for i in range(1, 100000):
         i = i / 100
@@ -64,7 +64,7 @@ class strategy:
                  volumes_hedge):
         self.is_first = True
         koff = 1 / 2
-        self.unnormal_move = [unnormal_price_move, unnormal_price_move]
+        self.unnormal_move = unnormal_price_move
         # unnormal_price_move
         self.col_orders = 0
         self.side_glav = -1
@@ -77,7 +77,7 @@ class strategy:
         self.delta_time = delta_time
         self.glav = [i * deposit * koff / 100 for i in self.volumes_glav]
         self.hedge = [i * deposit * koff / 100 for i in self.volumes_hedge]
-        print(self.glav, self.hedge)
+        # print(self.glav, self.hedge)
         self.save_time = time.time()
 
     def open_first_orders(self):

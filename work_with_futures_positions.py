@@ -50,7 +50,7 @@ class work_1:
 
     def add_user(self, api, api_secret, coin, leverage, layers_long, layers_short, multiplicity, deposit, delta_time,
                  unnormal_move, token, take, stop, no_short, tks, coins):
-        print("start_now", token, coins[coin])
+        print("start_now", token, coins)
         orders.add_take_or_stop("start ")
         deposit = self.get_deposit(api, api_secret) * leverage
         self.pers_data.append(

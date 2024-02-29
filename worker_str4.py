@@ -25,46 +25,7 @@ mas_1 = [7,8,8,8,10]
 mas_2 = mas_1[::]
 summm =2000
 orders.summ = summm
-clas.add_user("A7hKrcISyhFZdzddCZ", "hBmMLMprHruxZL6QxTy35JpWsbBAR9234aWI", "ETCUSDT", leverage,
-              [i * 1.2 * leverage for i in mas_1], [i * leverage for i in mas_2], 2,
-              summm * leverage,
-              60 * 60, 20 * leverage, "marker", 1 * leverage, 30 * leverage, False, tks, {"ETCUSDT": float(m[0])})
-clas.add_user("A7hKrcISyhFZdzddCZ", "hBmMLMprHruxZL6QxTy35JpWsbBAR9234aWI", "ETCUSDT", leverage,
-              [i * 1.2 * leverage for i in mas_1], [i * leverage for i in mas_2], 2,
-              summm * leverage,
-              60 * 60, 20 * leverage, "marker", 1 * leverage, 30 * leverage, False, tks, {"ETCUSDT": float(m[0])})
-clas.add_user("A7hKrcISyhFZdzddCZ", "hBmMLMprHruxZL6QxTy35JpWsbBAR9234aWI", "ETCUSDT", leverage,
-              [i * 1.2 * leverage for i in mas_1], [i * leverage for i in mas_2], 2,
-              summm * leverage,
-              60 * 60, 20 * leverage, "marker", 1 * leverage, 30 * leverage, False, tks, {"ETCUSDT": float(m[0])})
-clas.add_user("A7hKrcISyhFZdzddCZ", "hBmMLMprHruxZL6QxTy35JpWsbBAR9234aWI", "ETCUSDT", leverage,
-              [i * 1.2 * leverage for i in mas_1], [i * leverage for i in mas_2], 2,
-              summm * leverage,
-              60 * 60, 20 * leverage, "marker", 1 * leverage, 30 * leverage, False, tks, {"ETCUSDT": float(m[0])})
-clas.add_user("A7hKrcISyhFZdzddCZ", "hBmMLMprHruxZL6QxTy35JpWsbBAR9234aWI", "ETCUSDT", leverage,
-              [i * 1.2 * leverage for i in mas_1], [i * leverage for i in mas_2], 2,
-              summm * leverage,
-              60 * 60, 20 * leverage, "marker", 1 * leverage, 30 * leverage, False, tks, {"ETCUSDT": float(m[0])})
-clas.add_user("A7hKrcISyhFZdzddCZ", "hBmMLMprHruxZL6QxTy35JpWsbBAR9234aWI", "ETCUSDT", leverage,
-              [i * 1.2 * leverage for i in mas_1], [i * leverage for i in mas_2], 2,
-              summm * leverage,
-              60 * 60, 20 * leverage, "marker", 1 * leverage, 30 * leverage, False, tks, {"ETCUSDT": float(m[0])})
-clas.add_user("A7hKrcISyhFZdzddCZ", "hBmMLMprHruxZL6QxTy35JpWsbBAR9234aWI", "ETCUSDT", leverage,
-              [i * 1.2 * leverage for i in mas_1], [i * leverage for i in mas_2], 2,
-              summm * leverage,
-              60 * 60, 20 * leverage, "marker", 1 * leverage, 30 * leverage, False, tks, {"ETCUSDT": float(m[0])})
-clas.add_user("A7hKrcISyhFZdzddCZ", "hBmMLMprHruxZL6QxTy35JpWsbBAR9234aWI", "ETCUSDT", leverage,
-              [i * 1.2 * leverage for i in mas_1], [i * leverage for i in mas_2], 2,
-              summm * leverage,
-              60 * 60, 20 * leverage, "marker", 1 * leverage, 30 * leverage, False, tks, {"ETCUSDT": float(m[0])})
-clas.add_user("A7hKrcISyhFZdzddCZ", "hBmMLMprHruxZL6QxTy35JpWsbBAR9234aWI", "ETCUSDT", leverage,
-              [i * 1.2 * leverage for i in mas_1], [i * leverage for i in mas_2], 2,
-              summm * leverage,
-              60 * 60, 20 * leverage, "marker", 1 * leverage, 30 * leverage, False, tks, {"ETCUSDT": float(m[0])})
-clas.add_user("A7hKrcISyhFZdzddCZ", "hBmMLMprHruxZL6QxTy35JpWsbBAR9234aWI", "ETCUSDT", leverage,
-              [i * 1.2 * leverage for i in mas_1], [i * leverage for i in mas_2], 2,
-              summm * leverage,
-              60 * 60, 20 * leverage, "marker", 1 * leverage, 30 * leverage, False, tks, {"ETCUSDT": float(m[0])})
+
 # time.add_time(3601)
 # clas.obxod({"MATICUSDT": float(9.5)})
 #
