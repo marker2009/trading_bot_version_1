@@ -1,6 +1,14 @@
-col = 0
-for i in range(1, 30000):
-    s = 5 * (i // 10)
-    if s + 28 * 5 < 300 and s + 28 * 6 >= 300:
-        col += 1
-print(col)
+
+host = '45.9.43.17'
+user = 'root'
+secret = 'fZ^xh6a4#FYV'
+port = 22
+import paramiko
+
+# Update the next three lines with your
+import time
+client = paramiko.client.SSHClient()
+client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+client.connect(host, username=user, password=secret)
+channel = client.invoke_shell()
+time.sleep(0.2)
